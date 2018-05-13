@@ -1,0 +1,42 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "zed tan"
+theme = 'coder'
+
+[params] # theme parameters
+    author = "zed tan" # author's name
+    info = "documentarian; heuristics." # author's job title or info
+    description = "zed tan — documentarian" # site description
+    keywords = "zed, zed tan, technical writer, technical writing, documentation, documentarian, technical documentation, personal, blog" # site keywords
+    # wether you want to hide copyright and credits in the footer
+    hideCredits = true
+    hideCopyright = true
+
+# Social links
+[[params.social]]
+    name = "Blog"
+    weight = 4
+    url = "/posts/"
+[[params.social]]
+    name = "NSDMDH.com"
+    weight = 2
+    url = "http://nsdmdh.com/"
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/zeddee/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/zeddee/"
+
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
