@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "surge": "^0.20.1"
+    "surge": "^0.20.1",
+    "yarn": "^1.7.0"
   }
 }
