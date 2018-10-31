@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zed Recursion on zed tan</title>
-    <link>zeddee.com/tags/zed-recursion/</link>
+    <link>https://www.zeddee.com/tags/zed-recursion/</link>
     <description>Recent content in Zed Recursion on zed tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 May 2018 23:25:35 +0800</lastBuildDate>
     
-	<atom:link href="zeddee.com/tags/zed-recursion/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.zeddee.com/tags/zed-recursion/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>We March Backwards Into the Future</title>
-      <link>zeddee.com/posts/we-march-backwards-into-the-future/</link>
+      <link>https://www.zeddee.com/posts/we-march-backwards-into-the-future/</link>
       <pubDate>Sun, 13 May 2018 23:25:35 +0800</pubDate>
       
-      <guid>zeddee.com/posts/we-march-backwards-into-the-future/</guid>
+      <guid>https://www.zeddee.com/posts/we-march-backwards-into-the-future/</guid>
       <description>I am thinking of The Binding of Isaac, Y combinators, recursion, and Marshall MacLuhan.
 I had a long conversation about death with a good friend today over economy rice (I remember someone telling me that eating economy rice alone is the saddest thing in the world). Our conversation skirted the rims of the contingency of death, about how death doesn&amp;rsquo;t discriminate, and how the only thing that insulates you from death is either divine influence, or not caring.</description>
     </item>
