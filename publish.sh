@@ -4,6 +4,6 @@
 # - surge
 # - npx
 hugo &&\
-    echo "zeddee.com" > public/CNAME &&\
-    npx surge public zeddee.com
+    echo "zeddee.com" > docs/CNAME &&\
+    npx surge docs zeddee.com
 

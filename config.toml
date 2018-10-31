@@ -12,6 +12,8 @@ theme = 'coder'
     hideCredits = true
     hideCopyright = true
 
+publishDir = "docs"
+
 # Social links
 [[params.social]]
     name = "Blog"
