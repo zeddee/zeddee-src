@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on zed tan</title>
-    <link>https://www.zeddee.com/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on zed tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Jan 2016 03:58:34 +0000</lastBuildDate>
     
-	<atom:link href="https://www.zeddee.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blind Cinema</title>
-      <link>https://www.zeddee.com/categories/blind-cinema/</link>
+      <link>/categories/blind-cinema/</link>
       <pubDate>Sat, 16 Jan 2016 03:58:34 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/categories/blind-cinema/</guid>
+      <guid>/categories/blind-cinema/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cinema and New Media Studies</title>
-      <link>https://www.zeddee.com/categories/cinema-and-new-media-studies/</link>
+      <link>/categories/cinema-and-new-media-studies/</link>
       <pubDate>Mon, 19 Jan 2015 13:14:35 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/categories/cinema-and-new-media-studies/</guid>
+      <guid>/categories/cinema-and-new-media-studies/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Game Studies</title>
-      <link>https://www.zeddee.com/categories/game-studies/</link>
+      <link>/categories/game-studies/</link>
       <pubDate>Wed, 22 Apr 2015 09:43:53 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/categories/game-studies/</guid>
+      <guid>/categories/game-studies/</guid>
       <description></description>
     </item>
     
     <item>
       <title>In Between</title>
-      <link>https://www.zeddee.com/categories/in-between/</link>
+      <link>/categories/in-between/</link>
       <pubDate>Mon, 19 Jan 2015 13:14:35 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/categories/in-between/</guid>
+      <guid>/categories/in-between/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New Media</title>
-      <link>https://www.zeddee.com/categories/new-media/</link>
+      <link>/categories/new-media/</link>
       <pubDate>Wed, 22 Apr 2015 09:43:53 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/categories/new-media/</guid>
+      <guid>/categories/new-media/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Op Ed</title>
-      <link>https://www.zeddee.com/categories/op-ed/</link>
+      <link>/categories/op-ed/</link>
       <pubDate>Wed, 22 Apr 2015 09:43:53 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/categories/op-ed/</guid>
+      <guid>/categories/op-ed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photography</title>
-      <link>https://www.zeddee.com/categories/photography/</link>
+      <link>/categories/photography/</link>
       <pubDate>Fri, 11 Jul 2014 09:38:19 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/categories/photography/</guid>
+      <guid>/categories/photography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Traditional Film Theory</title>
-      <link>https://www.zeddee.com/categories/traditional-film-theory/</link>
+      <link>/categories/traditional-film-theory/</link>
       <pubDate>Thu, 03 Apr 2014 21:14:59 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/categories/traditional-film-theory/</guid>
+      <guid>/categories/traditional-film-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zedreads</title>
-      <link>https://www.zeddee.com/categories/zedreads/</link>
+      <link>/categories/zedreads/</link>
       <pubDate>Wed, 03 Feb 2016 18:22:00 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/categories/zedreads/</guid>
+      <guid>/categories/zedreads/</guid>
       <description></description>
     </item>
     

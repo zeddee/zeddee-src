@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>zed tan</title>
-    <link>https://www.zeddee.com/</link>
+    <link>/</link>
     <description>Recent content on zed tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Jun 2018 20:57:09 +0800</lastBuildDate>
     
-	<atom:link href="https://www.zeddee.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git Submodules</title>
-      <link>https://www.zeddee.com/tech-posts/gitsubmodules/</link>
+      <link>/tech-posts/gitsubmodules/</link>
       <pubDate>Thu, 07 Jun 2018 20:57:09 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/tech-posts/gitsubmodules/</guid>
+      <guid>/tech-posts/gitsubmodules/</guid>
       <description>Table of Contents Starting off What are they good for? Codebase isolation Codebase stability Sane Git histories Sane codebase mental models   Working with submodules Configure Git Submodule Visibility Update Submodule Submodule Metadata Submodule Refs   Further Reading   Here be dragons
    In Chuck Palahniuk&amp;#8217;s words, &#34;You must jump into disaster with both feet.&#34; Git submodules are generally avoided because:
   They tend to be poorly understood, and</description>
@@ -24,29 +24,29 @@
     
     <item>
       <title>We March Backwards Into the Future</title>
-      <link>https://www.zeddee.com/posts/we-march-backwards-into-the-future/</link>
+      <link>/posts/we-march-backwards-into-the-future/</link>
       <pubDate>Sun, 13 May 2018 23:25:35 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/posts/we-march-backwards-into-the-future/</guid>
+      <guid>/posts/we-march-backwards-into-the-future/</guid>
       <description>I am thinking of The Binding of Isaac, Y combinators, recursion, and Marshall MacLuhan.
 I had a long conversation about death with a good friend today over economy rice (I remember someone telling me that eating economy rice alone is the saddest thing in the world). Our conversation skirted the rims of the contingency of death, about how death doesn&amp;rsquo;t discriminate, and how the only thing that insulates you from death is either divine influence, or not caring.</description>
     </item>
     
     <item>
       <title>San Junipero</title>
-      <link>https://www.zeddee.com/posts/san-junipero/</link>
+      <link>/posts/san-junipero/</link>
       <pubDate>Sun, 10 Dec 2017 17:50:27 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/posts/san-junipero/</guid>
+      <guid>/posts/san-junipero/</guid>
       <description>San Junipero made me cry. It made me cry because it&amp;rsquo;s a story about a pair of lovers dealing with trauma, loss, and pain. Tears constitute an involuntary emotional response to presented stimuli — stimuli that usually exceeds a certain emotional threshold. We cry with joy, relief, pain, hurt, etc. Working with that assumption, we also know that crying can be caused, and by extension, manufactured. San Junipero, and the rest of Black Mirror, manufactures its audiences&amp;rsquo; response to the series to produce an illusion of edification.</description>
     </item>
     
     <item>
       <title>Thoughts on Westworld</title>
-      <link>https://www.zeddee.com/posts/westworld-2016/</link>
+      <link>/posts/westworld-2016/</link>
       <pubDate>Sun, 04 Dec 2016 15:00:00 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/posts/westworld-2016/</guid>
+      <guid>/posts/westworld-2016/</guid>
       <description>Over time, repetition becomes variation.
  Westworld (2016) managed to hold my attention for more than 6 episodes &amp;ndash; 6 (now 9) hours that I feel must result in a product, or at least a short introspective into what held my attention in the series where I drift off drastically in others.
 Here are a few thoughts:
@@ -55,10 +55,10 @@ Total surveillance is mundane.  There are no moments where surveillance becomes 
     
     <item>
       <title>Levinas -- &#34;Suffering and Death&#34;</title>
-      <link>https://www.zeddee.com/scratchpad/levinas-suffering-and-death/</link>
+      <link>/scratchpad/levinas-suffering-and-death/</link>
       <pubDate>Wed, 03 Feb 2016 18:22:00 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/scratchpad/levinas-suffering-and-death/</guid>
+      <guid>/scratchpad/levinas-suffering-and-death/</guid>
       <description>“Suffering and Death”1 — Levinas Emmanuel Levinas, “Suffering and Death,” Time &amp;amp; the Other, trans. Richard A. Cohen (Pittsburg, Pennsylvania: Duquesne UP, 1987), p. 68–71.
 (Text below is excerpted from &amp;ldquo;Suffering and Death&amp;rdquo;)
 In pain, sorrow, and suffering, we once again find, in a state of purity, the finality that constitutes the tragedy of {page break; 68} solitude. The ecstasies of enjoyment does not succeed in surmounting this finality. Two points must be emphasized: I am going to pursue the analysis of solitude in the pain of need and work, not in the anxiety of nothingness; and I am going to lay stress on the pain lightly called physical, for in it engagement in existence without any equivocation.</description>
@@ -66,10 +66,10 @@ In pain, sorrow, and suffering, we once again find, in a state of purity, the fi
     
     <item>
       <title>Notes on Strasser — “Rags, Bones, and Plastic Bags”</title>
-      <link>https://www.zeddee.com/scratchpad/strasser-rags-bones-plastic-bags/</link>
+      <link>/scratchpad/strasser-rags-bones-plastic-bags/</link>
       <pubDate>Mon, 18 Jan 2016 17:00:00 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/scratchpad/strasser-rags-bones-plastic-bags/</guid>
+      <guid>/scratchpad/strasser-rags-bones-plastic-bags/</guid>
       <description>Strasser, Susan, “Rags, Bones, and Plastic Bags: Obsolescence, Trash, and American Consumer Culture,” in Babette B. Tischleder and Sarah Wasserman (ed.s), Cultures of Obsolescence: History, Materiality, and the Digital Age (NY: Palgrave MacMillan, 2015), pp. 41–60.
 NB: Strasser’s research mostly reveals only what was happening in the US.
 How the the growth of consumer culture can be traced through the history of trash:
@@ -78,10 +78,10 @@ How the the growth of consumer culture can be traced through the history of tras
     
     <item>
       <title>Echoes en Abyme in Jarman&#39;s Blue (1993)</title>
-      <link>https://www.zeddee.com/essays/echoes-en-abyme-in-jarmans-blue-1993-excerpt/</link>
+      <link>/essays/echoes-en-abyme-in-jarmans-blue-1993-excerpt/</link>
       <pubDate>Sat, 16 Jan 2016 03:58:34 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/essays/echoes-en-abyme-in-jarmans-blue-1993-excerpt/</guid>
+      <guid>/essays/echoes-en-abyme-in-jarmans-blue-1993-excerpt/</guid>
       <description>[Update 16 Jan 2016 to include the full essay]
 
 Excerpt:  We are caught in this enclosed room of &amp;ldquo;echoing voices&amp;rdquo;, like Derrida&amp;rsquo;s Samson (40), &amp;ldquo;&amp;lsquo;en abyme&amp;rsquo; behind the walls of the eye&amp;rdquo; by the simultaneous visuality — the overwhelming &amp;ldquo;sensible&amp;rdquo; (55) blue-ness of the screen — and non-visuality of Jarman&amp;rsquo;s film. The diegesis of Jarman&amp;rsquo;s film consists of one frame and one visual mise-en-scene, but yet we experience something incommensurably beyond that frame; a film whose sound seems utterly dislocated from the image except for the association with the sensible colour blue.</description>
@@ -89,10 +89,10 @@ Excerpt:  We are caught in this enclosed room of &amp;ldquo;echoing voices&amp;r
     
     <item>
       <title>Notes on Bonfires</title>
-      <link>https://www.zeddee.com/scratchpad/on-bonfires/</link>
+      <link>/scratchpad/on-bonfires/</link>
       <pubDate>Sun, 10 Jan 2016 19:43:00 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/scratchpad/on-bonfires/</guid>
+      <guid>/scratchpad/on-bonfires/</guid>
       <description>Bonfires 
 &amp;quot;Figures 047 The Lord Appears to Moses in a Burning Bush&amp;quot; by illustrators of the 1728 Figures de la Bible, Gerard Hoet (1648–1733) and others, published by P. de Hondt in The Hague in 1728 - http://www.mythfolklore.net/lahaye/047/LaHaye1728Figures047ExodIII2-10BurningBush.jpg. Licensed under Public Domain via Wikimedia Commons
 
@@ -101,10 +101,10 @@ Excerpt:  We are caught in this enclosed room of &amp;ldquo;echoing voices&amp;r
     
     <item>
       <title>General Notes on Consumerism</title>
-      <link>https://www.zeddee.com/scratchpad/notes-on-consumerism/</link>
+      <link>/scratchpad/notes-on-consumerism/</link>
       <pubDate>Sun, 10 Jan 2016 19:29:00 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/scratchpad/notes-on-consumerism/</guid>
+      <guid>/scratchpad/notes-on-consumerism/</guid>
       <description>Consumerism 
 The Consumption Reader Unless otherwise specified, all quotes are from the following text:
 Clarke, David B., Doel, Marcus A., Housiaux, Kate M.L. (ed.) The Consumption Reader (London &amp;amp; NY: Routledge, 2003).
@@ -114,38 +114,38 @@ Clarke, David B., Doel, Marcus A., Housiaux, Kate M.L. (ed.) The Consumption Rea
     
     <item>
       <title>Notes on George Perec&#39;s Species of Spaces and Other Pieces</title>
-      <link>https://www.zeddee.com/scratchpad/georges-perec-species-of-spaces/</link>
+      <link>/scratchpad/georges-perec-species-of-spaces/</link>
       <pubDate>Sat, 09 Jan 2016 15:10:00 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/scratchpad/georges-perec-species-of-spaces/</guid>
+      <guid>/scratchpad/georges-perec-species-of-spaces/</guid>
       <description>Perec, Georges, Species of Spaces and Other Pieces (Penguin Classics, 2008) Perec&amp;rsquo;s text here reads as a beautiful taxonomy of spaces, but markedly avoids writing this taxonomy as a list of definitions. Instead, he navigates and dances around the spaces that we take for granted, the spaces that remain invisible to us until someone like himself comes along and — with his two writerly hands — cups its and holds it up gently to our faces.</description>
     </item>
     
     <item>
       <title>KILLSCREEN DAILY: What TIME got wrong about THE LAST OF US</title>
-      <link>https://www.zeddee.com/essays/killscreen-daily-what-time-got-wrong-about-the-last-of-us/</link>
+      <link>/essays/killscreen-daily-what-time-got-wrong-about-the-last-of-us/</link>
       <pubDate>Wed, 22 Apr 2015 09:43:53 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/essays/killscreen-daily-what-time-got-wrong-about-the-last-of-us/</guid>
+      <guid>/essays/killscreen-daily-what-time-got-wrong-about-the-last-of-us/</guid>
       <description>You’re not going to find deep-sea fish if you’re staring between your legs while knee deep in the neighbour’s wading pool. And you’re probably not going to get gripping photographs of dust-covered residents of a post-apocalyptic Boston if you’re sending your photographer into a videogame.
  That’s the sort of misunderstanding that typically comes out of traditional media outlets attempting to import their practices and modes of production into a medium that it does not particularly lend itself to.</description>
     </item>
     
     <item>
       <title>David Lynch&#39;s BLUE VELVET: Beaumont v.s. Booth</title>
-      <link>https://www.zeddee.com/essays/david-lynchs-blue-velvet-beaumont-v-s-booth/</link>
+      <link>/essays/david-lynchs-blue-velvet-beaumont-v-s-booth/</link>
       <pubDate>Mon, 19 Jan 2015 13:14:35 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/essays/david-lynchs-blue-velvet-beaumont-v-s-booth/</guid>
+      <guid>/essays/david-lynchs-blue-velvet-beaumont-v-s-booth/</guid>
       <description>Lynch&amp;rsquo;s BLUE VELVET is a film that I&amp;rsquo;ve come back to countless times, either out of the onset of a mood for strange, dark stories or out of sheer necessity (I&amp;rsquo;ve been taught this film/ have had to teach this film several times over the past few years). And each time, at each viewing, I always stop at the scene where Jeffrey Beaumont (MacLachlan) — such a child his character was — trapped in a car-ful of thugs telling Frank Booth (Hopper) to leave Dorothy Vallens (Rossellini) alone, to stop hitting her.</description>
     </item>
     
     <item>
       <title>Araki&#39;s Flowers</title>
-      <link>https://www.zeddee.com/essays/arakis-flowers/</link>
+      <link>/essays/arakis-flowers/</link>
       <pubDate>Fri, 11 Jul 2014 09:38:19 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/essays/arakis-flowers/</guid>
+      <guid>/essays/arakis-flowers/</guid>
       <description>Fig. 1 Araki&amp;rsquo;s wedding photograph (left); Photograph of Yoko, Araki&amp;rsquo;s wife (right).
 (All pictures — unless stated otherwise — are photographs here are photographs of: Fuyumi, Namioka and Bernasconi, Francesca (eds.). Araki: Love and Death. Lugano: SilvanaEditoriale; Museo d&amp;rsquo;Arte: della Città di Lugano, 2004. I blame limited student resources and a then-pressing need to just get the assignment done)
 (This essay was written sometime in the third quarter of 2012. I&amp;rsquo;ve revised it with what little I&amp;rsquo;ve learned over the years.</description>
@@ -153,10 +153,10 @@ Clarke, David B., Doel, Marcus A., Housiaux, Kate M.L. (ed.) The Consumption Rea
     
     <item>
       <title>Black and White are Only Two Colours: On Mark Laita&#39;s CREATED EQUAL</title>
-      <link>https://www.zeddee.com/essays/black-and-white-are-only-two-colours-on-mark-laitas-created-equal/</link>
+      <link>/essays/black-and-white-are-only-two-colours-on-mark-laitas-created-equal/</link>
       <pubDate>Fri, 27 Jun 2014 14:49:07 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/essays/black-and-white-are-only-two-colours-on-mark-laitas-created-equal/</guid>
+      <guid>/essays/black-and-white-are-only-two-colours-on-mark-laitas-created-equal/</guid>
       <description>Fig.1: &amp;rdquo;Polygamists/Pimp&amp;rdquo; (Laita)1
 Mark Laita&amp;rsquo;s CREATED EQUAL2 is a curious piece. In each photographic frame, one or more subjects gaze back at the camera with eyes outlined by the glow of the single LED panel placed just slightly to the left of the camera. The “Pimp’s” sunglasses (Fig.1) catch its iridescent glow, and hides everything else behind it.
 I have not read the book, so I don’t pretend to know what it’s entirely about.</description>
@@ -164,48 +164,48 @@ I have not read the book, so I don’t pretend to know what it’s entirely abou
     
     <item>
       <title>Zed Reads 002</title>
-      <link>https://www.zeddee.com/scratchpad/zed-reads-002/</link>
+      <link>/scratchpad/zed-reads-002/</link>
       <pubDate>Tue, 15 Apr 2014 19:41:43 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/scratchpad/zed-reads-002/</guid>
+      <guid>/scratchpad/zed-reads-002/</guid>
       <description>This week: A quick peek at the ethics of Michale Haneke&amp;rsquo;s films, Žižek on the instability of nature, geeking out on a nifty hardware prototyping kit, and on Instagram and the inadequacy of current attitudes towards Intellectual Property.
 Michael Haneke&amp;rsquo;s Cinema: The Ethic of the Image. &amp;ldquo;Introduction&amp;rdquo; | Catherine Wheatley. Berghahn Books, 2009 Wheatley&amp;rsquo;s book on Michael Haneke&amp;rsquo;s powerfully (emotionally) violent films has been on my to-read list for the longest time.</description>
     </item>
     
     <item>
       <title>Zed Reads 001</title>
-      <link>https://www.zeddee.com/scratchpad/zed-reads-001/</link>
+      <link>/scratchpad/zed-reads-001/</link>
       <pubDate>Wed, 09 Apr 2014 20:14:21 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/scratchpad/zed-reads-001/</guid>
+      <guid>/scratchpad/zed-reads-001/</guid>
       <description>This is an attempt to catalogue and journal most of what I&amp;rsquo;m trying to read. It is an exercise in articulation, and (hopefully) quick writing and quick reading.
 Tech Bitcoin — The Internet of Money | Startup Boy Great primer on what the Bitcoin is. It comes down to this: the Bitcoin is the digital equivalent of a physical coin. It&amp;rsquo;s mined by time and computing labour, and each coin is unique because built into every digital wallet is a database of sorts that tracks every single transaction, making sure that no bit coin can be spent twice over.</description>
     </item>
     
     <item>
       <title>Mis-Remembering THE LAST LIFE IN THE UNIVERSE</title>
-      <link>https://www.zeddee.com/essays/mis-remembering-the-last-life-in-the-universe/</link>
+      <link>/essays/mis-remembering-the-last-life-in-the-universe/</link>
       <pubDate>Thu, 03 Apr 2014 21:14:59 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/essays/mis-remembering-the-last-life-in-the-universe/</guid>
+      <guid>/essays/mis-remembering-the-last-life-in-the-universe/</guid>
       <description>The lizard wakes up and finds he&amp;rsquo;s the last lizard alive. His family and friends are all gone. Those he didn&amp;rsquo;t like, those who picked on him in school, are also gone. The lizard is all alone. He misses his family and friends. Even his enemies. It&amp;rsquo;s better being with your enemies than being alone. That&amp;rsquo;s what he thought. Staring at the sunset, he thinks. &amp;ldquo;What is the point in living&amp;hellip; If I don&amp;rsquo;t have anyone to talk to?</description>
     </item>
     
     <item>
       <title>The Uneasy Heroism of Taxi Driver</title>
-      <link>https://www.zeddee.com/essays/the-uneasy-heroism-of-taxi-driver/</link>
+      <link>/essays/the-uneasy-heroism-of-taxi-driver/</link>
       <pubDate>Tue, 18 Dec 2012 21:30:31 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/essays/the-uneasy-heroism-of-taxi-driver/</guid>
+      <guid>/essays/the-uneasy-heroism-of-taxi-driver/</guid>
       <description>Scorsese&amp;rsquo;s Taxi Driver (1976) is a film that escapes conventional genre definition, something that a quick survey of online movie reviews reveals: Scheib reads it as a psychological thriller — albeit one turned upon its head because the film&amp;rsquo;s protagonist is also the source of psychological fear1; Dread Central claims it as one of their own, citing the penultimate scene of the film as characteristic of a &amp;ldquo;slasher&amp;rdquo; film2, while choosing to ignore the markedly Noir aesthetic of the rest of the film.</description>
     </item>
     
     <item>
       <title>About Zed</title>
-      <link>https://www.zeddee.com/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/about/</guid>
+      <guid>/about/</guid>
       <description>Zed puts words together to form sentences for a living.
 Views expressed here are his own.
 Also at shootbird.work
@@ -214,10 +214,10 @@ If you have sentences (or, gasp, paragraphs!) that need writing, contact him at 
     
     <item>
       <title>Aporia of the Touchscreen</title>
-      <link>https://www.zeddee.com/scratchpad/kaerlein-aporias-touchscreen/</link>
+      <link>/scratchpad/kaerlein-aporias-touchscreen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.zeddee.com/scratchpad/kaerlein-aporias-touchscreen/</guid>
+      <guid>/scratchpad/kaerlein-aporias-touchscreen/</guid>
       <description>Aporia of Touchscreen Kaerlein, Timo, “Aporias of the touchscreen: On the promises and perils of a ubiquitous technology,” NECSUS: European Journal of Media Studies, published on 22 Nov 2012, available: &amp;lt;[www.necsus-ejms.org/aporias-of-the-touchscreen-on-the-promises-and-perils-of-a-ubiquitous-technology]&amp;gt;
 On Aporia: &amp;gt; &amp;ldquo;More refined as a term, it attempts to outline a state of emergency, a system pressure, an ‘urgence’ in the Foucaultian sense,[6] that can serve to explain the success of the touchscreen technology in being a reaction to an exigent problem.</description>
     </item>

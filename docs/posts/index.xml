@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on zed tan</title>
-    <link>https://www.zeddee.com/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on zed tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 May 2018 23:25:35 +0800</lastBuildDate>
     
-	<atom:link href="https://www.zeddee.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>We March Backwards Into the Future</title>
-      <link>https://www.zeddee.com/posts/we-march-backwards-into-the-future/</link>
+      <link>/posts/we-march-backwards-into-the-future/</link>
       <pubDate>Sun, 13 May 2018 23:25:35 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/posts/we-march-backwards-into-the-future/</guid>
+      <guid>/posts/we-march-backwards-into-the-future/</guid>
       <description>I am thinking of The Binding of Isaac, Y combinators, recursion, and Marshall MacLuhan.
 I had a long conversation about death with a good friend today over economy rice (I remember someone telling me that eating economy rice alone is the saddest thing in the world). Our conversation skirted the rims of the contingency of death, about how death doesn&amp;rsquo;t discriminate, and how the only thing that insulates you from death is either divine influence, or not caring.</description>
     </item>
     
     <item>
       <title>San Junipero</title>
-      <link>https://www.zeddee.com/posts/san-junipero/</link>
+      <link>/posts/san-junipero/</link>
       <pubDate>Sun, 10 Dec 2017 17:50:27 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/posts/san-junipero/</guid>
+      <guid>/posts/san-junipero/</guid>
       <description>San Junipero made me cry. It made me cry because it&amp;rsquo;s a story about a pair of lovers dealing with trauma, loss, and pain. Tears constitute an involuntary emotional response to presented stimuli — stimuli that usually exceeds a certain emotional threshold. We cry with joy, relief, pain, hurt, etc. Working with that assumption, we also know that crying can be caused, and by extension, manufactured. San Junipero, and the rest of Black Mirror, manufactures its audiences&amp;rsquo; response to the series to produce an illusion of edification.</description>
     </item>
     
     <item>
       <title>Thoughts on Westworld</title>
-      <link>https://www.zeddee.com/posts/westworld-2016/</link>
+      <link>/posts/westworld-2016/</link>
       <pubDate>Sun, 04 Dec 2016 15:00:00 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/posts/westworld-2016/</guid>
+      <guid>/posts/westworld-2016/</guid>
       <description>Over time, repetition becomes variation.
  Westworld (2016) managed to hold my attention for more than 6 episodes &amp;ndash; 6 (now 9) hours that I feel must result in a product, or at least a short introspective into what held my attention in the series where I drift off drastically in others.
 Here are a few thoughts:

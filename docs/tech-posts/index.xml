@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech posts on zed tan</title>
-    <link>https://www.zeddee.com/tech-posts/</link>
+    <link>/tech-posts/</link>
     <description>Recent content in Tech posts on zed tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Jun 2018 20:57:09 +0800</lastBuildDate>
     
-	<atom:link href="https://www.zeddee.com/tech-posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tech-posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git Submodules</title>
-      <link>https://www.zeddee.com/tech-posts/gitsubmodules/</link>
+      <link>/tech-posts/gitsubmodules/</link>
       <pubDate>Thu, 07 Jun 2018 20:57:09 +0800</pubDate>
       
-      <guid>https://www.zeddee.com/tech-posts/gitsubmodules/</guid>
+      <guid>/tech-posts/gitsubmodules/</guid>
       <description>Table of Contents Starting off What are they good for? Codebase isolation Codebase stability Sane Git histories Sane codebase mental models   Working with submodules Configure Git Submodule Visibility Update Submodule Submodule Metadata Submodule Refs   Further Reading   Here be dragons
    In Chuck Palahniuk&amp;#8217;s words, &#34;You must jump into disaster with both feet.&#34; Git submodules are generally avoided because:
   They tend to be poorly understood, and</description>
