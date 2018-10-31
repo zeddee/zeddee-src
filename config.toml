@@ -1,4 +1,4 @@
-baseURL = "https://www.zeddee.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "zed tan"
 theme = 'coder'
