@@ -1,0 +1,18 @@
+---
+title: "Cursed Writers"
+date: 2018-07-07T16:03:55+08:00
+draft: true
+---
+
+The most annoying person on a software engineering team is the project manager.
+The next most annoying person is the technical writer (some would say that I've got it the wrong way round).
+
+The technical writer is the unremarkable gnome, lurking sharp-eyed during every standup, furiously scribbling down god-knows-what whenever they hear the words "feature", "release", and of course, "document". We're invariably called "writers" (or at best, "editors"), but prefer the word "documentarian" because it saves them having to explain the difference between us and a journalist covering the tech scene, or, more tragically, someone who _only_ writes the little pamphlets that tell you how many volts and watts your shiny mobile device charger dispenses.
+
+Technical writers — henceforth "documentarians" — are annoying because we ask annoying questions. We ask you which web browsers your shiny new web app supports ("the **latest**, of course"), which turns out to be an issue because a client paying us five figures a month uses it on a AD environment set to only allow a version of Microsoft Edge that causes your sign in page (avoid using "login", says the Microsoft Manual of Style, 5th Edition) to render your 2FA field outside the visible frame. We then ask you which packages your React app is using, and you don't want to say because you don't want anybody who's not a software engineer to be digging in your code, but turns out one of the packages you use has a precise chart describing browser support that we find because we asked someone else to show us the app's `package.json` file.
+
+We are also annoying because we find bugs only when you're about to ship the software. That's when you've got the UI in place, dodged QA, and you've trudged out of merge-conflict purgatory to cut a stable development build. Then we come in and try to get it to work — and it doesn't. We've spun up a postgres database on docker to plug into the the app, but data imported from the app into postgres truncates at seemingly random points. QA says this is outside their test-cases, and we documentarians sit here twiddling out thumbs because two months ago we got you to vet and approve a tutorial for using postgres with our app. "Can we kill postgres support" you ask, and we twiddle our thumbs more and look at the product manager, who then looks at the project manager.
+
+But that's not quite it either. The final sticking point is that we're sometimes not even software engineers. We're 
+
+So yes, documentarians are annoying because we ask questions all the time. I've found that the best documentarians ask the best questions (perhaps, then, we are not that far off from our counterparts in tech reporting), and the best questions are very often the annoying ones.
