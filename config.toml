@@ -1,7 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "zed tan"
-theme = 'coder'
+theme = "coder"
+publishDir = "docs"
 
 [params] # theme parameters
     author = "zed tan" # author's name
@@ -12,13 +13,15 @@ theme = 'coder'
     hideCredits = true
     hideCopyright = true
 
-publishDir = "docs"
-
 # Social links
 [[params.social]]
     name = "Blog"
     weight = 4
     url = "/posts/"
+[[params.social]]
+    name = "CV"
+    weight = 4
+    url = "/cv/"
 [[params.social]]
     name = "Shoot Bird"
     weight = 2
@@ -42,6 +45,10 @@ publishDir = "docs"
     name = "About"
     weight = 1
     url = "/about/"
+[[menu.main]]
+    name = "CV"
+    weight = 1
+    url = "/cv/"
 [[menu.main]]
     name = "Essays"
     weight = 2
