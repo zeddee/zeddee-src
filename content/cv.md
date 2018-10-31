@@ -52,7 +52,7 @@ You can reach him at [zed@nsdmdh.com](mailto:zed@nsdmdh.com)
 
 ## Published Work
 
-[**Ground Labs Documentation**](https://docs.groundlabs.com/er) (samples):
+[**Ground Labs Documentation**](https://docs.groundlabs.com/) (samples):
 
 - [Ground Labs Documentation: ER2 — Exchange Domain Scanning](https://docs.groundlabs.com/er2.0.26/Content/Targets/Add_Targets/Cloud_Targets/Exchange_Domain.htm)
 - [Ground Labs Documentation: ER2 — Database Scanning](https://docs.groundlabs.com/er2.0.26/Content/Targets/Add_Targets/Server_Targets/Databases.htm)
@@ -65,11 +65,11 @@ You can reach him at [zed@nsdmdh.com](mailto:zed@nsdmdh.com)
 
 ## Projects
 
-**Enterprise Recon Documentation**[(site)](https://docs.groundlabs.com/er)[(pdf)](/pdfs/ER-2.0.26-documentation.pdf)
+**Enterprise Recon Documentation**[(site)](https://docs.groundlabs.com/er/Default.htm)[(pdf)](/pdfs/ER-2.0.26-documentation.pdf)
 
-**Card Recon Documentation**[(site)](https://docs.groundlabs.com/cr)[(pdf)](/pdfs/CR-2.0.25-documentation.pdf)
+**Card Recon Documentation**[(site)](https://docs.groundlabs.com/cr/Default.htm)[(pdf)](/pdfs/CR-2.0.25-documentation.pdf)
 
-**Data Recon Documentation**[(site)](https://docs.groundlabs.com/dr)[(pdf)](/pdfs/DR-2.0.25-documentation.pdf)
+**Data Recon Documentation**[(site)](https://docs.groundlabs.com/dr/Default.htm)[(pdf)](/pdfs/DR-2.0.25-documentation.pdf)
 
 * Lead technical writer. Responsible for keeping documentation site up to date and identifying informational gaps.
 * Established beach-head for documentation.
