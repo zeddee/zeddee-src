@@ -178,7 +178,8 @@ img {
 }
 
 .navigation {
-  height: 6.0rem;
+  overflow: auto;
+  min-height: 6.0rem;
   width: 100%;
   a {
     display: inline;
@@ -204,6 +205,12 @@ img {
       }
     }
   }
+}
+
+.navigation::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .content {
