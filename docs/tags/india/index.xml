@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>India on zed tan</title>
+    <link>/tags/india/</link>
+    <description>Recent content in India on zed tan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Sep 2016 04:30:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/india/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Transit</title>
+      <link>/posts/transit/</link>
+      <pubDate>Wed, 14 Sep 2016 04:30:00 +0800</pubDate>
+      
+      <guid>/posts/transit/</guid>
+      <description>I spent 2 years teaching my students about the paradox of transit. Consider the train. Or the bus, or the car. The bus I take on my morning commute is never the same bus, or if it is the same, I never notice because they all look the same. I am stationary on the bus — seated thigh to thigh with the next man or woman or child, or standing with an arm dangling from the plastic grip of one of those things that hang from the frame of the bus for some like us who do not hanker for the security of a standing pole but opt to swing free grounded by our own two feet.</description>
+    </item>
+    
+    <item>
+      <title>Don’t Climb the Triund in July and Other Stories</title>
+      <link>/posts/dont-climb-the-triund-in-july/</link>
+      <pubDate>Mon, 08 Aug 2016 03:18:00 +0800</pubDate>
+      
+      <guid>/posts/dont-climb-the-triund-in-july/</guid>
+      <description>Five of us spent 2 weeks in India missing the sun.
+I began giving Hendric the look whenever he’d say we have to bring out the tripod to catch the sunrise/set, because: (1) the tripod was really stable, which meant that it was also heavy; (2) the sun was avoiding us.
+That is not to say, of course, that we didn’t see the sun at all. The sun is all-present in the wide open skies of this part of South Asia where the clay-coloured buildings kept people (and their things) in a vaguely organised grid.</description>
+    </item>
+    
+  </channel>
+</rss>

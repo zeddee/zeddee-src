@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on zed tan</title>
+    <link>/categories/posts/</link>
+    <description>Recent content in Posts on zed tan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 09:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/categories/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2018-01-01 Changelog</title>
+      <link>/posts/2018-01-01-changelog/</link>
+      <pubDate>Mon, 01 Jan 2018 09:00:00 +0800</pubDate>
+      
+      <guid>/posts/2018-01-01-changelog/</guid>
+      <description>From 2017 and up
+ Gained rudimentary proficiency in python, bash scripting, powershell scripting, SASS. Started learning a statically typed programming language. Had my first open-source pull request accepted Finished Agamben&amp;rsquo;s The Open Started on too many books. Built a content-driven website and was paid for it. Learned an authoring tool. Gained rudimentary proficiency in managing Docker containers. Learned many things about editorship and management. Bought a powerhouse PC. Played video games.</description>
+    </item>
+    
+  </channel>
+</rss>

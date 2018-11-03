@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtual Reality on zed tan</title>
+    <link>/tags/virtual-reality/</link>
+    <description>Recent content in Virtual Reality on zed tan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Jun 2015 10:35:52 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/virtual-reality/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eye of Computer Software and Crogan&#39;s Flight Simulator</title>
+      <link>/posts/crogans-flight-simulator/</link>
+      <pubDate>Sun, 21 Jun 2015 10:35:52 +0800</pubDate>
+      
+      <guid>/posts/crogans-flight-simulator/</guid>
+      <description>(*This short essay is a commentary on Patrick Crogan’s “Logistical Space” in _Gameplay Mode: War, Simulation, and Technoculture_1, relating it to how we think about computer aided drawing software.)
+ There is no war, then, without representation, no sophisticated weaponry without psychological mystification. Weapons are tools not just of destruction but also of perception — that is to say, stimulants that make themselves felt through chemical, neurological processes in the sense organs and the central nervous system, affecting human reactions and even the perceptual identification and differentiation of objects2.</description>
+    </item>
+    
+  </channel>
+</rss>
