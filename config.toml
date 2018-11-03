@@ -12,6 +12,8 @@ publishDir = "docs"
     # wether you want to hide copyright and credits in the footer
     hideCredits = true
     hideCopyright = true
+    primaryImage = "/images/shootbird_opengraph.png"
+    headerImage = "/images/shootbird_opengraph.png"
 
 # Social links
 [[params.social]]
