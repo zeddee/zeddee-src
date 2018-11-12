@@ -16,7 +16,9 @@
 <meta name="og:type" content="website">
 <meta name="og:url" content="{{.Site.BaseURL}}">
 <meta name="og:image" itemprop="image primaryImageOfPage" content="{{.Site.Params.primaryImage | default "tn.png" | absURL}}">
-
+{{ with .Params.images }}{{ range first 6 . }}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}{{ end }}
 <link rel="shortcut icon" href="{{.Site.Params.favicon | default "sam.ico" | absURL }}" id="favicon">
 
 {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
