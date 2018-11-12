@@ -6,8 +6,9 @@ publishDir = "docs"
 
 [params] # theme parameters
     author = "zed tan" # author's name
-    info = "documentarian; heuristics." # author's job title or info
-    description = "zed tan — documentarian" # site description
+    info = "I write tech things for people." # author's job title or info
+    contact = "[zed@nsdmdh.com](mailto://zed@nsdmdh.com)"
+    description = "zed tan writes tech things for people." # site description
     keywords = "zed, zed tan, technical writer, technical writing, documentation, documentarian, technical documentation, personal, blog" # site keywords
     # wether you want to hide copyright and credits in the footer
     hideCredits = true

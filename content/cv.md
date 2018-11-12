@@ -63,13 +63,9 @@ You can reach him at [zed@nsdmdh.com](mailto:zed@nsdmdh.com)
 - [Number Masking Guide (Go/Golang)](https://github.com/messagebirdguides/masked-numbers-guide-go)
 - [SMS Marketing Subscriptions (Go/Golang)](https://github.com/messagebirdguides/subscriptions-guide-go)
 
-## Projects
+## Work
 
-**Enterprise Recon Documentation**[(site)](https://docs.groundlabs.com/er/Default.htm)[(pdf)](/pdfs/ER-2.0.26-documentation.pdf)
-
-**Card Recon Documentation**[(site)](https://docs.groundlabs.com/cr/Default.htm)[(pdf)](/pdfs/CR-2.0.25-documentation.pdf)
-
-**Data Recon Documentation**[(site)](https://docs.groundlabs.com/dr/Default.htm)[(pdf)](/pdfs/DR-2.0.25-documentation.pdf)
+### [**Ground Labs Documentation**](https://docs.groundlabs.com/)
 
 * Lead technical writer. Responsible for keeping documentation site up to date and identifying informational gaps.
 * Established beach-head for documentation.
@@ -80,19 +76,27 @@ You can reach him at [zed@nsdmdh.com](mailto:zed@nsdmdh.com)
 * General product management for docs.
 * Site migration from [Atlassian Confluence](https://www.atlassian.com/software/confluence) to [MadCap Flare](https://www.madcapsoftware.com/products/flare/).
 
-**EU GDPR-related Research Project**
+Documentation sets:
+
+- Enterprise Recon Documentation[(site)](https://docs.groundlabs.com/er/Default.htm)[(pdf)](/pdfs/ER-2.0.26-documentation.pdf)
+- Card Recon Documentation[(site)](https://docs.groundlabs.com/cr/Default.htm)[(pdf)](/pdfs/CR-2.0.25-documentation.pdf)
+- Data Recon Documentation[(site)](https://docs.groundlabs.com/dr/Default.htm)[(pdf)](/pdfs/DR-2.0.25-documentation.pdf)
+
+### EU GDPR-related Research Project
 
 * Project management.
 * Managed 20 freelancers gathering research from 28 EU countries.
 * Cataloged and documented research for developer use.
 
-**Course co-ordinator**: Web Design and Technologies (Jan 2015 – Dec 2015)
+### Course co-ordinator
+
+Web Design and Technologies (Jan 2015 – Dec 2015)
 
 * Wrote syllabus and conducted classes.
 * Pedagogy and test design.
 * Co-ordinated instructors.
 
-## Work Experience
+## Experience
 
 **Technical Writing Consultant** since Jul 2018
 
@@ -106,7 +110,7 @@ You can reach him at [zed@nsdmdh.com](mailto:zed@nsdmdh.com)
 
 [^1]: Nanyang Technological University Wee Kim Wee School of Communication and Information
 
-## Other Work
+## Other
 
 "What _Time_ Got Wrong About _The Last of Us_", _Kill Screen_, published 8 Oct 2014, available: [https://killscreen.com/articles/what-time-got-wrong-about-last-us/](https://killscreen.com/articles/what-time-got-wrong-about-last-us/)
 
