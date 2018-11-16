@@ -50,6 +50,17 @@ You can reach him at [zed@nsdmdh.com](mailto:zed@nsdmdh.com)
 </div>
 </div>
 
+## Skills
+
+- Teaching/Lecturing/Presentations ★★★★☆
+- Writing/Editing ★★★★☆
+- HTML/CSS ★★★★☆
+- Javascript/Node.js ★★☆☆☆
+- Go/Golang ★★☆☆☆
+- Static-site-generators ★★★★☆
+- Building web publishing toolchains ★★★★☆
+- Research writing ★★★★☆
+
 ## Published Work
 
 [**Ground Labs Documentation**](https://docs.groundlabs.com/) (samples):
