@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.zeddee.com/posts/what-i-learned-from-being-a-first-time-dm/</loc>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.zeddee.com/tech-posts/gitsubmodules/</loc>
     <lastmod>2018-06-07T20:57:09+08:00</lastmod>
   </url>
@@ -189,7 +194,7 @@
   
   <url>
     <loc>https://www.zeddee.com/</loc>
-    <lastmod>2018-06-07T20:57:09+08:00</lastmod>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
   </url>
   
   <url>
@@ -453,6 +458,18 @@
   </url>
   
   <url>
+    <loc>https://www.zeddee.com/tags/dungeon-master/</loc>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/dungeons-and-dragons/</loc>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.zeddee.com/tags/embodiment/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
     <priority>0</priority>
@@ -509,6 +526,12 @@
   <url>
     <loc>https://www.zeddee.com/tags/fps/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/game-design/</loc>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -850,7 +873,13 @@
   
   <url>
     <loc>https://www.zeddee.com/tags/play/</loc>
-    <lastmod>2014-07-11T09:38:19+00:00</lastmod>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/pok%C3%A9mon/</loc>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -874,7 +903,7 @@
   
   <url>
     <loc>https://www.zeddee.com/posts/</loc>
-    <lastmod>2018-05-13T23:25:35+08:00</lastmod>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
     <priority>0</priority>
   </url>
   

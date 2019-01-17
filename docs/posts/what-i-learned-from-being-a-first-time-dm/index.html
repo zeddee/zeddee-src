@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="zed tan">
+    <meta name="description" content="https://www.zeddee.com/">
+    <meta name="keywords" content="zed, zed tan, technical writer, technical writing, documentation, documentarian, technical documentation, personal, blog">
+    
+    <meta property="og:site_name" content="zed tan">
+    <meta property="og:title" content="
+  What I Learned From Being a First-time Dungeon Master - zed tan
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.zeddee.com/posts/what-i-learned-from-being-a-first-time-dm/">
+    <meta property="og:image" content="https://www.zeddee.com/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://www.zeddee.com/posts/what-i-learned-from-being-a-first-time-dm/">
+    <meta name="twitter:image" content="https://www.zeddee.com/">
+
+    <base href="https://www.zeddee.com/">
+    <title>
+  What I Learned From Being a First-time Dungeon Master - zed tan
+</title>
+
+    <link rel="canonical" href="https://www.zeddee.com/posts/what-i-learned-from-being-a-first-time-dm/">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="https://www.zeddee.com/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://www.zeddee.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.zeddee.com/images/favicon-16x16.png" sizes="16x16">
+
+    
+
+    <meta name="generator" content="Hugo 0.53" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">zed tan</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/about/">About</a>
+            </li>
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/cv/">CV</a>
+            </li>
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/essays/">Essays</a>
+            </li>
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/tech-posts/">Tech</a>
+            </li>
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/scratchpad/">Scratchpad</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">What I Learned From Being a First-time Dungeon Master</h1>
+      <h2 class="date">January 16, 2019</h2>
+
+      
+    </header>
+
+    <div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_context">Context</a></li>
+<li><a href="#_1_focus_on_storytelling_rather_than_mechanics">1. Focus on storytelling rather than mechanics</a></li>
+<li><a href="#_2_keep_it_simple">2. Keep it simple</a></li>
+<li><a href="#_3_make_combat_change_the_game_world">3. Make combat change the game world</a></li>
+<li><a href="#_4_work_with_your_players">4. Work with your players</a></li>
+<li><a href="#_tldr">tl;dr</a></li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Over the new year, a few close friends and I huddles over alcohol (much needed),
+cakies (cake-ish cookies; thanks✨), an iPad, paper, and dice to play our
+first Dungeons and Dragons game.</p>
+</div>
+<div class="paragraph">
+<p>I was volunteered as the first dungeon master (DM, for virtue-signalling).
+So naturally, I took the <a href="http://dnd.wizards.com/articles/features/basicrules">basic rules</a> and mangled them to produce
+a Pokémon-flavoured Dungeons and Dragons game.</p>
+</div>
+<div class="paragraph">
+<p>You can see some of the results
+here: <a href="https://axiomatic-coal.surge.sh" class="bare">https://axiomatic-coal.surge.sh</a></p>
+</div>
+<div class="paragraph">
+<p>PS: Please forgive the psuedocode; have been thinking in code for way too long. This is my brain now.</p>
+</div>
+<div class="sect1">
+<h2 id="_context"><a class="link" href="#_context">Context</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We were all new to the game,
+with the exception of some of us having a general experience with
+role-playing videogames which have mostly been built on
+and extended from D&amp;D rules.
+Plus we&#8217;re late millenials, which means that we&#8217;ve grown up
+post D&amp;D panic in the 70&#8217;s - 80&#8217;s that saw dungeons and dice as the devil
+(very much similar to the subsequent Pokémon panic).
+So we have some peripheral knowledge, but have never
+had a direct experience with it.</p>
+</div>
+<div class="paragraph">
+<p>Given this context, diving straight into the deep mechanics would be pretty daunting.
+D&amp;D already provides a simplified set of rules in a 180-page manual,
+which is <em>totally</em> not a pain to flip through.
+In the interest of improving our
+onboarding experience, I opted as DM to mangle the rules further.</p>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s what I did (as DM):</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_1_focus_on_storytelling_rather_than_mechanics"><a class="link" href="#_1_focus_on_storytelling_rather_than_mechanics">1. Focus on storytelling rather than mechanics</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The first thing dungeoneers have to remember is that D&amp;D is
+first a storytelling system. You know this by how the game
+is set up: the DM always has the final say.</p>
+</div>
+<div class="paragraph">
+<p>This means that you could run a game that doesn&#8217;t rely
+on the D&amp;D core rules at all, though that kind of defeats
+the purpose of calling it a D&amp;D game in the first place.</p>
+</div>
+<div class="paragraph">
+<p>Given that a D&amp;D game is story driven, then the design of the
+campaign you&#8217;re running should follow a formula like this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>event -&gt; decision -&gt; resolution</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Something like:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>boulder rolls towards party -&gt; decision
+
+select decision {
+    case "run away":
+        resolution = "Prometheus run"
+    case "push boulder":
+        resolution = "Sysiphean task"
+    case default:
+        resolution = "bacon pancakes"
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Of course, this also means that you can chain events:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>event -&gt; decision -&gt; event2 -&gt; decision -&gt; event3 -&gt; decision -&gt; resolution</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Use a longer chain of events to build tension or increase the narrative pace,
+and shorter or single events to break/reduce tension or slow down the narrative pace,
+giving your story and players space to breathe.
+As a general narrative rule,
+use long chains in quick succession to build up to an orga- climax.
+And make the payoff worth it.</p>
+</div>
+<div class="paragraph">
+<p>Focusing on a structure like this also lets you decide where you need to
+insert a confrontation or a combat event — and remember that combat tends to be
+slow: rolling dice and counting stats when done by humans isn&#8217;t very exciting,
+which brings us to our next point.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_2_keep_it_simple"><a class="link" href="#_2_keep_it_simple">2. Keep it simple</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Combat in D&amp;D involves a lot of stat calculation and referring to the rulebook,
+just to figure out if your sword swing misses a mostly catatonic slime blob or not,
+or how much damage it does.</p>
+</div>
+<div class="paragraph">
+<p>Dice rolling, doing mundane math, and missing sword swings most of the time isn&#8217;t my idea of fun,
+so I modified the rules a to:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>adhere to <a href="#_1_focus_on_storytelling_rather_than_mechanics">1. Focus on Storytelling</a>, and</p>
+</li>
+<li>
+<p>reduce the cognitive load in combat so that players would focus on
+combat as a "story-event" rather than a "combat-event". More on that in
+<a href="#_3_make_combat_change_the_game_world">3. Make combat change the game world</a>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>I lowering the cognitive load imposed by the combat system by
+setting some simple to grok defaults:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Players:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>All player armour is a natural armour class of 10 (AC 10).</p>
+</li>
+<li>
+<p>All weapons and spells do a default of 1d6 damage.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Enemies:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Have an AC according to how fast I think they&#8217;re moving.
+Off the bat, I&#8217;d give a weak slime a natural AC of 6, and small spiders
+an AC of 15.</p>
+</li>
+<li>
+<p>All damage is 1d4 (if I remember correctly).</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Event difficulty/saving rolls:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>I followed the quick defaults of DC 5 for easy,
+DC 10 for moderate, DC 15 for hard, and DC 20 for very hard.</p>
+</li>
+<li>
+<p>Didn&#8217;t use impossible DCs (&gt;20) because it didn&#8217;t
+make sense to stop my players from doing anything they wanted to.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Having these defaults meant that:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>I could very easily pull events and encounters
+out of my butt. Rather than having to juggle
+immense monster stat sheets and encounter notes,
+I could focus on adding flavour and story to
+combat and encounters.</p>
+</li>
+<li>
+<p>Players could easily grok how encounters worked.
+I would call out a number, "DC 15", and they would
+know instantly what to do.</p>
+</li>
+<li>
+<p>I didn&#8217;t have to provide an item or loot table.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>This reduced how "loud" combat was in my campaign — simple
+defaults and fuss-free combat meant that we spent less time
+worrying about which numbers to add and what stats were
+relevant. Instead, it let the players and I focus on
+<em>how</em> the combat (and encounters) were happening.</p>
+</div>
+<div class="paragraph">
+<p>Which brings us to <a href="#_3_make_combat_change_the_game_world">3. Make combat change the game world</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_3_make_combat_change_the_game_world"><a class="link" href="#_3_make_combat_change_the_game_world">3. Make combat change the game world</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I distinguish story-events from combat-events
+by the type of outcome they produce:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The outcome of a combat-event is the resolution of combat.
+That is, the goal of combat is to defeat the opposition, and
+the outcome of a combat-event is that the opposition is defeated.
+(Sound bland? I thought so too.)</p>
+</li>
+<li>
+<p>The outcome of a story-event is a resolution of an event,
+or the start of another event (refer to <a href="#_1_focus_on_storytelling_rather_than_mechanics">1. Focus on Storytelling</a>).
+Even better — the outcome
+of the story-event should also <em>significant</em> to the
+overall plot of the campaign.
+How to you design this is up to you.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>To get the players to focus on combat as a story-event
+rather than a combat-event, I did the following:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Made the effects of combat louder than the mechanics of combat.</p>
+</li>
+<li>
+<p>This means that actual dice-rolling and damage calculation
+became secondary to how combat proceeded.</p>
+</li>
+<li>
+<p>Planned or ad-libbed effects combat actions would have on
+diegetic space/game world. For example, missing a swing could
+hit a hanging lantern, which promptly sets fire to the cabin
+you&#8217;re fighting in. This is fine.</p>
+</li>
+<li>
+<p>Effects were more important than raw damage when it
+comes to resolving the encounter. For example, you could design your
+encounters to prioritize</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>One of the combat effects that I used was making the element
+of an attack/action super important. This meant that despite
+the default AC and 1d6 damage, how effective your attacks were
+could be modified by <em>what kind</em> of damage you were dealing.</p>
+</div>
+<div class="paragraph">
+<p>For example: Using a fire attack on an undead tree will cause it to burn,
+inflicting 1d6 fire damage per turn and <em>also</em> giving it fire damage,
+because it&#8217;s now a hostile lumbering undead tree that has burning branches as weapons.
+Because the undead tree is now on fire, hitting it with your bare hands
+(or body slamming it) would cause the attacking player to take damage as well.</p>
+</div>
+<div class="paragraph">
+<p>These sort of damage-type interactions makes combat more
+interesting, adding depth and possiblity to the player&#8217;s
+mental image of who and what their characters are, and the
+equipment they carry. To deal with the undead tree, we obviously
+want to send water and fire type Pokémon to be meat shields.</p>
+</div>
+<div class="paragraph">
+<p>In addition, because we&#8217;re bringing the focus to the
+game world/diegetic space we&#8217;re operating in, taking
+certain actions during encounters should change the game world
+and, sometimes, advance the plot.</p>
+</div>
+<div class="paragraph">
+<p>For example: fighting a
+giant oil slime in a wooden cabin should give pause to the players —
+a storm lamp has fallen over on its side in a corner, and you
+can smell the flames starting to char the wood. Do you <em>really</em>
+want to set the oil slime on fire? Or a player could miss a
+combat action, and accidentally topple a candle that sets the curtains
+on fire. The curtains burn, and the oil slime burns.
+It swells up, voilently gurgling … do you run away?
+The party scampers away and the slime blows up, decimating the cabin.
+You return to inspect the wreckage to find a previously-hidden trapdoor,
+wrecked but open. Players enter the trapdoor to reach the next area.
+The encounter is resolved by tying combat very tightly to the diegetic
+space it occupies,</p>
+</div>
+<div class="paragraph">
+<p>This doesn&#8217;t mean that the combat mechanics are unimportant:
+combat difficulty is also one important way to create tension:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>It creates resource scarcity, here resources being:
+health points, healing items, the number of party members
+left alive etc.</p>
+</li>
+<li>
+<p>It blocks progression — dealing with an encounter
+poorly may force the players to take a more difficult route
+through the campaign, or block off access to a story arc
+completely (or, at least, make it look like it).</p>
+</li>
+<li>
+<p>It gives the players an impression of control — everything
+else is left to dice rolls and the DM&#8217;s whim. Combat is one
+of the places where players have event predictability e.g.
+we attack the monster, the monster fights back.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_4_work_with_your_players"><a class="link" href="#_4_work_with_your_players">4. Work with your players</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>One of the hardest things to wrap your head around in D&amp;D
+is that the DM has total control over the game. It&#8217;s not something
+you&#8217;re familiar with if you&#8217;ve, like me, grown up playing vanilla
+boardgames where the closest you get to a being a DM is playing
+as the banker in Monopoly.</p>
+</div>
+<div class="paragraph">
+<p>But the DM does get <em>carte blanche</em> control over a D&amp;D game.
+That&#8217;s also why it&#8217;s important that the DM play <em>with</em> the
+players, as opposed to acting as the red team in a CTF contest.</p>
+</div>
+<div class="paragraph">
+<p>Once you get that, then writing encounters and events make sense.
+Instead of checkpoints or progress-blockers, every encounter
+and event is an opportunity for the DM to push the story forward
+with the players. Players can&#8217;t find the secret switch in the bookcase?
+Oh dear, digging in the fireplace has unleashed a bunch of mutant spiders on them!
+And while fighting them, you tip over a lamp and set fire to the bookcase
+(you can see a pattern here), which reveals the switch!</p>
+</div>
+<div class="paragraph">
+<p>Understanding encounters this way helps you plan your
+campaign such you the DM share and co-produce the world
+that your players (and your monsters) inhabit and, in all,
+makes for a better game.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tldr"><a class="link" href="#_tldr">tl;dr</a></h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Defer to the players.</p>
+</li>
+<li>
+<p>Simple rules can work.</p>
+</li>
+<li>
+<p>All new to the game, or vaguely familiar with the idea of roleplaying games.</p>
+</li>
+<li>
+<p>Set all armour to natural AC 10.</p>
+</li>
+<li>
+<p>All weapons and spells do 1d6.
+.</p>
+</li>
+<li>
+<p>This moves weight away from the combat mechanics themselves, and instead pulls into focus the narrative possibilities that the encounter offers. That is to say, instead of focusing on rote combat (i.e. rolling of dice, calculating damage etc.), we get to focus on adding detail, imagery, and dynamism to the encounter as an unfolding event that is grounded in diegetic space.</p>
+</li>
+<li>
+<p>This improves immersion in the game world.</p>
+</li>
+<li>
+<p>This is especially effective if working with new players. Instead of spending time consulting equipment and roll tables, we focus on moving the event forward, allowing greater exploration of the narrative space.</p>
+</li>
+<li>
+<p>Size is an easy way to escalate plot intensity. Size of effect, size of event, size of encounter.</p>
+</li>
+<li>
+<p>Keep it simple. Do more in small spaces.</p>
+</li>
+<li>
+<p>Be sure to prep your monster character sheets properly.</p>
+</li>
+<li>
+<p>A mistake I made was rushing through the monster creation.</p>
+</li>
+<li>
+<p>I just arbitrarily decided the hit die, AC, and made up attacks on the fly.</p>
+</li>
+<li>
+<p>My focus was on narrative latitude, which allowed me to have characters and key objects stuck in my 15 HP giant black slime while the other characters were attacking it.</p>
+</li>
+<li>
+<p>Did not keep track of encounter speed — did not figure out action sequence properly.</p>
+</li>
+<li>
+<p>Make failures forgivable. When players fail a dice roll, don&#8217;t just fall back to "You failed. Do you want to try something else?". Instead, plan to treat failure as an event to work from. For example: On failing a lockpicking roll, you trigger an alarm that has a large monster opening the door slowly from the other side, and you have to fight/intimidate/persuade it.</p>
+</li>
+<li>
+<p>Chaos is fun. You&#8217;re allows to create environmental chaos, which creates layers for encounters and adds colour to gameplay. For example, when a player casts a fire spell and misses, they set fire to the wooden cabin that they&#8217;re in, forcing the characters to put the fire out, or escape. The monster they&#8217;re fighting can also decide partway through the battle to break out of the cabin, forcing the players to flee the cabin before they collapse.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+  </article>
+
+  <br/>
+
+  
+  
+</section>
+
+      </div>
+      
+    </main>
+
+    
+
+  <script src="https://www.zeddee.com/js/app.js"></script>
+  
+  </body>
+</html>
