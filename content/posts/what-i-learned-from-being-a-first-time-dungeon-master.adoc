@@ -186,7 +186,7 @@ of an attack/action super important. This meant that despite
 the default AC and 1d6 damage, how effective your attacks were
 could be modified by _what kind_ of damage you were dealing.
 
-For example: Using a fire attack on an undead tree will cause it to burn,
+**For example**: Using a fire attack on an undead tree will cause it to burn,
 inflicting 1d6 fire damage per turn and _also_ giving it fire damage,
 because it's now a hostile lumbering undead tree that has burning branches as weapons.
 Because the undead tree is now on fire, hitting it with your bare hands
@@ -203,7 +203,7 @@ game world/diegetic space we're operating in, taking
 certain actions during encounters should change the game world
 and, sometimes, advance the plot. 
 
-For example: fighting a
+**For example**: Fighting a
 giant oil slime in a wooden cabin should give pause to the players —
 a storm lamp has fallen over on its side in a corner, and you
 can smell the flames starting to char the wood. Do you _really_
