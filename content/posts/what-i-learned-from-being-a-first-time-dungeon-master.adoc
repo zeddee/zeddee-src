@@ -12,7 +12,7 @@ tags: ["pokémon", "dungeons and dragons", "dungeon master", "game design", "pla
 
 // Pokemon D&D game. Fictional town, crime investigation scenario. Everyone plays as pokemon.
 
-Over the new year, a few close friends and I huddles over alcohol (much needed),
+Over the new year, a few close friends and I huddled over alcohol (much needed),
 cakies (cake-ish cookies; thanks✨), an iPad, paper, and dice to play our
 first Dungeons and Dragons game. 
 
@@ -43,7 +43,7 @@ which is _totally_ not a pain to flip through.
 In the interest of improving our
 onboarding experience, I opted as DM to mangle the rules further.
 
-Here's what I did (as DM):
+Here's what I learned (and did) as DM:
 
 == 1. Focus on storytelling rather than mechanics
 
@@ -153,7 +153,7 @@ Which brings us to {point3}.
 
 == 3. Make combat change the game world
 
-I distinguish story-events from combat-events
+I distinguished story-events from combat-events
 by the type of outcome they produce:
 
 - The outcome of a combat-event is the resolution of combat.
@@ -258,14 +258,13 @@ campaign such you the DM share and co-produce the world
 that your players (and your monsters) inhabit and, in all,
 makes for a better game.
 
-== tl;dr
+== tl;dr + stray thoughts
 
 . Defer to the players.
 . Simple rules can work.
 . All new to the game, or vaguely familiar with the idea of roleplaying games.
 . Set all armour to natural AC 10.
 . All weapons and spells do 1d6.
-. 
 . This moves weight away from the combat mechanics themselves, and instead pulls into focus the narrative possibilities that the encounter offers. That is to say, instead of focusing on rote combat (i.e. rolling of dice, calculating damage etc.), we get to focus on adding detail, imagery, and dynamism to the encounter as an unfolding event that is grounded in diegetic space.
 . This improves immersion in the game world.
 . This is especially effective if working with new players. Instead of spending time consulting equipment and roll tables, we focus on moving the event forward, allowing greater exploration of the narrative space.
