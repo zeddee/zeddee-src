@@ -1,7 +1,7 @@
 baseURL = "https://www.zeddee.com/"
 languageCode = "en-us"
 title = "zed tan"
-theme = "coder"
+theme = "hugo-coder-portfolio"
 publishDir = "docs"
 
 [params] # theme parameters
