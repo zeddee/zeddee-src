@@ -1,0 +1,281 @@
+---
+title: "What I Learned From Being a First-time Dungeon Master"
+date: 2019-01-16T19:37:26+08:00
+draft: false
+showDate: true
+tags: ["pokémon", "dungeons and dragons", "dungeon master", "game design", "play"]
+---
+:sectlinks: true
+:toc: auto
+:point1: link:#_1_focus_on_storytelling_rather_than_mechanics[1. Focus on Storytelling]
+:point3: link:#_3_make_combat_change_the_game_world[3. Make combat change the game world]
+
+// Pokemon D&D game. Fictional town, crime investigation scenario. Everyone plays as pokemon.
+
+Over the new year, a few close friends and I huddles over alcohol (much needed),
+cakies (cake-ish cookies; thanks✨), an iPad, paper, and dice to play our
+first Dungeons and Dragons game. 
+
+I was volunteered as the first dungeon master (DM, for virtue-signalling).
+So naturally, I took the link:http://dnd.wizards.com/articles/features/basicrules[basic rules] and mangled them to produce
+a Pokémon-flavoured Dungeons and Dragons game.
+
+You can see some of the results
+here: https://axiomatic-coal.surge.sh
+
+PS: Please forgive the psuedocode; have been thinking in code for way too long. This is my brain now.
+
+== Context
+
+We were all new to the game,
+with the exception of some of us having a general experience with 
+role-playing videogames which have mostly been built on
+and extended from D&D rules.
+Plus we're late millenials, which means that we've grown up
+post D&D panic in the 70's - 80's that saw dungeons and dice as the devil
+(very much similar to the subsequent Pokémon panic).
+So we have some peripheral knowledge, but have never
+had a direct experience with it.
+
+Given this context, diving straight into the deep mechanics would be pretty daunting.
+D&D already provides a simplified set of rules in a 180-page manual,
+which is _totally_ not a pain to flip through.
+In the interest of improving our
+onboarding experience, I opted as DM to mangle the rules further.
+
+Here's what I did (as DM):
+
+== 1. Focus on storytelling rather than mechanics
+
+The first thing dungeoneers have to remember is that D&D is
+first a storytelling system. You know this by how the game
+is set up: the DM always has the final say.
+
+This means that you could run a game that doesn't rely
+on the D&D core rules at all, though that kind of defeats
+the purpose of calling it a D&D game in the first place.
+
+Given that a D&D game is story driven, then the design of the
+campaign you're running should follow a formula like this:
+
+[source]
+----
+event -> decision -> resolution
+----
+
+Something like:
+
+[source]
+----
+boulder rolls towards party -> decision
+
+select decision {
+    case "run away":
+        resolution = "Prometheus run"
+    case "push boulder":
+        resolution = "Sysiphean task"
+    case default:
+        resolution = "bacon pancakes"
+}
+----
+
+Of course, this also means that you can chain events:
+
+[source]
+----
+event -> decision -> event2 -> decision -> event3 -> decision -> resolution
+----
+
+Use a longer chain of events to build tension or increase the narrative pace,
+and shorter or single events to break/reduce tension or slow down the narrative pace,
+giving your story and players space to breathe.
+As a general narrative rule,
+use long chains in quick succession to build up to an orga- climax.
+And make the payoff worth it.
+
+Focusing on a structure like this also lets you decide where you need to
+insert a confrontation or a combat event — and remember that combat tends to be
+slow: rolling dice and counting stats when done by humans isn't very exciting,
+which brings us to our next point.
+
+== 2. Keep it simple
+
+Combat in D&D involves a lot of stat calculation and referring to the rulebook,
+just to figure out if your sword swing misses a mostly catatonic slime blob or not,
+or how much damage it does.
+
+Dice rolling, doing mundane math, and missing sword swings most of the time isn't my idea of fun,
+so I modified the rules a to:
+
+[loweralpha]
+. adhere to {point1}, and
+. reduce the cognitive load in combat so that players would focus on
+combat as a "story-event" rather than a "combat-event". More on that in
+{point3}.
+
+I lowering the cognitive load imposed by the combat system by 
+setting some simple to grok defaults:
+
+[loweralpha]
+. Players:
+.. All player armour is a natural armour class of 10 (AC 10).
+.. All weapons and spells do a default of 1d6 damage.
+. Enemies:
+.. Have an AC according to how fast I think they're moving.
+Off the bat, I'd give a weak slime a natural AC of 6, and small spiders
+an AC of 15.
+.. All damage is 1d4 (if I remember correctly).
+. Event difficulty/saving rolls:
+.. I followed the quick defaults of DC 5 for easy,
+DC 10 for moderate, DC 15 for hard, and DC 20 for very hard.
+.. Didn't use impossible DCs (>20) because it didn't
+make sense to stop my players from doing anything they wanted to.
+
+Having these defaults meant that:
+
+. I could very easily pull events and encounters
+out of my butt. Rather than having to juggle
+immense monster stat sheets and encounter notes,
+I could focus on adding flavour and story to
+combat and encounters.
+. Players could easily grok how encounters worked.
+I would call out a number, "DC 15", and they would
+know instantly what to do.
+. I didn't have to provide an item or loot table.
+
+This reduced how "loud" combat was in my campaign — simple
+defaults and fuss-free combat meant that we spent less time
+worrying about which numbers to add and what stats were
+relevant. Instead, it let the players and I focus on
+_how_ the combat (and encounters) were happening.
+
+Which brings us to {point3}.
+
+== 3. Make combat change the game world
+
+I distinguish story-events from combat-events
+by the type of outcome they produce:
+
+- The outcome of a combat-event is the resolution of combat.
+That is, the goal of combat is to defeat the opposition, and
+the outcome of a combat-event is that the opposition is defeated.
+(Sound bland? I thought so too.)
+- The outcome of a story-event is a resolution of an event,
+or the start of another event (refer to {point1}).
+Even better — the outcome
+of the story-event should also _significant_ to the
+overall plot of the campaign.
+How to you design this is up to you.
+
+To get the players to focus on combat as a story-event
+rather than a combat-event, I did the following:
+
+* Made the effects of combat louder than the mechanics of combat.
+* This means that actual dice-rolling and damage calculation
+became secondary to how combat proceeded.
+* Planned or ad-libbed effects combat actions would have on
+diegetic space/game world. For example, missing a swing could
+hit a hanging lantern, which promptly sets fire to the cabin
+you're fighting in. This is fine.
+* Effects were more important than raw damage when it
+comes to resolving the encounter. For example, you could design your
+encounters to prioritize 
+
+One of the combat effects that I used was making the element
+of an attack/action super important. This meant that despite
+the default AC and 1d6 damage, how effective your attacks were
+could be modified by _what kind_ of damage you were dealing.
+
+For example: Using a fire attack on an undead tree will cause it to burn,
+inflicting 1d6 fire damage per turn and _also_ giving it fire damage,
+because it's now a hostile lumbering undead tree that has burning branches as weapons.
+Because the undead tree is now on fire, hitting it with your bare hands
+(or body slamming it) would cause the attacking player to take damage as well.
+
+These sort of damage-type interactions makes combat more
+interesting, adding depth and possiblity to the player's
+mental image of who and what their characters are, and the
+equipment they carry. To deal with the undead tree, we obviously
+want to send water and fire type Pokémon to be meat shields.
+
+In addition, because we're bringing the focus to the
+game world/diegetic space we're operating in, taking
+certain actions during encounters should change the game world
+and, sometimes, advance the plot. 
+
+For example: fighting a
+giant oil slime in a wooden cabin should give pause to the players —
+a storm lamp has fallen over on its side in a corner, and you
+can smell the flames starting to char the wood. Do you _really_
+want to set the oil slime on fire? Or a player could miss a
+combat action, and accidentally topple a candle that sets the curtains
+on fire. The curtains burn, and the oil slime burns.
+It swells up, voilently gurgling … do you run away?
+The party scampers away and the slime blows up, decimating the cabin.
+You return to inspect the wreckage to find a previously-hidden trapdoor,
+wrecked but open. Players enter the trapdoor to reach the next area.
+The encounter is resolved by tying combat very tightly to the diegetic
+space it occupies, 
+
+This doesn't mean that the combat mechanics are unimportant:
+combat difficulty is also one important way to create tension:
+
+[loweralpha]
+. It creates resource scarcity, here resources being:
+health points, healing items, the number of party members
+left alive etc.
+. It blocks progression — dealing with an encounter
+poorly may force the players to take a more difficult route
+through the campaign, or block off access to a story arc
+completely (or, at least, make it look like it).
+. It gives the players an impression of control — everything
+else is left to dice rolls and the DM's whim. Combat is one
+of the places where players have event predictability e.g.
+we attack the monster, the monster fights back.
+
+== 4. Work with your players
+
+One of the hardest things to wrap your head around in D&D
+is that the DM has total control over the game. It's not something
+you're familiar with if you've, like me, grown up playing vanilla
+boardgames where the closest you get to a being a DM is playing
+as the banker in Monopoly.
+
+But the DM does get _carte blanche_ control over a D&D game.
+That's also why it's important that the DM play _with_ the
+players, as opposed to acting as the red team in a CTF contest.
+
+Once you get that, then writing encounters and events make sense.
+Instead of checkpoints or progress-blockers, every encounter
+and event is an opportunity for the DM to push the story forward
+with the players. Players can't find the secret switch in the bookcase?
+Oh dear, digging in the fireplace has unleashed a bunch of mutant spiders on them!
+And while fighting them, you tip over a lamp and set fire to the bookcase
+(you can see a pattern here), which reveals the switch!
+
+Understanding encounters this way helps you plan your
+campaign such you the DM share and co-produce the world
+that your players (and your monsters) inhabit and, in all,
+makes for a better game.
+
+== tl;dr
+
+. Defer to the players.
+. Simple rules can work.
+. All new to the game, or vaguely familiar with the idea of roleplaying games.
+. Set all armour to natural AC 10.
+. All weapons and spells do 1d6.
+. 
+. This moves weight away from the combat mechanics themselves, and instead pulls into focus the narrative possibilities that the encounter offers. That is to say, instead of focusing on rote combat (i.e. rolling of dice, calculating damage etc.), we get to focus on adding detail, imagery, and dynamism to the encounter as an unfolding event that is grounded in diegetic space.
+. This improves immersion in the game world.
+. This is especially effective if working with new players. Instead of spending time consulting equipment and roll tables, we focus on moving the event forward, allowing greater exploration of the narrative space.
+. Size is an easy way to escalate plot intensity. Size of effect, size of event, size of encounter.
+. Keep it simple. Do more in small spaces.
+. Be sure to prep your monster character sheets properly. 
+    . A mistake I made was rushing through the monster creation.
+    . I just arbitrarily decided the hit die, AC, and made up attacks on the fly.
+    . My focus was on narrative latitude, which allowed me to have characters and key objects stuck in my 15 HP giant black slime while the other characters were attacking it. 
+. Did not keep track of encounter speed — did not figure out action sequence properly.
+. Make failures forgivable. When players fail a dice roll, don't just fall back to "You failed. Do you want to try something else?". Instead, plan to treat failure as an event to work from. For example: On failing a lockpicking roll, you trigger an alarm that has a large monster opening the door slowly from the other side, and you have to fight/intimidate/persuade it.
+. Chaos is fun. You're allows to create environmental chaos, which creates layers for encounters and adds colour to gameplay. For example, when a player casts a fire spell and misses, they set fire to the wooden cabin that they're in, forcing the characters to put the fire out, or escape. The monster they're fighting can also decide partway through the battle to break out of the cabin, forcing the players to flee the cabin before they collapse.
+
