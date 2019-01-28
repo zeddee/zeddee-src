@@ -9,4 +9,4 @@ Views expressed here are his own.
 
 Also at [shootbird.work](https://shootbird.work)
 
-If you have sentences (or, gasp, paragraphs!) that need writing, contact him at [zed@nsdmdh.com](mailto:zed@nsdmdh.com).
+If you have sentences (or, gasp, paragraphs!) that need writing, contact him at [zed@shootbird.work](mailto:zed@shootbird.work).
