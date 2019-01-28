@@ -7,7 +7,7 @@ publishDir = "docs"
 [params] # theme parameters
     author = "zed tan" # author's name
     info = "I write tech things for people." # author's job title or info
-    contact = "[zed@nsdmdh.com](mailto://zed@nsdmdh.com)"
+    contact = "[zed@shootbird.work](mailto://zed@shootbird.work)"
     description = "zed tan writes tech things for people." # site description
     keywords = "zed, zed tan, technical writer, technical writing, documentation, documentarian, technical documentation, personal, blog" # site keywords
     # wether you want to hide copyright and credits in the footer
@@ -34,6 +34,10 @@ publishDir = "docs"
     name = "Github"
     weight = 1
     url = "https://github.com/zeddee/"
+[[params.social]]
+    name = "Reading List"
+    weight = 5
+    url = "https://github.com/zeddee/reading-list"
 [[params.social]]
     name = "LinkedIn"
     weight = 3

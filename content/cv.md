@@ -43,10 +43,10 @@ Zed is a former educator, and documentarian by nature (i.e. asks a lot of questi
 
 He's happiest when building content systems and the teams that manage them.
 
-You can reach him at [zed@nsdmdh.com](mailto:zed@nsdmdh.com)
+You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 </div>
 <div class="this-is-zed">
-<a href="mailto:zed@nsdmdh.com" alt="zed@nsdmdh.com"><img src="/images/zed.jpg" /></a>
+<a href="mailto:zed@shootbird.work" alt="zed@shootbird.work"><img src="/images/zed.jpg" /></a>
 </div>
 </div>
 
