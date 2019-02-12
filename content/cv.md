@@ -60,8 +60,13 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 - Static-site-generators ★★★★☆
 - Building web publishing toolchains ★★★★☆
 - Research writing ★★★★☆
+- Blockchain ★★☆☆☆
 
 ## Published Work
+
+Blockchain with Go guides for Consensys/Kauri ([github repo](https://github.com/kauri-io/Content)):
+
+- [Creating a DApp in Go with Geth](https://kauri.io/article/60a36c1b17d645939f63415218dc24f9/v1/creating-a-dapp-in-go-with-geth)
 
 [**Ground Labs Documentation**](https://docs.groundlabs.com/) (samples):
 
@@ -109,7 +114,7 @@ Web Design and Technologies (Jan 2015 – Dec 2015)
 
 ## Experience
 
-**Technical Writing Consultant** since Jul 2018
+**Technical Writing Contractor** since Jul 2018
 
 **Technical Writer** at Ground Labs (Feb 2016 – Jul 2018)
 
