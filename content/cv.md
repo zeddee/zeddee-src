@@ -64,9 +64,10 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 
 ## Published Work
 
-Blockchain with Go guides for Consensys/Kauri ([github repo](https://github.com/kauri-io/Content)):
+**Blockchain with Go guides for Consensys/Kauri** ([github repo](https://github.com/kauri-io/Content)):
 
 - [Creating a DApp in Go with Geth](https://kauri.io/article/60a36c1b17d645939f63415218dc24f9/v1/creating-a-dapp-in-go-with-geth)
+
 
 [**Ground Labs Documentation**](https://docs.groundlabs.com/) (samples):
 
