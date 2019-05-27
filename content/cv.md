@@ -64,6 +64,10 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 
 ## Published Work
 
+**Technical Content for the [Temasys.io Blog](https://temasys.io)**
+
+- ["Ripping off the band-aid: Chrome’s shift to 'Unified plan'"](https://temasys.io/ripping-off-the-band-aid-chromes-shift-to-unified-plan/)
+
 **Blockchain with Go guides for Consensys/Kauri** ([github repo](https://github.com/kauri-io/Content)):
 
 - [Creating a DApp in Go with Geth](https://kauri.io/article/60a36c1b17d645939f63415218dc24f9/v1/creating-a-dapp-in-go-with-geth)
@@ -81,6 +85,13 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 - [SMS Marketing Subscriptions (Go/Golang)](https://github.com/messagebirdguides/subscriptions-guide-go)
 
 ## Work
+
+### **Contract Technical Writer** at [Temasys Communications](https://temasys.io)
+
+* Wrote technical content for blogs and marketing material.
+* Worked closely with development team to communicate releases, technical developments, and product updates.
+* Helped make case and set the groundwork for dedicated technical documentation efforts.
+* Worked closely with development team to document a pre-alpha product, which involved digging into C++ source.
 
 ### [**Ground Labs Documentation**](https://docs.groundlabs.com/)
 
@@ -117,7 +128,9 @@ Web Design and Technologies (Jan 2015 – Dec 2015)
 
 **Technical Writing Contractor** since Jul 2018
 
-**Technical Writer** at Ground Labs (Feb 2016 – Jul 2018)
+**Technical Content Writer (Contract)** at [Temasys Communications](https://temasys.io) (Feb – May 2019)
+
+**Technical Writer** at [Ground Labs](https://groundlabs.com) (Feb 2016 – Jul 2018)
 
 **Adjunct Instructor** at
 
