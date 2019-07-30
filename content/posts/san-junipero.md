@@ -3,7 +3,7 @@ title: "San Junipero"
 date: 2017-12-10T17:50:27+08:00
 showDate: true
 draft: false
-tags: [san junipero, black mirror, tv, cinema]
+tags: ["san junipero", "black mirror", "tv", "cinema"]
 ---
 
 _San Junipero_ made me cry. It made me cry because it's a story about a pair of lovers dealing with trauma, loss, and pain. Tears constitute an involuntary emotional response to presented stimuli — stimuli that usually exceeds a certain emotional threshold. We cry with joy, relief, pain, hurt, etc. Working with that assumption, we also know that crying can be caused, and by extension, manufactured. _San Junipero_, and the rest of _Black Mirror_, manufactures its audiences' response to the series to produce an illusion of edification. It plays its audience with  sleights of hand that convinces them that the story presented to them (1) is relegated to fiction, and (2) safely self-contained. I will outline how these two points are problems below.

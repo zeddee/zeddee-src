@@ -2,7 +2,7 @@
 title: "Poised Between Gods and Beasts"
 date: 2018-06-23T14:55:26+08:00
 draft: true
-tags: zed, westworld, transhumanism
+tags: ["zed", "westworld", "transhumanism"]
 ---
 
 

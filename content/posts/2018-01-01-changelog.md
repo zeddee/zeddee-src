@@ -3,7 +3,7 @@ title: "2018-01-01 Changelog"
 date: 2018-01-01T09:00:00+08:00
 draft: false
 categories: [posts]
-tags: [2017,2018]
+tags: ["2017","2018"]
 
 image_path: "/img/colours/cyan.png"
 ---

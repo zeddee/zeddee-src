@@ -2,7 +2,7 @@
 title: "We March Backwards Into the Future"
 date: 2018-05-13T23:25:35+08:00
 draft: false
-tags: zed, recursion
+tags: ["zed", "recursion"]
 ---
 
 I am thinking of _The Binding of Isaac_, Y combinators, recursion, and Marshall MacLuhan.
