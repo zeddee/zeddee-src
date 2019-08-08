@@ -95,7 +95,13 @@
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/zed-recursion/</loc>
+    <loc>https://www.zeddee.com/tags/zed/</loc>
+    <lastmod>2018-05-13T23:25:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/recursion/</loc>
     <lastmod>2018-05-13T23:25:35+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -185,12 +191,6 @@
   <url>
     <loc>https://www.zeddee.com/posts/1984-internet-archive/</loc>
     <lastmod>2017-02-11T15:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/zed/</loc>
-    <lastmod>2017-02-11T15:00:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
