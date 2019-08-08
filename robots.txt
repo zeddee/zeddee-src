@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /pdfs/CR-2.0.25-documentation.pdf
+Disallow: /pdfs/DR-2.0.25-documentation.pdf
+Disallow: /pdfs/ER-2.0.26-documentation.pdf
