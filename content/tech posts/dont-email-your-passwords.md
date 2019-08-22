@@ -11,7 +11,7 @@ and found my mailbox graced with this email:
 
 > ![Please don't email me my password](/img/2019-posts/please-dont-email-me-my-password.jpg)
 
-I reached out to them via the contact form at ~2AM (20 Aug 2019)
+I reached out to them via the contact form at ~2AM (20 Aug 2019), and haven't heard back.
 
 The first thing you should notice here is that I've put up my 
 user name and password in all it's 36-character glory
