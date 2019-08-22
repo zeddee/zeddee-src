@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>passwords on zed tan</title>
+    <link>https://www.zeddee.com/tags/passwords/</link>
+    <description>Recent content in passwords on zed tan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Jul 2018 16:15:38 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.zeddee.com/tags/passwords/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Don&#39;t Email Your Passwords and Other Adventures</title>
+      <link>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</link>
+      <pubDate>Fri, 20 Jul 2018 16:15:38 +0800</pubDate>
+      
+      <guid>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</guid>
+      <description>So I signed up for an account with a local tech thing in the early hours of Tuesday morning, and found my mailbox graced with this email:
+  I reached out to them via the contact form at ~2AM (20 Aug 2019)
+The first thing you should notice here is that I&amp;rsquo;ve put up my user name and password in all it&amp;rsquo;s 36-character glory in plain text, on my blog.</description>
+    </item>
+    
+  </channel>
+</rss>

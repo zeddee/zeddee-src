@@ -9,21 +9,38 @@
   </url>
   
   <url>
+    <loc>https://www.zeddee.com/tags/dungeon-master/</loc>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/dungeons-and-dragons/</loc>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/game-design/</loc>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.zeddee.com/tags/play/</loc>
     <lastmod>2019-01-16T19:37:26+08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/pok%C3%A9mon/</loc>
+    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/posts/</loc>
     <lastmod>2019-01-16T19:37:26+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/</loc>
     <lastmod>2019-01-16T19:37:26+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -32,27 +49,13 @@
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/dungeon-master/</loc>
-    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.zeddee.com/tags/comment/</loc>
+    <lastmod>2018-11-12T03:39:20+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/dungeons-and-dragons/</loc>
-    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/game-design/</loc>
-    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/pok%C3%A9mon/</loc>
-    <lastmod>2019-01-16T19:37:26+08:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.zeddee.com/tags/science-fiction/</loc>
+    <lastmod>2018-11-12T03:39:20+08:00</lastmod>
   </url>
   
   <url>
@@ -61,21 +64,28 @@
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/comment/</loc>
-    <lastmod>2018-11-12T03:39:20+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/science-fiction/</loc>
-    <lastmod>2018-11-12T03:39:20+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.zeddee.com/tags/westworld/</loc>
     <lastmod>2018-11-12T03:39:20+08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</loc>
+    <lastmod>2018-07-20T16:15:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/passwords/</loc>
+    <lastmod>2018-07-20T16:15:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/security/</loc>
+    <lastmod>2018-07-20T16:15:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tech-posts/</loc>
+    <lastmod>2018-07-20T16:15:38+08:00</lastmod>
   </url>
   
   <url>
@@ -84,9 +94,8 @@
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tech-posts/</loc>
-    <lastmod>2018-06-07T20:57:09+08:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.zeddee.com/tags/recursion/</loc>
+    <lastmod>2018-05-13T23:25:35+08:00</lastmod>
   </url>
   
   <url>
@@ -97,25 +106,16 @@
   <url>
     <loc>https://www.zeddee.com/tags/zed/</loc>
     <lastmod>2018-05-13T23:25:35+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/recursion/</loc>
-    <lastmod>2018-05-13T23:25:35+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/2017/</loc>
     <lastmod>2018-01-01T09:00:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/2018/</loc>
     <lastmod>2018-01-01T09:00:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -126,19 +126,21 @@
   <url>
     <loc>https://www.zeddee.com/categories/</loc>
     <lastmod>2018-01-01T09:00:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/categories/posts/</loc>
     <lastmod>2018-01-01T09:00:00+08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/black-mirror/</loc>
+    <lastmod>2017-12-10T17:50:27+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/cinema/</loc>
     <lastmod>2017-12-10T17:50:27+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -147,50 +149,43 @@
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/black-mirror/</loc>
-    <lastmod>2017-12-10T17:50:27+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.zeddee.com/tags/san-junipero/</loc>
     <lastmod>2017-12-10T17:50:27+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/tv/</loc>
     <lastmod>2017-12-10T17:50:27+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/categories/in-between/</loc>
     <lastmod>2017-02-11T15:00:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/internet-archive/</loc>
     <lastmod>2017-02-11T15:00:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/literature/</loc>
     <lastmod>2017-02-11T15:00:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/orwell/</loc>
     <lastmod>2017-02-11T15:00:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/posts/1984-internet-archive/</loc>
     <lastmod>2017-02-11T15:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/film/</loc>
+    <lastmod>2016-12-04T15:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -201,25 +196,16 @@
   <url>
     <loc>https://www.zeddee.com/tags/westworld2016/</loc>
     <lastmod>2016-12-04T15:00:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/film/</loc>
-    <lastmod>2016-12-04T15:00:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/india/</loc>
     <lastmod>2016-09-14T04:30:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/stories/</loc>
     <lastmod>2016-09-14T04:30:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -240,7 +226,21 @@
   <url>
     <loc>https://www.zeddee.com/tags/triund/</loc>
     <lastmod>2016-08-08T03:18:00+08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/death/</loc>
+    <lastmod>2016-02-03T18:22:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/ethics/</loc>
+    <lastmod>2016-02-03T18:22:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/levinas/</loc>
+    <lastmod>2016-02-03T18:22:00+08:00</lastmod>
   </url>
   
   <url>
@@ -249,69 +249,43 @@
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/scratchpad/</loc>
-    <lastmod>2016-02-03T18:22:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/death/</loc>
-    <lastmod>2016-02-03T18:22:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/ethics/</loc>
-    <lastmod>2016-02-03T18:22:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/levinas/</loc>
-    <lastmod>2016-02-03T18:22:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.zeddee.com/tags/pain/</loc>
     <lastmod>2016-02-03T18:22:00+08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/scratchpad/</loc>
+    <lastmod>2016-02-03T18:22:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/suffering/</loc>
     <lastmod>2016-02-03T18:22:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/categories/zedreads/</loc>
     <lastmod>2016-02-03T18:22:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/afterbirth/</loc>
     <lastmod>2016-01-29T03:18:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/rebirth/</loc>
     <lastmod>2016-01-29T03:18:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/roguelike/</loc>
     <lastmod>2016-01-29T03:18:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/the-binding-of-isaac/</loc>
     <lastmod>2016-01-29T03:18:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -330,6 +304,21 @@
   </url>
   
   <url>
+    <loc>https://www.zeddee.com/tags/academia/</loc>
+    <lastmod>2016-01-18T17:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/consumerism/</loc>
+    <lastmod>2016-01-18T17:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/industrialization/</loc>
+    <lastmod>2016-01-18T17:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.zeddee.com/scratchpad/strasser-rags-bones-plastic-bags/</loc>
     <lastmod>2016-01-18T17:00:00+08:00</lastmod>
   </url>
@@ -337,67 +326,46 @@
   <url>
     <loc>https://www.zeddee.com/tags/phenomenology/</loc>
     <lastmod>2016-01-18T17:00:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/academia/</loc>
-    <lastmod>2016-01-18T17:00:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/consumerism/</loc>
-    <lastmod>2016-01-18T17:00:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/industrialization/</loc>
-    <lastmod>2016-01-18T17:00:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/space/</loc>
     <lastmod>2016-01-18T17:00:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/categories/blind-cinema/</loc>
     <lastmod>2016-01-16T03:58:34+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/blind-cinema/</loc>
+    <lastmod>2016-01-16T03:58:34+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/blindness/</loc>
     <lastmod>2016-01-16T03:58:34+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/blue/</loc>
     <lastmod>2016-01-16T03:58:34+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/deconstruction/</loc>
     <lastmod>2016-01-16T03:58:34+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/derek-jarman/</loc>
     <lastmod>2016-01-16T03:58:34+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/derrida/</loc>
     <lastmod>2016-01-16T03:58:34+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -408,31 +376,31 @@
   <url>
     <loc>https://www.zeddee.com/essays/</loc>
     <lastmod>2016-01-16T03:58:34+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/memoirs-of-the-blind/</loc>
     <lastmod>2016-01-16T03:58:34+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/plato/</loc>
     <lastmod>2016-01-16T03:58:34+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/platos-cave/</loc>
     <lastmod>2016-01-16T03:58:34+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/blind-cinema/</loc>
-    <lastmod>2016-01-16T03:58:34+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.zeddee.com/tags/bonfires/</loc>
+    <lastmod>2016-01-10T19:43:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/darksouls/</loc>
+    <lastmod>2016-01-10T19:43:00+08:00</lastmod>
   </url>
   
   <url>
@@ -441,15 +409,8 @@
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/bonfires/</loc>
-    <lastmod>2016-01-10T19:43:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/darksouls/</loc>
-    <lastmod>2016-01-10T19:43:00+08:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.zeddee.com/tags/culture/</loc>
+    <lastmod>2016-01-10T19:29:00+08:00</lastmod>
   </url>
   
   <url>
@@ -458,33 +419,23 @@
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/postmodernism/</loc>
-    <lastmod>2016-01-10T19:29:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/culture/</loc>
-    <lastmod>2016-01-10T19:29:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.zeddee.com/tags/modernity/</loc>
     <lastmod>2016-01-10T19:29:00+08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/postmodernism/</loc>
+    <lastmod>2016-01-10T19:29:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/postmodernity/</loc>
     <lastmod>2016-01-10T19:29:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/retail/</loc>
     <lastmod>2016-01-10T19:29:00+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -495,13 +446,11 @@
   <url>
     <loc>https://www.zeddee.com/categories/cinema-and-new-media-studies/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/computational-turn/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -512,73 +461,61 @@
   <url>
     <loc>https://www.zeddee.com/tags/flight-simulators/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/categories/game-studies/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/game-studies/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/gameplay-mode/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/media/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/new-media/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/patrick-crogan/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/philosophy/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/virilio/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/virtual-reality/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/war-and-cinema/</loc>
     <lastmod>2015-06-21T10:35:52+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/pangdemonium/</loc>
     <lastmod>2015-06-06T15:26:40+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -589,31 +526,31 @@
   <url>
     <loc>https://www.zeddee.com/tags/prosthesis/</loc>
     <lastmod>2015-06-06T15:26:40+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/review/</loc>
     <lastmod>2015-06-06T15:26:40+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/categories/reviews/</loc>
     <lastmod>2015-06-06T15:26:40+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/singapore/</loc>
     <lastmod>2015-06-06T15:26:40+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/theatre/</loc>
     <lastmod>2015-06-06T15:26:40+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/kill-screen/</loc>
+    <lastmod>2015-04-22T09:43:53+00:00</lastmod>
   </url>
   
   <url>
@@ -622,33 +559,23 @@
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/kill-screen/</loc>
-    <lastmod>2015-04-22T09:43:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.zeddee.com/tags/last-of-us/</loc>
     <lastmod>2015-04-22T09:43:53+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/categories/new-media/</loc>
     <lastmod>2015-04-22T09:43:53+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/categories/op-ed/</loc>
     <lastmod>2015-04-22T09:43:53+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/ian-bogost/</loc>
     <lastmod>2015-01-24T17:54:06+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -657,15 +584,13 @@
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/ux/</loc>
+    <loc>https://www.zeddee.com/tags/user-experience/</loc>
     <lastmod>2015-01-24T17:54:06+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/user-experience/</loc>
+    <loc>https://www.zeddee.com/tags/ux/</loc>
     <lastmod>2015-01-24T17:54:06+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -676,13 +601,11 @@
   <url>
     <loc>https://www.zeddee.com/tags/araki/</loc>
     <lastmod>2014-07-11T09:38:19+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/araki-nobuyoshi/</loc>
     <lastmod>2014-07-11T09:38:19+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -693,55 +616,51 @@
   <url>
     <loc>https://www.zeddee.com/tags/daido-moriyama/</loc>
     <lastmod>2014-07-11T09:38:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/love/</loc>
-    <lastmod>2014-07-11T09:38:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/categories/photography/</loc>
-    <lastmod>2014-07-11T09:38:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zeddee.com/tags/photography/</loc>
-    <lastmod>2014-07-11T09:38:19+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/featured/</loc>
     <lastmod>2014-07-11T09:38:19+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/love/</loc>
+    <lastmod>2014-07-11T09:38:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/categories/photography/</loc>
+    <lastmod>2014-07-11T09:38:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/photography/</loc>
+    <lastmod>2014-07-11T09:38:19+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/and-tango-makes-three/</loc>
     <lastmod>2014-07-10T07:16:20+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/banned-books/</loc>
     <lastmod>2014-07-10T07:16:20+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/censorship/</loc>
     <lastmod>2014-07-10T07:16:20+08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zeddee.com/tags/national-library-of-singapore/</loc>
+    <lastmod>2014-07-10T07:16:20+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/nlb/</loc>
     <lastmod>2014-07-10T07:16:20+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -750,15 +669,8 @@
   </url>
   
   <url>
-    <loc>https://www.zeddee.com/tags/national-library-of-singapore/</loc>
-    <lastmod>2014-07-10T07:16:20+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.zeddee.com/tags/queer/</loc>
     <lastmod>2014-07-10T07:16:20+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -769,49 +681,41 @@
   <url>
     <loc>https://www.zeddee.com/tags/created-equal/</loc>
     <lastmod>2014-06-27T14:49:07+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/diptych/</loc>
     <lastmod>2014-06-27T14:49:07+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/equality/</loc>
     <lastmod>2014-06-27T14:49:07+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/locke/</loc>
     <lastmod>2014-06-27T14:49:07+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/mark-laita/</loc>
     <lastmod>2014-06-27T14:49:07+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/op-ed/</loc>
     <lastmod>2014-06-27T14:49:07+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/being-human/</loc>
     <lastmod>2014-05-04T09:28:33+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/cinema-studies/</loc>
     <lastmod>2014-05-04T09:28:33+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -822,37 +726,31 @@
   <url>
     <loc>https://www.zeddee.com/tags/human/</loc>
     <lastmod>2014-05-04T09:28:33+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/spike-jonze/</loc>
     <lastmod>2014-05-04T09:28:33+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/continental-philosophy/</loc>
     <lastmod>2014-04-15T19:41:43+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/instagram/</loc>
     <lastmod>2014-04-15T19:41:43+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/photojournalism/</loc>
     <lastmod>2014-04-15T19:41:43+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/social-media/</loc>
     <lastmod>2014-04-15T19:41:43+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -863,55 +761,46 @@
   <url>
     <loc>https://www.zeddee.com/tags/zedreads/</loc>
     <lastmod>2014-04-15T19:41:43+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/%C5%BEi%C5%BEek/</loc>
     <lastmod>2014-04-15T19:41:43+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/bitcoin/</loc>
     <lastmod>2014-04-09T20:14:21+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/gender/</loc>
     <lastmod>2014-04-09T20:14:21+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/genre-theory/</loc>
     <lastmod>2014-04-09T20:14:21+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/internet/</loc>
     <lastmod>2014-04-09T20:14:21+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/link-dump/</loc>
     <lastmod>2014-04-09T20:14:21+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/oscar-pistorious/</loc>
     <lastmod>2014-04-09T20:14:21+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/tech/</loc>
     <lastmod>2014-04-09T20:14:21+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -932,37 +821,31 @@
   <url>
     <loc>https://www.zeddee.com/tags/pen-ek-ratanaruang/</loc>
     <lastmod>2014-04-03T21:14:59+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/thailand-cinema/</loc>
     <lastmod>2014-04-03T21:14:59+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/categories/traditional-film-theory/</loc>
     <lastmod>2014-04-03T21:14:59+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/doug-mainwaring/</loc>
     <lastmod>2014-02-26T19:46:58+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/homosexuality/</loc>
     <lastmod>2014-02-26T19:46:58+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/mainwaring/</loc>
     <lastmod>2014-02-26T19:46:58+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -973,43 +856,36 @@
   <url>
     <loc>https://www.zeddee.com/tags/sexuality/</loc>
     <lastmod>2014-02-26T19:46:58+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/categories/speak-simply/</loc>
     <lastmod>2014-02-26T19:46:58+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/ai/</loc>
     <lastmod>2014-02-05T19:46:06+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/artificial-intelligence/</loc>
     <lastmod>2014-02-05T19:46:06+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/her/</loc>
     <lastmod>2014-02-05T19:46:06+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/her-film/</loc>
     <lastmod>2014-02-05T19:46:06+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/speak-simply/</loc>
     <lastmod>2014-02-05T19:46:06+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1020,7 +896,6 @@
   <url>
     <loc>https://www.zeddee.com/tags/john-clang/</loc>
     <lastmod>2013-10-16T23:07:27+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1031,109 +906,91 @@
   <url>
     <loc>https://www.zeddee.com/tags/post-structuralism/</loc>
     <lastmod>2013-10-16T23:07:27+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/spatiality/</loc>
     <lastmod>2013-10-16T23:07:27+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/yenlin/</loc>
     <lastmod>2013-10-16T23:07:27+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/authenticity/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/battlefield/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/battlefield-4/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/baudrillard/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/botting-and-wilson/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/digital-humanities/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/embodiment/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/enactment/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/excess/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/fps/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/hypertext/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/intertext/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/kristin-thompson/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/ludology/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/modern-warfare/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1144,31 +1001,26 @@
   <url>
     <loc>https://www.zeddee.com/tags/shooters/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/simulacrum/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/simulation/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/tarantinian-ethics/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/theory/</loc>
     <lastmod>2013-10-16T22:46:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1179,43 +1031,36 @@
   <url>
     <loc>https://www.zeddee.com/categories/wkwsci/</loc>
     <lastmod>2013-04-23T21:46:18+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/heros-journey/</loc>
     <lastmod>2012-12-18T21:30:31+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/myth/</loc>
     <lastmod>2012-12-18T21:30:31+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/northrop-frye/</loc>
     <lastmod>2012-12-18T21:30:31+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/robert-de-niro/</loc>
     <lastmod>2012-12-18T21:30:31+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/scorceses/</loc>
     <lastmod>2012-12-18T21:30:31+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.zeddee.com/tags/taxi-driver/</loc>
     <lastmod>2012-12-18T21:30:31+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1226,7 +1071,6 @@
   <url>
     <loc>https://www.zeddee.com/tags/travis-bickle/</loc>
     <lastmod>2012-12-18T21:30:31+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

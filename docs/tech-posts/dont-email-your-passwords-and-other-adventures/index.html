@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    
+    <meta name="description" content="So I signed up for an account with a local tech thing in the early hours of Tuesday morning, and found my mailbox graced with this email:
+  I reached out to them via the contact form at ~2AM (20 Aug 2019)
+The first thing you should notice here is that I&rsquo;ve put up my user name and password in all it&rsquo;s 36-character glory in plain text, on my blog.">
+    <meta name="author" content="zed tan">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="https://www.zeddee.com/">
+    
+    <meta name="twitter:image" content="https://www.zeddee.com/images/shootbird_opengraph_blue.png">
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Don&#39;t Email Your Passwords and Other Adventures">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="So I signed up for an account with a local tech thing in the early hours of Tuesday morning, and found my mailbox graced with this email:
+  I reached out to them via the contact form at ~2AM (20 Aug 2019)
+The first thing you should notice here is that I&rsquo;ve put up my user name and password in all it&rsquo;s 36-character glory in plain text, on my blog."}}>
+    <meta property="og:type" content="article" />
+    <meta name="og:url" content="https://www.zeddee.com/">
+    <meta name="og:title" content="Don&#39;t Email Your Passwords and Other Adventures">
+    <meta name="og:image" itemprop="image primaryImageOfPage" content="https://www.zeddee.com/images/shootbird_opengraph_blue.png">
+    
+    <base href="https://www.zeddee.com/">
+    <title>
+  Don&#39;t Email Your Passwords and Other Adventures - zed tan
+</title>
+    
+    
+
+    <link rel="canonical" href="https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="https://www.zeddee.com/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://www.zeddee.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.zeddee.com/images/favicon-16x16.png" sizes="16x16">
+
+    
+
+    <meta name="generator" content="Hugo 0.57.2" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">zed tan</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/about/">About</a>
+            </li>
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/cv/">CV</a>
+            </li>
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/essays/">Essays</a>
+            </li>
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/tech-posts/">Tech</a>
+            </li>
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://www.zeddee.com/scratchpad/">Scratchpad</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Don&#39;t Email Your Passwords and Other Adventures</h1>
+    </header>
+
+    
+
+<p>So I signed up for an account with a local tech thing in the early hours of Tuesday morning,
+and found my mailbox graced with this email:</p>
+
+<blockquote>
+<p><img src="/img/2019-posts/please-dont-email-me-my-password.jpg" alt="Please don't email me my password" /></p>
+</blockquote>
+
+<p>I reached out to them via the contact form at ~2AM (20 Aug 2019)</p>
+
+<p>The first thing you should notice here is that I&rsquo;ve put up my
+user name and password in all it&rsquo;s 36-character glory
+in plain text, on my blog. Yes, I have since changed my password.<br />
+No, I still do not know what a manteau is.</p>
+
+<p>The second thing you should notice is that the
+<a href="https://makerspace.aisingapore.org/">AI Singapore Makerspace Team</a>
+has emailed me my password.
+I don&rsquo;t remember the last time an organization did this for me,
+and the reason is probably that emailing your users their
+passwords <em>as is</em> is bad.</p>
+
+<p>Let&rsquo;s break it down.</p>
+
+<h2 id="email-is-insecure-by-default">Email is insecure by default</h2>
+
+<p>First, premise: all private data on the internet should be encrypted.</p>
+
+<p>For reference, <a href="https://gdpr.eu/article-5-how-to-process-personal-data/">Article 5 of the GDPR</a> states that &ldquo;Personal data shall be: […] processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (‘integrity and confidentiality’).&rdquo; Here, &ldquo;appropriate security&rdquo; would usually be taken to mean &ldquo;encrypt the damn thing&rdquo;. [^1]</p>
+
+<p>The GDPR also <a href="https://gdpr.eu/email-encryption/">doesn&rsquo;t require emails in general</a> to be encrypted, but it definitely requires you to keep private data secure.</p>
+
+<p>Second, when we talk encryption, there are usually two layers to consider:</p>
+
+<ul>
+<li><strong>Encryption at-rest</strong>, which refers to encryption of stored data (whether on a physical disk or on a cloud service, which ultimately is on a physical disk somewhere).</li>
+<li><strong>Encryption in-transit</strong>, which refers to encryption of data that you&rsquo;re moving from place to place e.g. sending from your email account to another.</li>
+</ul>
+
+<p>Emails are not guaranteed to be encrypted in-transit.
+Gmail <a href="https://transparencyreport.google.com/safer-email/overview">sends mail over SSL</a>
+and with <a href="https://support.google.com/mail/answer/6330403?hl=en">S/MIME encryption</a>
+whenever possible, but for this to work,the
+<a href="https://www.blog.google/products/gmail/making-email-safer-for-you-posted-by/">receiving mailbox</a>
+must also support these encryption protocols.</p>
+
+<p>This is not always the case, especially if the route between
+your mail server and the receipient&rsquo;s mail server is not
+transparent to you. This detail is important because in any email exchange, your sent email may be hopping across a series of mailservers that receive, store, and relay that email to its intended recipient.</p>
+
+<p>Email at-rest is not encrypted unless your email
+provider explicitly tells you it is, like in <a href="https://protonmail.com/security-details">Proton Mail&rsquo;s</a> and in
+<a href="https://support.google.com/googlecloud/answer/6056693?hl=en">GSuite&rsquo;s documentation</a>. This means that when your email lands anywhere allowed by aforementioned TLS/S/MIME encryption, it&rsquo;s stored on the mail server readily read by anyone who gains access to it.</p>
+
+<blockquote>
+<p><strong>Aside</strong>: This is where I insert my standard <strong>PSA to everyone</strong> to <strong><em>never</em></strong> use your work email for personal communication.</p>
+
+<p><strong>Case in point</strong>: I used to work at a company that makes software that scans systems for sensitive data like credit card numbers and personal IDs. One day, one of the senior engineers was showing the team how a new feature he wrote works. He pulled up the web interface for our application, plugged in our work Gmail account (of which he had superadmin access to), and proceeded to &lsquo;scan&rsquo; it. The team watched agape as <strong><em>all</em></strong> our emails started to fill the screen (the scan went really quickly across our <em>whole</em> Gmail organization; that was the feature he was showing us). As part of the demonstration, he clicked on one of the emails the scan picked up, and showed the team that the application had picked up a test credit card number that had been sent over email. Of course, anyone who has administered an Exchange server or a GSuite organization <em>knows</em> you can read anyone&rsquo;s email, but seeing it happen <em>en masse</em> is another thing altogether.</p>
+
+<p><strong>Conclusion</strong>: Don&rsquo;t use your work email to send shit.</p>
+</blockquote>
+
+<p>So, when I received my password in plain text on my Gmail account, my first question was: so who else has it, and will I ever know?</p>
+
+<h2 id="secure-password-storage">Secure Password Storage</h2>
+
+<p>As a developer, you <strong>must never save passwords in a format you can read</strong>. This is a <a href="https://www.owasp.org/index.php/Password_Plaintext_Storage">security vulnerability</a>,
+and <strong>an invasion of privacy</strong> for these reasons:</p>
+
+<ul>
+<li>A password is a secret, both in the conventional sense and in a development sense. A secret should only be available to the party who generates it and the parties whom it is explicitly shared with.</li>
+<li>As a layperson, I may be reusing passwords. This means that by exposing their password as plain text, you may have compromised other accounts that they own. Less generously, one may assume that you have gained unauthorized access to those accounts.</li>
+<li>Anyone with read access to the user table/database will be able to pull passwords as is from <em>all</em> users (as <a href="https://www.owasp.org/index.php/Password_Plaintext_Storage">OWASP demonstrates here</a>).</li>
+</ul>
+
+<p>As per <a href="https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html">OWASP&rsquo;s Password Storage</a> recommendation,
+you should be <strong>hashing</strong> passwords. For reference, see how WordPress stores user passwords in a MySQL database:</p>
+
+<blockquote>
+<p><img src="/img/2019-posts/user-pass.jpg" alt="How WordPress stores user passwords" /></p>
+</blockquote>
+
+<p>Notice that it&rsquo;s <em>not</em> an actual password, but an alphanumeric string representing a SHA256 (salted) hash of the original password.</p>
+
+<p>Here&rsquo;s a small sample Go program that shows how password hashing checking works (You can run it on the <a href="https://play.golang.org/p/IzF9AuTX-7m">Go playground</a>):</p>
+
+<pre><code class="language-go">// NOTE: This comes without important features like adding salt to further harden the hashed password
+package main
+
+import (
+	&quot;crypto/sha256&quot;
+	&quot;fmt&quot;
+)
+
+func main() {
+	hasher := sha256.New()
+	encryptMe := []byte(&quot;supersecretpassword&quot;)
+	hasher.Write(encryptMe)
+	endHash := hasher.Sum(nil)
+
+	fmt.Println(&quot;The SHA256 hash of \&quot;supersecretpassword\&quot; is:&quot;, string(endHash[:]))
+	
+	
+	fmt.Println(&quot;This password is correct:&quot;, checkPassword(&quot;supersecretpassword&quot;, endHash))
+	fmt.Println(&quot;This password is wrong:&quot;, checkPassword(&quot;wrongpassword&quot;, endHash))
+}
+
+func checkPassword(enteredPassword string, correctPassword []byte) bool {
+	hasher := sha256.New()
+	hasher.Write([]byte(enteredPassword))
+	checkThis := hasher.Sum(nil)
+	return (string(correctPassword[:]) == string(checkThis[:]))
+}
+</code></pre>
+
+<p>That&rsquo;s how a <em>rudimentary</em> password hashing mechanism looks like.
+There are other things that you have to do as a developer to keep your users&rsquo; passwords secure,
+like salting them to prevent rainbow table attacks, and <a href="#email-is-insecure-by-default">not sending them in plain text via email</a>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<ul>
+<li>Don&rsquo;t email me my password.</li>
+<li>You shouldn&rsquo;t know what my password is.</li>
+<li>If you&rsquo;re building an application or system that stores passwords, <strong>only store the hashes</strong>.</li>
+</ul>
+
+<p>Useful resources:</p>
+
+<ul>
+<li>OWASP Cheatsheets: <a href="https://cheatsheetseries.owasp.org">https://cheatsheetseries.owasp.org</a></li>
+<li>HaveIBeenPwned, online databse of compromised passwords: <a href="https://haveibeenpwned.com/About">https://haveibeenpwned.com/About</a></li>
+</ul>
+
+  </article>
+</section>
+
+
+      </div>
+      
+    </main>
+
+    
+
+  <script src="https://www.zeddee.com/js/app.js"></script>
+  
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129052246-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', "UA-129052246-2" );
+  </script>
+  
+  </body>
+</html>
