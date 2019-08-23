@@ -1,6 +1,6 @@
 ---
 title: "Don't Email Your Passwords and Other Adventures"
-date: 2018-07-20T16:15:38+08:00
+date: 2019-08-23T00:31:24+0800
 slug: "dont-email-your-passwords-and-other-adventures"
 tags: ["security","passwords"]
 draft: false
