@@ -6,7 +6,7 @@ tags: ["security","passwords"]
 draft: false
 ---
 
-> **Updated 24 Aug 2019**: Got a response from the director of AI Industry Innovation(!thanks!). Makerspace _does_ hash the passwords; the password was stored temporarily just for the server send it to the user in an email. They've agreed to remove the password confirmation via email.
+> **Updated 24 Aug 2019**: Got a response from the director of AI Industry Innovation(! thanks!). Makerspace _does_ hash the passwords; the password was stored temporarily just for the server send it to the user in an email. They've agreed to remove the password confirmation via email.
 
 > **Suggestion**: Set this up! https://securitytxt.org is a proposed IETF standard ([draft-foudil-securitytxt-07](https://tools.ietf.org/html/draft-foudil-securitytxt-07) for setting up a channel for reporting security issues for your site.
 
@@ -83,14 +83,15 @@ you should be **hashing** passwords. For reference, see how WordPress stores use
 
 Notice that it's _not_ an actual password, but an alphanumeric string representing a SHA256 (salted) hash of the original password.
 
-Here's a small sample Go program that shows how password hashing checking works (You can run it on the [Go playground](https://play.golang.org/p/IzF9AuTX-7m)):
+Here's a small sample Go program that shows how password hashing checking works (You can run it on the [Go playground](https://play.golang.org/p/t4BXZOqQBTn)):
 
 ```go
 // NOTE: This comes without important features like adding salt to further harden the hashed password
 package main
 
 import (
-	"crypto/sha256"
+    "crypto/sha256"
+    "encoding/hex"
 	"fmt"
 )
 
@@ -100,10 +101,10 @@ func main() {
 	hasher.Write(encryptMe)
 	endHash := hasher.Sum(nil)
 
-	fmt.Println("The SHA256 hash of \"supersecretpassword\" is:", string(endHash[:]))
+	fmt.Println("The SHA256 hash of \"supersecretpassword\" is:", hex.EncodeToString(endHash[:]))
 	
 	
-	fmt.Println("This password is correct:", checkPassword("supersecretpassword", endHash))
+	fmt.Println("This password is correct:", checkPassword("supersecretpassword", endHash)
 	fmt.Println("This password is wrong:", checkPassword("wrongpassword", endHash))
 }
 
@@ -111,7 +112,7 @@ func checkPassword(enteredPassword string, correctPassword []byte) bool {
 	hasher := sha256.New()
 	hasher.Write([]byte(enteredPassword))
 	checkThis := hasher.Sum(nil)
-	return (string(correctPassword[:]) == string(checkThis[:]))
+	return (hex.EncodeToString(correctPassword[:]) == hex.EncodeToString(checkThis[:]))
 }
 ```
 
