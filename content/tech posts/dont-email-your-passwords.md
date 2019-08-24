@@ -1,17 +1,21 @@
 ---
 title: "Don't Email Your Passwords and Other Adventures"
-date: 2019-08-23T00:31:24+0800
+date: 2019-08-24T16:30:36+0800
 slug: "dont-email-your-passwords-and-other-adventures"
 tags: ["security","passwords"]
 draft: false
 ---
+
+> **Updated 24 Aug 2019**: Got a response from the director of AI Industry Innovation(!thanks!). Makerspace _does_ hash the passwords; the password was stored temporarily just for the server send it to the user in an email. They've agreed to remove the password confirmation via email.
+
+> **Suggestion**: Set this up! https://securitytxt.org is a proposed IETF standard ([draft-foudil-securitytxt-07](https://tools.ietf.org/html/draft-foudil-securitytxt-07) for setting up a channel for reporting security issues for your site.
 
 So I signed up for an account with a local tech thing in the early hours of Tuesday morning,
 and found my mailbox graced with this email:
 
 > ![Please don't email me my password](/img/2019-posts/please-dont-email-me-my-password.jpg)
 
-I reached out to them via the contact form at ~2AM (20 Aug 2019), and haven't heard back.
+~~I reached out to them via the contact form at ~2AM (20 Aug 2019), and haven't heard back.~~
 
 The first thing you should notice here is that I've put up my 
 user name and password in all it's 36-character glory
