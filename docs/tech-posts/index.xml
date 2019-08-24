@@ -6,7 +6,7 @@
     <description>Recent content in Tech posts on zed tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jul 2018 16:15:38 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 Aug 2019 16:30:36 +0800</lastBuildDate>
     
 	<atom:link href="https://www.zeddee.com/tech-posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,12 +14,11 @@
     <item>
       <title>Don&#39;t Email Your Passwords and Other Adventures</title>
       <link>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</link>
-      <pubDate>Fri, 20 Jul 2018 16:15:38 +0800</pubDate>
+      <pubDate>Sat, 24 Aug 2019 16:30:36 +0800</pubDate>
       
       <guid>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</guid>
-      <description>So I signed up for an account with a local tech thing in the early hours of Tuesday morning, and found my mailbox graced with this email:
-  I reached out to them via the contact form at ~2AM (20 Aug 2019), and haven&amp;rsquo;t heard back.
-The first thing you should notice here is that I&amp;rsquo;ve put up my user name and password in all it&amp;rsquo;s 36-character glory in plain text, on my blog.</description>
+      <description>Updated 24 Aug 2019: Got a response from the director of AI Industry Innovation(!thanks!). Makerspace does hash the passwords; the password was stored temporarily just for the server send it to the user in an email. They&amp;rsquo;ve agreed to remove the password confirmation via email.
+Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site.</description>
     </item>
     
     <item>

@@ -6,10 +6,20 @@
     <description>Recent content on zed tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Jan 2019 19:37:26 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 Aug 2019 16:30:36 +0800</lastBuildDate>
     
 	<atom:link href="https://www.zeddee.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Don&#39;t Email Your Passwords and Other Adventures</title>
+      <link>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</link>
+      <pubDate>Sat, 24 Aug 2019 16:30:36 +0800</pubDate>
+      
+      <guid>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</guid>
+      <description>Updated 24 Aug 2019: Got a response from the director of AI Industry Innovation(!thanks!). Makerspace does hash the passwords; the password was stored temporarily just for the server send it to the user in an email. They&amp;rsquo;ve agreed to remove the password confirmation via email.
+Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site.</description>
+    </item>
     
     <item>
       <title>What I Learned From Being a First-time Dungeon Master</title>
@@ -29,17 +39,6 @@
       <guid>https://www.zeddee.com/posts/westworld-s2e10/</guid>
       <description>I&amp;rsquo;m skipping the rest of Westworld S2 because it&amp;rsquo;s turned out to be a fairly straightforward season, and instead am going to focus on what its finale did. S2E10 very neatly ties off the narrative threads that it starts off, even explaining Bernard&amp;rsquo;s fragmented experience of time as a safety mechanism that he&amp;rsquo;s written into his own code to prevent anyone (even himself) from deciphering his memories.
 I think S2E10 not only serves as a fitting ending for the season, but also brings up several important points.</description>
-    </item>
-    
-    <item>
-      <title>Don&#39;t Email Your Passwords and Other Adventures</title>
-      <link>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</link>
-      <pubDate>Fri, 20 Jul 2018 16:15:38 +0800</pubDate>
-      
-      <guid>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</guid>
-      <description>So I signed up for an account with a local tech thing in the early hours of Tuesday morning, and found my mailbox graced with this email:
-  I reached out to them via the contact form at ~2AM (20 Aug 2019), and haven&amp;rsquo;t heard back.
-The first thing you should notice here is that I&amp;rsquo;ve put up my user name and password in all it&amp;rsquo;s 36-character glory in plain text, on my blog.</description>
     </item>
     
     <item>
