@@ -11,7 +11,7 @@
     <meta name="referrer" content="no-referrer">
     
     <meta name="description" content="Updated 24 Aug 2019: Got a response from the director of AI Industry Innovation(! thanks!). Makerspace does hash the passwords; the password was stored temporarily just for the server send it to the user in an email. They&rsquo;ve agreed to remove the password confirmation via email.
-Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site.">
+  Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site.">
     <meta name="author" content="zed tan">
     
     <meta name="twitter:card" content="summary">
@@ -20,7 +20,7 @@ Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (dr
     <meta name="twitter:image" content="https://www.zeddee.com/images/shootbird_opengraph_blue.png">
     <meta name="twitter:title" property="og:title" itemprop="title name" content="Don&#39;t Email Your Passwords and Other Adventures">
     <meta name="twitter:description" property="og:description" itemprop="description" content="Updated 24 Aug 2019: Got a response from the director of AI Industry Innovation(! thanks!). Makerspace does hash the passwords; the password was stored temporarily just for the server send it to the user in an email. They&rsquo;ve agreed to remove the password confirmation via email.
-Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site."}}>
+  Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site."}}>
     <meta property="og:type" content="article" />
     <meta name="og:url" content="https://www.zeddee.com/">
     <meta name="og:title" content="Don&#39;t Email Your Passwords and Other Adventures">
@@ -48,7 +48,7 @@ Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (dr
 
     
 
-    <meta name="generator" content="Hugo 0.57.2" />
+    <meta name="generator" content="Hugo 0.69.2" />
   </head>
 
   <body class="">
@@ -102,143 +102,109 @@ Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (dr
       <h1>Don&#39;t Email Your Passwords and Other Adventures</h1>
     </header>
 
-    
-
-<blockquote>
+    <blockquote>
 <p><strong>Updated 24 Aug 2019</strong>: Got a response from the director of AI Industry Innovation(! thanks!). Makerspace <em>does</em> hash the passwords; the password was stored temporarily just for the server send it to the user in an email. They&rsquo;ve agreed to remove the password confirmation via email.</p>
-
+</blockquote>
+<blockquote>
 <p><strong>Suggestion</strong>: Set this up! <a href="https://securitytxt.org">https://securitytxt.org</a> is a proposed IETF standard (<a href="https://tools.ietf.org/html/draft-foudil-securitytxt-07">draft-foudil-securitytxt-07</a> for setting up a channel for reporting security issues for your site.</p>
 </blockquote>
-
 <p>So I signed up for an account with a local tech thing in the early hours of Tuesday morning,
 and found my mailbox graced with this email:</p>
-
 <blockquote>
-<p><img src="/img/2019-posts/please-dont-email-me-my-password.jpg" alt="Please don't email me my password" /></p>
+<p><img src="/img/2019-posts/please-dont-email-me-my-password.jpg" alt="Please don&rsquo;t email me my password"></p>
 </blockquote>
-
 <p><del>I reached out to them via the contact form at ~2AM (20 Aug 2019), and haven&rsquo;t heard back.</del></p>
-
 <p>The first thing you should notice here is that I&rsquo;ve put up my
 user name and password in all it&rsquo;s 36-character glory
-in plain text, on my blog. Yes, I have since changed my password.<br />
+in plain text, on my blog. Yes, I have since changed my password.<br>
 No, I still do not know what a manteau is.</p>
-
 <p>The second thing you should notice is that the
 <a href="https://makerspace.aisingapore.org/">AI Singapore Makerspace Team</a>
 has emailed me my password.
 I don&rsquo;t remember the last time an organization did this for me,
 and the reason is probably that emailing your users their
 passwords <em>as is</em> is bad.</p>
-
 <p>Let&rsquo;s break it down.</p>
-
 <h2 id="email-is-insecure-by-default">Email is insecure by default</h2>
-
 <p>First, premise: all private data on the internet should be encrypted.</p>
-
 <p>For reference, <a href="https://gdpr.eu/article-5-how-to-process-personal-data/">Article 5 of the GDPR</a> states that &ldquo;Personal data shall be: […] processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (‘integrity and confidentiality’).&rdquo; Here, &ldquo;appropriate security&rdquo; would usually be taken to mean &ldquo;encrypt the damn thing&rdquo;. [^1]</p>
-
 <p>The GDPR also <a href="https://gdpr.eu/email-encryption/">doesn&rsquo;t require emails in general</a> to be encrypted, but it definitely requires you to keep private data secure.</p>
-
 <p>Second, when we talk encryption, there are usually two layers to consider:</p>
-
 <ul>
 <li><strong>Encryption at-rest</strong>, which refers to encryption of stored data (whether on a physical disk or on a cloud service, which ultimately is on a physical disk somewhere).</li>
 <li><strong>Encryption in-transit</strong>, which refers to encryption of data that you&rsquo;re moving from place to place e.g. sending from your email account to another.</li>
 </ul>
-
 <p>Emails are not guaranteed to be encrypted in-transit.
 Gmail <a href="https://transparencyreport.google.com/safer-email/overview">sends mail over SSL</a>
 and with <a href="https://support.google.com/mail/answer/6330403?hl=en">S/MIME encryption</a>
 whenever possible, but for this to work,the
 <a href="https://www.blog.google/products/gmail/making-email-safer-for-you-posted-by/">receiving mailbox</a>
 must also support these encryption protocols.</p>
-
 <p>This is not always the case, especially if the route between
 your mail server and the receipient&rsquo;s mail server is not
 transparent to you. This detail is important because in any email exchange, your sent email may be hopping across a series of mailservers that receive, store, and relay that email to its intended recipient.</p>
-
 <p>Email at-rest is not encrypted unless your email
 provider explicitly tells you it is, like in <a href="https://protonmail.com/security-details">Proton Mail&rsquo;s</a> and in
 <a href="https://support.google.com/googlecloud/answer/6056693?hl=en">GSuite&rsquo;s documentation</a>. This means that when your email lands anywhere allowed by aforementioned TLS/S/MIME encryption, it&rsquo;s stored on the mail server readily read by anyone who gains access to it.</p>
-
 <blockquote>
 <p><strong>Aside</strong>: This is where I insert my standard <strong>PSA to everyone</strong> to <strong><em>never</em></strong> use your work email for personal communication.</p>
-
 <p><strong>Case in point</strong>: I used to work at a company that makes software that scans systems for sensitive data like credit card numbers and personal IDs. One day, one of the senior engineers was showing the team how a new feature he wrote works. He pulled up the web interface for our application, plugged in our work Gmail account (of which he had superadmin access to), and proceeded to &lsquo;scan&rsquo; it. The team watched agape as <strong><em>all</em></strong> our emails started to fill the screen (the scan went really quickly across our <em>whole</em> Gmail organization; that was the feature he was showing us). As part of the demonstration, he clicked on one of the emails the scan picked up, and showed the team that the application had picked up a test credit card number that had been sent over email. Of course, anyone who has administered an Exchange server or a GSuite organization <em>knows</em> you can read anyone&rsquo;s email, but seeing it happen <em>en masse</em> is another thing altogether.</p>
-
 <p><strong>Conclusion</strong>: Don&rsquo;t use your work email to send shit.</p>
 </blockquote>
-
 <p>So, when I received my password in plain text on my Gmail account, my first question was: so who else has it, and will I ever know?</p>
-
 <h2 id="secure-password-storage">Secure Password Storage</h2>
-
 <p>As a developer, you <strong>must never save passwords in a format you can read</strong>. This is a <a href="https://www.owasp.org/index.php/Password_Plaintext_Storage">security vulnerability</a>,
 and <strong>an invasion of privacy</strong> for these reasons:</p>
-
 <ul>
 <li>A password is a secret, both in the conventional sense and in a development sense. A secret should only be available to the party who generates it and the parties whom it is explicitly shared with.</li>
 <li>As a layperson, I may be reusing passwords. This means that by exposing their password as plain text, you may have compromised other accounts that they own. Less generously, one may assume that you have gained unauthorized access to those accounts.</li>
 <li>Anyone with read access to the user table/database will be able to pull passwords as is from <em>all</em> users (as <a href="https://www.owasp.org/index.php/Password_Plaintext_Storage">OWASP demonstrates here</a>).</li>
 </ul>
-
 <p>As per <a href="https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html">OWASP&rsquo;s Password Storage</a> recommendation,
 you should be <strong>hashing</strong> passwords. For reference, see how WordPress stores user passwords in a MySQL database:</p>
-
 <blockquote>
-<p><img src="/img/2019-posts/user-pass.jpg" alt="How WordPress stores user passwords" /></p>
+<p><img src="/img/2019-posts/user-pass.jpg" alt="How WordPress stores user passwords"></p>
 </blockquote>
-
 <p>Notice that it&rsquo;s <em>not</em> an actual password, but an alphanumeric string representing a SHA256 (salted) hash of the original password.</p>
-
 <p>Here&rsquo;s a small sample Go program that shows how password hashing checking works (You can run it on the <a href="https://play.golang.org/p/t4BXZOqQBTn">Go playground</a>):</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#75715e">// NOTE: This comes without important features like adding salt to further harden the hashed password
+</span><span style="color:#75715e"></span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 
-<pre><code class="language-go">// NOTE: This comes without important features like adding salt to further harden the hashed password
-package main
-
-import (
-    &quot;crypto/sha256&quot;
-    &quot;encoding/hex&quot;
-	&quot;fmt&quot;
+<span style="color:#f92672">import</span> (
+    <span style="color:#e6db74">&#34;crypto/sha256&#34;</span>
+    <span style="color:#e6db74">&#34;encoding/hex&#34;</span>
+	<span style="color:#e6db74">&#34;fmt&#34;</span>
 )
 
-func main() {
-	hasher := sha256.New()
-	encryptMe := []byte(&quot;supersecretpassword&quot;)
-	hasher.Write(encryptMe)
-	endHash := hasher.Sum(nil)
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+	<span style="color:#a6e22e">hasher</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sha256</span>.<span style="color:#a6e22e">New</span>()
+	<span style="color:#a6e22e">encryptMe</span> <span style="color:#f92672">:=</span> []byte(<span style="color:#e6db74">&#34;supersecretpassword&#34;</span>)
+	<span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Write</span>(<span style="color:#a6e22e">encryptMe</span>)
+	<span style="color:#a6e22e">endHash</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Sum</span>(<span style="color:#66d9ef">nil</span>)
 
-	fmt.Println(&quot;The SHA256 hash of \&quot;supersecretpassword\&quot; is:&quot;, hex.EncodeToString(endHash[:]))
+	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;The SHA256 hash of \&#34;supersecretpassword\&#34; is:&#34;</span>, <span style="color:#a6e22e">hex</span>.<span style="color:#a6e22e">EncodeToString</span>(<span style="color:#a6e22e">endHash</span>[:]))
 	
 	
-	fmt.Println(&quot;This password is correct:&quot;, checkPassword(&quot;supersecretpassword&quot;, endHash)
-	fmt.Println(&quot;This password is wrong:&quot;, checkPassword(&quot;wrongpassword&quot;, endHash))
+	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;This password is correct:&#34;</span>, <span style="color:#a6e22e">checkPassword</span>(<span style="color:#e6db74">&#34;supersecretpassword&#34;</span>, <span style="color:#a6e22e">endHash</span>)
+	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;This password is wrong:&#34;</span>, <span style="color:#a6e22e">checkPassword</span>(<span style="color:#e6db74">&#34;wrongpassword&#34;</span>, <span style="color:#a6e22e">endHash</span>))
 }
 
-func checkPassword(enteredPassword string, correctPassword []byte) bool {
-	hasher := sha256.New()
-	hasher.Write([]byte(enteredPassword))
-	checkThis := hasher.Sum(nil)
-	return (hex.EncodeToString(correctPassword[:]) == hex.EncodeToString(checkThis[:]))
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">checkPassword</span>(<span style="color:#a6e22e">enteredPassword</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">correctPassword</span> []<span style="color:#66d9ef">byte</span>) <span style="color:#66d9ef">bool</span> {
+	<span style="color:#a6e22e">hasher</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sha256</span>.<span style="color:#a6e22e">New</span>()
+	<span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Write</span>([]byte(<span style="color:#a6e22e">enteredPassword</span>))
+	<span style="color:#a6e22e">checkThis</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Sum</span>(<span style="color:#66d9ef">nil</span>)
+	<span style="color:#66d9ef">return</span> (<span style="color:#a6e22e">hex</span>.<span style="color:#a6e22e">EncodeToString</span>(<span style="color:#a6e22e">correctPassword</span>[:]) <span style="color:#f92672">==</span> <span style="color:#a6e22e">hex</span>.<span style="color:#a6e22e">EncodeToString</span>(<span style="color:#a6e22e">checkThis</span>[:]))
 }
-</code></pre>
-
-<p>That&rsquo;s how a <em>rudimentary</em> password hashing mechanism looks like.
+</code></pre></div><p>That&rsquo;s how a <em>rudimentary</em> password hashing mechanism looks like.
 There are other things that you have to do as a developer to keep your users&rsquo; passwords secure,
 like salting them to prevent rainbow table attacks, and <a href="#email-is-insecure-by-default">not sending them in plain text via email</a>.</p>
-
 <h2 id="conclusion">Conclusion</h2>
-
 <ul>
 <li>Don&rsquo;t email me my password.</li>
 <li>You shouldn&rsquo;t know what my password is.</li>
 <li>If you&rsquo;re building an application or system that stores passwords, <strong>only store the hashes</strong>.</li>
 </ul>
-
 <p>Useful resources:</p>
-
 <ul>
 <li>OWASP Cheatsheets: <a href="https://cheatsheetseries.owasp.org">https://cheatsheetseries.owasp.org</a></li>
 <li>HaveIBeenPwned, online databse of compromised passwords: <a href="https://haveibeenpwned.com/About">https://haveibeenpwned.com/About</a></li>

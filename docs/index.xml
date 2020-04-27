@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>zed tan</title>
@@ -18,7 +18,7 @@
       
       <guid>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</guid>
       <description>Updated 24 Aug 2019: Got a response from the director of AI Industry Innovation(! thanks!). Makerspace does hash the passwords; the password was stored temporarily just for the server send it to the user in an email. They&amp;rsquo;ve agreed to remove the password confirmation via email.
-Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site.</description>
+  Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site.</description>
     </item>
     
     <item>
@@ -150,7 +150,7 @@ In pain, sorrow, and suffering, we once again find, in a state of purity, the fi
       <pubDate>Fri, 29 Jan 2016 03:18:00 +0800</pubDate>
       
       <guid>https://www.zeddee.com/posts/why-i-play-the-binding-of-isaac/</guid>
-      <description>Isaac is a game of navigation, one that takes you room from room to confront new monstrosities.  To date, I&amp;rsquo;ve clocked 439 hours on Edmund McMillen&amp;rsquo;s The Binding of Isaac: Afterbirth. This is the second of the Isaac games, which means that these 439 hours are on top of the 300ish hours I&amp;rsquo;ve spent on the first Binding of Issac. That&amp;rsquo;s an entire month of my life that I&amp;rsquo;ve spent on this game, and I&amp;rsquo;m not proud of it.</description>
+      <description>To date, I&amp;rsquo;ve clocked 439 hours on Edmund McMillen&amp;rsquo;s The Binding of Isaac: Afterbirth.This is the second of the Isaac games, which means that these 439 hours are on top of the 300ish hours I&amp;rsquo;ve spent on the first Binding of Issac. That&amp;rsquo;s an entire month of my life that I&amp;rsquo;ve spent on this game, and I&amp;rsquo;m not proud of it. But this number stands for something (I hope) more than the hours I&amp;rsquo;ve spent perfecting maneuvering pixels with my keyboard, and I think it&amp;rsquo;s got to do with a sort of navigation.</description>
     </item>
     
     <item>
@@ -168,7 +168,7 @@ In pain, sorrow, and suffering, we once again find, in a state of purity, the fi
       <pubDate>Tue, 19 Jan 2016 01:54:22 +0800</pubDate>
       
       <guid>https://www.zeddee.com/posts/read-less/</guid>
-      <description>I found out that the National Library extended the average user&amp;rsquo;s borrowing privileges, allowing them to borrow probably 60% more books than they usually could. Because I was sitting at 12 borrowed books at one time and desperately wanted to take home a well-worn issue of LUCKY PEACH (on ugly foods, if I remember correctly), I did my part as an active citizen and actually paid for a premium library membership &amp;ndash; which has led to todays situation where I stand at a balance of 33&amp;frasl;50 books borrowed.</description>
+      <description>I found out that the National Library extended the average user&amp;rsquo;s borrowing privileges, allowing them to borrow probably 60% more books than they usually could. Because I was sitting at 12 borrowed books at one time and desperately wanted to take home a well-worn issue of LUCKY PEACH (on ugly foods, if I remember correctly), I did my part as an active citizen and actually paid for a premium library membership &amp;ndash; which has led to todays situation where I stand at a balance of 33/50 books borrowed.</description>
     </item>
     
     <item>
@@ -191,7 +191,7 @@ How the the growth of consumer culture can be traced through the history of tras
       <guid>https://www.zeddee.com/essays/echoes-en-abyme-in-jarmans-blue-1993-excerpt/</guid>
       <description>[Update 16 Jan 2016 to include the full essay]
 
-Excerpt:  We are caught in this enclosed room of &amp;ldquo;echoing voices&amp;rdquo;, like Derrida&amp;rsquo;s Samson (40), &amp;ldquo;&amp;lsquo;en abyme&amp;rsquo; behind the walls of the eye&amp;rdquo; by the simultaneous visuality — the overwhelming &amp;ldquo;sensible&amp;rdquo; (55) blue-ness of the screen — and non-visuality of Jarman&amp;rsquo;s film. The diegesis of Jarman&amp;rsquo;s film consists of one frame and one visual mise-en-scene, but yet we experience something incommensurably beyond that frame; a film whose sound seems utterly dislocated from the image except for the association with the sensible colour blue.</description>
+Excerpt: We are caught in this enclosed room of &amp;ldquo;echoing voices&amp;rdquo;, like Derrida&amp;rsquo;s Samson (40), &amp;ldquo;&amp;lsquo;en abyme&amp;rsquo; behind the walls of the eye&amp;rdquo; by the simultaneous visuality — the overwhelming &amp;ldquo;sensible&amp;rdquo; (55) blue-ness of the screen — and non-visuality of Jarman&amp;rsquo;s film. The diegesis of Jarman&amp;rsquo;s film consists of one frame and one visual mise-en-scene, but yet we experience something incommensurably beyond that frame; a film whose sound seems utterly dislocated from the image except for the association with the sensible colour blue.</description>
     </item>
     
     <item>
@@ -235,7 +235,7 @@ Clarke, David B., Doel, Marcus A., Housiaux, Kate M.L. (ed.) The Consumption Rea
       
       <guid>https://www.zeddee.com/posts/crogans-flight-simulator/</guid>
       <description>(*This short essay is a commentary on Patrick Crogan’s “Logistical Space” in _Gameplay Mode: War, Simulation, and Technoculture_1, relating it to how we think about computer aided drawing software.)
- There is no war, then, without representation, no sophisticated weaponry without psychological mystification. Weapons are tools not just of destruction but also of perception — that is to say, stimulants that make themselves felt through chemical, neurological processes in the sense organs and the central nervous system, affecting human reactions and even the perceptual identification and differentiation of objects2.</description>
+Before we attempt to make sense of software and its relation to our world, we have to acknowledge its history and how its underpinning technologies have shaped our perceptual world. Software that we interact with through the interface of the screen, mouse, and keyboard are not only means through which we consume and produce “digital” content — these screens and computer peripherals have also come a long way in structuring how we see and interact with the “real-world”3.</description>
     </item>
     
     <item>
@@ -282,8 +282,7 @@ A family comedy-drama, Pangdemonium’s staging of Nina Raine’s play Tribes is
       <pubDate>Fri, 11 Jul 2014 09:38:19 +0000</pubDate>
       
       <guid>https://www.zeddee.com/essays/arakis-flowers/</guid>
-      <description>Fig. 1 Araki&amp;rsquo;s wedding photograph (left); Photograph of Yoko, Araki&amp;rsquo;s wife (right).
-(All pictures — unless stated otherwise — are photographs here are photographs of: Fuyumi, Namioka and Bernasconi, Francesca (eds.). Araki: Love and Death. Lugano: SilvanaEditoriale; Museo d&amp;rsquo;Arte: della Città di Lugano, 2004. I blame limited student resources and a then-pressing need to just get the assignment done)
+      <description>Fig. 1 Araki&amp;rsquo;s wedding photograph (left); Photograph of Yoko, Araki&amp;rsquo;s wife (right).(All pictures — unless stated otherwise — are photographs here are photographs of: Fuyumi, Namioka and Bernasconi, Francesca (eds.). Araki: Love and Death. Lugano: SilvanaEditoriale; Museo d&amp;rsquo;Arte: della Città di Lugano, 2004. I blame limited student resources and a then-pressing need to just get the assignment done)
 (This essay was written sometime in the third quarter of 2012. I&amp;rsquo;ve revised it with what little I&amp;rsquo;ve learned over the years.</description>
     </item>
     
@@ -294,9 +293,9 @@ A family comedy-drama, Pangdemonium’s staging of Nina Raine’s play Tribes is
       
       <guid>https://www.zeddee.com/posts/nlb-ban-these-booksfilms-too/</guid>
       <description>First done by Bertha Henson.
-On the Iliad, by Joshua Chiang.
-Ng Yi-Sheng on What You Can Do About it.
-Article on the banning of books by NLB on Today Online.
+  On the Iliad, by Joshua Chiang.
+  Ng Yi-Sheng on What You Can Do About it.
+  Article on the banning of books by NLB on Today Online.
  (Updated 23:50, 10 Jul 2014: Clarified several of the entries, improved formatting.)
 (Updated 00:00, 11 Jul 2014: Added link to Joshua Chiang&amp;rsquo;s open letter)
 (Updated 00:015, 11 Jul 2014: Added link Ng Yi-Sheng&amp;rsquo;s appeal to writers and readers)</description>
@@ -308,8 +307,7 @@ Article on the banning of books by NLB on Today Online.
       <pubDate>Fri, 27 Jun 2014 14:49:07 +0000</pubDate>
       
       <guid>https://www.zeddee.com/essays/black-and-white-are-only-two-colours-on-mark-laitas-created-equal/</guid>
-      <description>Fig.1: &amp;rdquo;Polygamists/Pimp&amp;rdquo; (Laita)1
-Mark Laita&amp;rsquo;s CREATED EQUAL2 is a curious piece. In each photographic frame, one or more subjects gaze back at the camera with eyes outlined by the glow of the single LED panel placed just slightly to the left of the camera. The “Pimp’s” sunglasses (Fig.1) catch its iridescent glow, and hides everything else behind it.
+      <description>Fig.1: &amp;ldquo;Polygamists/Pimp&amp;rdquo; (Laita)1Mark Laita&amp;rsquo;s CREATED EQUAL2 is a curious piece. In each photographic frame, one or more subjects gaze back at the camera with eyes outlined by the glow of the single LED panel placed just slightly to the left of the camera. The “Pimp’s” sunglasses (Fig.1) catch its iridescent glow, and hides everything else behind it.
 I have not read the book, so I don’t pretend to know what it’s entirely about.</description>
     </item>
     
@@ -319,8 +317,7 @@ I have not read the book, so I don’t pretend to know what it’s entirely abou
       <pubDate>Sun, 04 May 2014 09:28:33 +0000</pubDate>
       
       <guid>https://www.zeddee.com/posts/her-2013-human-you-human-me/</guid>
-      <description>(Previously on Speak Simply)
-A friend of mine (who had the misfortune of being one of my brighter former students) asked me a month or so back about how and why one would frame “non-humans” in a story very obviously about humans. I thought it was a fairly simple question until I thought about it some more.
+      <description>(Previously on Speak Simply) A friend of mine (who had the misfortune of being one of my brighter former students) asked me a month or so back about how and why one would frame “non-humans” in a story very obviously about humans. I thought it was a fairly simple question until I thought about it some more.
 “Well of course it’s a simple question.” A toy or a robot in a story is more likely than not to take on anthropomorphic qualities.</description>
     </item>
     
@@ -355,9 +352,9 @@ Dear Zed,
 I&amp;rsquo;m still here.
 Warmest.
  Other Letters from Future Selves
- Originally: ↬ Pohtecktoes
- Lyndsey
- Luo Er
+  Originally: ↬ Pohtecktoes
+  Lyndsey
+  Luo Er
   </description>
     </item>
     
@@ -385,8 +382,9 @@ Warmest.
       <pubDate>Wed, 05 Feb 2014 19:46:06 +0000</pubDate>
       
       <guid>https://www.zeddee.com/posts/speak-simply-her-by-spike-jonze/</guid>
-      <description>When I left the theatre, I heard the people next to me telling each other that they had &amp;ldquo;mixed feelings&amp;rdquo; about her. Granted, we&amp;rsquo;re probably not used to omniscient AI being portrayed in films as benevolent (and when they are, they&amp;rsquo;re given very human bodies 1), much less loving and capable of being loved.
-But I won&amp;rsquo;t full-throttle into Wot-I-Think about _her_ here. That will come perhaps at some other time.</description>
+      <description>_ _
+When I left the theatre, I heard the people next to me telling each other that they had &amp;ldquo;mixed feelings&amp;rdquo; about her. Granted, we&amp;rsquo;re probably not used to omniscient AI being portrayed in films as benevolent (and when they are, they&amp;rsquo;re given very human bodies 1), much less loving and capable of being loved.
+But I won&amp;rsquo;t full-throttle into Wot-I-Think about her here. That will come perhaps at some other time.</description>
     </item>
     
     <item>
@@ -447,7 +445,8 @@ If you have sentences (or, gasp, paragraphs!) that need writing, contact him at 
       
       <guid>https://www.zeddee.com/scratchpad/kaerlein-aporias-touchscreen/</guid>
       <description>Aporia of Touchscreen Kaerlein, Timo, “Aporias of the touchscreen: On the promises and perils of a ubiquitous technology,” NECSUS: European Journal of Media Studies, published on 22 Nov 2012, available: &amp;lt;[www.necsus-ejms.org/aporias-of-the-touchscreen-on-the-promises-and-perils-of-a-ubiquitous-technology]&amp;gt;
-On Aporia: &amp;gt; &amp;ldquo;More refined as a term, it attempts to outline a state of emergency, a system pressure, an ‘urgence’ in the Foucaultian sense,[6] that can serve to explain the success of the touchscreen technology in being a reaction to an exigent problem.</description>
+On Aporia:
+ &amp;ldquo;More refined as a term, it attempts to outline a state of emergency, a system pressure, an ‘urgence’ in the Foucaultian sense,[6] that can serve to explain the success of the touchscreen technology in being a reaction to an exigent problem.</description>
     </item>
     
     <item>
@@ -456,7 +455,10 @@ On Aporia: &amp;gt; &amp;ldquo;More refined as a term, it attempts to outline a 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.zeddee.com/cv/</guid>
-      <description>.this-is-zed { display: inline-block; vertical-align: top; width:10em; height:10em; border-radius:50%; -webkit-border-radius:50%; -moz-border-radius:50%; overflow:hidden; transition-property:box-shadow; transition-duration:300ms; box-shadow: 0.3em 0.3em 1em hsla(0,100%,0%,.2); -moz-box-shadow: 0.3em 0.3em 1em hsla(0,100%,0%,.2); -webkit-box-shadow: 0.3em 0.3em 1em hsla(0,100%,0%,.2); } .this-is-zed:hover { box-shadow: 0.3em 0.3em 1em hsla(0,100%,0%,.4); -moz-box-shadow: 0.3em 0.3em 1em hsla(0,100%,0%,.4); -webkit-box-shadow: 0.3em 0.3em 1em hsla(0,100%,0%,.4); } .this-is-zed&amp;gt;img{ width:100%; } .cvDescription{ vertical-align: top; display: inline-block; width: 60%; margin-right: 2em; } @media only screen and (max-width: 532px) { .</description>
+      <description>He&amp;rsquo;s happiest when building content systems and the teams that manage them.
+You can reach him at zed@shootbird.work
+Skills  Teaching/Lecturing/Presentations ★★★★☆ Writing/Editing ★★★★☆ HTML/CSS ★★★★☆ Javascript/Node.js ★★☆☆☆ Go/Golang ★★☆☆☆ Python ★★☆☆☆ Static-site-generators ★★★★☆ Building web publishing toolchains ★★★★☆ Research writing ★★★★☆ Blockchain ★★☆☆☆  Published Work Technical Content for the Temasys.io Blog
+ &amp;ldquo;Ripping off the band-aid: Chrome’s shift to &amp;lsquo;Unified plan&amp;rsquo;&amp;quot;  Blockchain with Go guides for Consensys/Kauri (github repo):</description>
     </item>
     
   </channel>
