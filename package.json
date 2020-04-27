@@ -2,7 +2,6 @@
   "devDependencies": {
     "global": "^4.4.0",
     "less": "^3.8.1",
-    "surge": "^0.21.1",
     "uglifycss": "^0.0.29"
   }
 }
