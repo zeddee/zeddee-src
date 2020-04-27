@@ -57,6 +57,7 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 - HTML/CSS ★★★★☆
 - Javascript/Node.js ★★☆☆☆
 - Go/Golang ★★☆☆☆
+- Python ★★☆☆☆
 - Static-site-generators ★★★★☆
 - Building web publishing toolchains ★★★★☆
 - Research writing ★★★★☆
@@ -85,6 +86,14 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 - [SMS Marketing Subscriptions (Go/Golang)](https://github.com/messagebirdguides/subscriptions-guide-go)
 
 ## Work
+
+### **Technical Writer** at [AI Singapore](https://www.aisingapore.org)
+
+* Worked on web site information architecture for [Makerspace](https://makerspace.aisingapore.org)
+* Worked on technical documentation for AI Speech Lab.
+* Worked on internal knowledge and information sharing system for AI Singapore's engineering team.
+Built a semi-automated pipeline that would publish project documentation hosted on GitLab repositories
+to a URL on the intranet.
 
 ### **Contract Technical Writer** at [Temasys Communications](https://temasys.io)
 
@@ -126,7 +135,9 @@ Web Design and Technologies (Jan 2015 – Dec 2015)
 
 ## Experience
 
-**Technical Writing Contractor** since Jul 2018
+**Technical Writer** at [EclecticIQ](https://ecelcticiq.com) (Feb 2020 – present)
+
+**Technical Writer** at [AI Singapore](https://aisingapore.org) (October 2019 – Feb 2020)
 
 **Technical Content Writer (Contract)** at [Temasys Communications](https://temasys.io) (Feb – May 2019)
 
