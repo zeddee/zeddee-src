@@ -6,11 +6,7 @@
     <description>Recent content in posts on zed tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2018 09:00:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.zeddee.com/categories/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 01 Jan 2018 09:00:00 +0800</lastBuildDate><atom:link href="https://www.zeddee.com/categories/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2018-01-01 Changelog</title>
       <link>https://www.zeddee.com/posts/2018-01-01-changelog/</link>
@@ -18,7 +14,7 @@
       
       <guid>https://www.zeddee.com/posts/2018-01-01-changelog/</guid>
       <description>From 2017 and up
- Gained rudimentary proficiency in python, bash scripting, powershell scripting, SASS. Started learning a statically typed programming language. Had my first open-source pull request accepted Finished Agamben&amp;rsquo;s The Open Started on too many books. Built a content-driven website and was paid for it. Learned an authoring tool. Gained rudimentary proficiency in managing Docker containers. Learned many things about editorship and management. Bought a powerhouse PC. Played video games.</description>
+ Gained rudimentary proficiency in python, bash scripting, powershell scripting, SASS. Started learning a statically typed programming language. Had my first open-source pull request accepted Finished Agamben&amp;rsquo;s The Open Started on too many books. Built a content-driven website and was paid for it. Learned an authoring tool. Gained rudimentary proficiency in managing Docker containers. Learned many things about editorship and management. Bought a powerhouse PC.</description>
     </item>
     
   </channel>

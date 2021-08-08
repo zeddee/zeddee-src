@@ -1,132 +1,56 @@
 <!DOCTYPE html>
 <html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>Git Submodules</title>
+	<meta name="description" content="zed tan writes tech things for people.">
+	<meta name="author" content="zed tan">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	
+</head>
+<body>
+	<header>
+	=============<br>
+	== <a href="https://www.zeddee.com/">zed tan</a> ==<br>
+	=============
+	<div style="float: right;"></div><br>
+	<p>
+	<nav>
+			<a href="/"><b>Start</b></a>.
+			
+			
+			<a href="/about/"><b>About</b></a>.
+			
+			<a href="/cv/"><b>CV</b></a>.
+			
+			<a href="/posts/"><b>Blog</b></a>.
+			
+			<a href="/essays/"><b>Essays</b></a>.
+			
+			<a href="/tech-posts/"><b>Tech</b></a>.
+			
+			<a href="/scratchpad/"><b>Scratchpad</b></a>.
+			
+	</nav>
+	</p>
+	
+</header>
 
-  <head>
-    
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer">
-    
-    <meta name="description" content="Table of Contents Starting off What are they good for? Codebase isolation Codebase stability Sane Git histories Sane codebase mental models   Working with submodules Configure Git Submodule Visibility Update Submodule Submodule Metadata Submodule Refs   Further Reading   Here be dragons
-   In Chuck Palahniuk&#8217;s words, &#34;You must jump into disaster with both feet.&#34; Git submodules are generally avoided because:
-  They tend to be poorly understood, and">
-    <meta name="author" content="zed tan">
-    
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:domain" content="https://www.zeddee.com/">
-    
-    <meta name="twitter:image" content="https://www.zeddee.com/images/shootbird_opengraph_blue.png">
-    <meta name="twitter:title" property="og:title" itemprop="title name" content="Git Submodules">
-    <meta name="twitter:description" property="og:description" itemprop="description" content="Table of Contents Starting off What are they good for? Codebase isolation Codebase stability Sane Git histories Sane codebase mental models   Working with submodules Configure Git Submodule Visibility Update Submodule Submodule Metadata Submodule Refs   Further Reading   Here be dragons
-   In Chuck Palahniuk&#8217;s words, &#34;You must jump into disaster with both feet.&#34; Git submodules are generally avoided because:
-  They tend to be poorly understood, and"}}>
-    <meta property="og:type" content="article" />
-    <meta name="og:url" content="https://www.zeddee.com/">
-    <meta name="og:title" content="Git Submodules">
-    <meta name="og:image" itemprop="image primaryImageOfPage" content="https://www.zeddee.com/images/shootbird_opengraph_blue.png">
-    
-    <base href="https://www.zeddee.com/">
-    <title>
-  Git Submodules - zed tan
-</title>
-    
-    
+	
+	<main>
+		<article>
+			<h1>Git Submodules</h1>
+			
+			<b><time>2018-06-07 20:57:09</time></b>
+			
+		       
 
-    <link rel="canonical" href="https://www.zeddee.com/tech-posts/gitsubmodules/">
-    
-    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
-    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
-    <link rel="stylesheet" href="https://www.zeddee.com/css/style.min.css">
-
-    
-
-    
-
-    <link rel="icon" type="image/png" href="https://www.zeddee.com/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://www.zeddee.com/images/favicon-16x16.png" sizes="16x16">
-
-    
-
-    <meta name="generator" content="Hugo 0.69.2" />
-  </head>
-
-  <body class="">
-    <main class="wrapper">
-      <nav class="navigation">
-  <section class="container">
-    <a class="navigation-title" href="/">zed tan</a>
-    <input type="checkbox" id="menu-control"/>
-    <label class="menu-mobile  float-right " for="menu-control">
-      <span class="btn-mobile  float-right ">&#9776;</span>
-      <ul class="navigation-list">
-        
-          
-            <li class="navigation-item   align-left  ">
-              <a class="navigation-link" href="https://www.zeddee.com/about/">About</a>
-            </li>
-          
-            <li class="navigation-item   align-left  ">
-              <a class="navigation-link" href="https://www.zeddee.com/cv/">CV</a>
-            </li>
-          
-            <li class="navigation-item   align-left  ">
-              <a class="navigation-link" href="https://www.zeddee.com/posts/">Blog</a>
-            </li>
-          
-            <li class="navigation-item   align-left  ">
-              <a class="navigation-link" href="https://www.zeddee.com/essays/">Essays</a>
-            </li>
-          
-            <li class="navigation-item   align-left  ">
-              <a class="navigation-link" href="https://www.zeddee.com/tech-posts/">Tech</a>
-            </li>
-          
-            <li class="navigation-item   align-left  ">
-              <a class="navigation-link" href="https://www.zeddee.com/scratchpad/">Scratchpad</a>
-            </li>
-          
-        
-        
-      </ul>
-    </label>
-  </section>
-</nav>
-
-
-      <div class="content">
-        
-  <section class="container page">
-  <article>
-    <header>
-      <h1>Git Submodules</h1>
-    </header>
-
-    <div id="toc" class="toc">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#_starting_off">Starting off</a></li>
-<li><a href="#_what_are_they_good_for">What are they good for?</a>
-<ul class="sectlevel2">
-<li><a href="#_codebase_isolation">Codebase isolation</a></li>
-<li><a href="#_codebase_stability">Codebase stability</a></li>
-<li><a href="#_sane_git_histories">Sane Git histories</a></li>
-<li><a href="#_sane_codebase_mental_models">Sane codebase mental models</a></li>
-</ul>
-</li>
-<li><a href="#_working_with_submodules">Working with submodules</a>
-<ul class="sectlevel2">
-<li><a href="#_configure_git_submodule_visibility">Configure Git Submodule Visibility</a></li>
-<li><a href="#_update_submodule">Update Submodule</a></li>
-<li><a href="#_submodule_metadata">Submodule Metadata</a></li>
-<li><a href="#_submodule_refs">Submodule Refs</a></li>
-</ul>
-</li>
-<li><a href="#_further_reading">Further Reading</a></li>
-</ul>
-</div>
+			<div>
+				
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -135,7 +59,7 @@
 </div>
 </div>
 <div class="paragraph">
-<p>In Chuck Palahniuk&#8217;s words, "You must jump into disaster with both feet." Git submodules are generally avoided because:</p>
+<p>In Chuck Palahniuk’s words, &#34;You must jump into disaster with both feet.&#34; Git submodules are generally avoided because:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -143,7 +67,7 @@
 <p>They tend to be poorly understood, and</p>
 </li>
 <li>
-<p>It&#8217;s hard to keep track one repository, let alone several that have to sync into one master project.</p>
+<p>It’s hard to keep track one repository, let alone several that have to sync into one master project.</p>
 </li>
 </ol>
 </div>
@@ -151,13 +75,13 @@
 <p>But here we are.</p>
 </div>
 <div class="paragraph">
-<p>This is a quick overview on what Git submodules are, and how they&#8217;re useful for keeping your code manageable.</p>
+<p>This is a quick overview on what Git submodules are, and how they’re useful for keeping your code manageable.</p>
 </div>
 <div class="sect1">
 <h2 id="_starting_off">Starting off</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Let&#8217;s say we have a parent repository named <code>docsource-master</code>, and that contains 3 submodules:</p>
+<p>Let’s say we have a parent repository named <code>docsource-master</code>, and that contains 3 submodules:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -202,10 +126,10 @@
 <div class="sect2">
 <h3 id="_codebase_isolation">Codebase isolation</h3>
 <div class="paragraph">
-<p>Git submodules allow you to plug other repositories into a parent repository while keeping both codebases isolated (technically, they live in the same <code>.git</code> folder as the parent repository, but let&#8217;s not go there yet).</p>
+<p>Git submodules allow you to plug other repositories into a parent repository while keeping both codebases isolated (technically, they live in the same <code>.git</code> folder as the parent repository, but let’s not go there yet).</p>
 </div>
 <div class="paragraph">
-<p>A submodule doesn&#8217;t add its commit history to the master project. Instead, it maintains its own commit history. The parent repository only records a given commit hash from its children submodules.</p>
+<p>A submodule doesn’t add its commit history to the master project. Instead, it maintains its own commit history. The parent repository only records a given commit hash from its children submodules.</p>
 </div>
 <div class="paragraph">
 <p>Example:</p>
@@ -213,7 +137,7 @@
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>For <code>docsource-master</code> <code>master</code> HEAD (<code>4086d4082355feab4172ce712cee4a17</code>), I&#8217;ve committed <code>repo_1</code> <code>master</code> HEAD (<code>0d06f18f0969ac55b9dcd937b6700fe1</code>).</p>
+<p>For <code>docsource-master</code> <code>master</code> HEAD (<code>4086d4082355feab4172ce712cee4a17</code>), I’ve committed <code>repo_1</code> <code>master</code> HEAD (<code>0d06f18f0969ac55b9dcd937b6700fe1</code>).</p>
 </li>
 <li>
 <p>I make another commit to <code>docsource-master</code> <code>master</code>, bringing HEAD to <code>e9c2c7d86b0aa196dcf3838db1362d83</code>.</p>
@@ -222,7 +146,7 @@
 <p>I make another commit to <code>repo_1</code> <code>master</code>, bringing HEAD to <code>623faff40237f976aa153792585531d0</code>.</p>
 </li>
 <li>
-<p><code>docsource-master</code> doesn&#8217;t change its reference to <code>repo_1</code> — it still remains at <code>0d06f18f0969ac55b9dcd937b6700fe1</code>.</p>
+<p><code>docsource-master</code> doesn’t change its reference to <code>repo_1</code> — it still remains at <code>0d06f18f0969ac55b9dcd937b6700fe1</code>.</p>
 </li>
 </ol>
 </div>
@@ -243,7 +167,7 @@ We then know that we can make commits to <code>repo_1</code> without having to w
 <div class="sect2">
 <h3 id="_codebase_stability">Codebase stability</h3>
 <div class="paragraph">
-<p>Having a modular codebase means that writers can effectively isolate their work from other collaborators, so that no one blocks anyone else&#8217;s work.</p>
+<p>Having a modular codebase means that writers can effectively isolate their work from other collaborators, so that no one blocks anyone else’s work.</p>
 </div>
 <div class="paragraph">
 <p>We need to produce three sets of documentation for three different products. Because some features and documentation needs overlap, resources should be shared between the three sets of docs to keep information and assets single-sourced.</p>
@@ -255,13 +179,13 @@ We then know that we can make commits to <code>repo_1</code> without having to w
 <p><code>docsource-master</code> started out as a single monolithic repository for ER, CR, and DR docs. We split out the projects for easier content distribution, and had <code>rsync</code> synchronise resources between the projects. As long as work was done in branches, we were able to isolate work enough to prevent merge conflicts and a scattered history. But at some point, the side navigation stopped working — none of the projects were able to render the side navigation in the HTML output.</p>
 </div>
 <div class="paragraph">
-<p>This resulted in two weeks spent trying to trace the commit that broke it — because we were still building the site, I may have made a change that broke it but didn&#8217;t realise it until more changes have been merged to the <code>master</code> branch. We never found the commit — because we didn&#8217;t break the side navigation. It was an update to Flare 2017r2 that broke the layout.</p>
+<p>This resulted in two weeks spent trying to trace the commit that broke it — because we were still building the site, I may have made a change that broke it but didn’t realise it until more changes have been merged to the <code>master</code> branch. We never found the commit — because we didn’t break the side navigation. It was an update to Flare 2017r2 that broke the layout.</p>
 </div>
 <div class="paragraph">
-<p>But we weren&#8217;t able to rule out changes to the layout as a probable cause for the breakage, which led to two weeks of pointless troubleshooting and much gnashing of teeth.</p>
+<p>But we weren’t able to rule out changes to the layout as a probable cause for the breakage, which led to two weeks of pointless troubleshooting and much gnashing of teeth.</p>
 </div>
 <div class="paragraph">
-<p>Splitting out the projects into individual repositories makes sure that this never happens again. Any change to shared resources is tightly versioned and controlled from the <code>docsource-master</code> project. Anything breakage on an individual project is isolated to that project itself. If the problem is found on all projects, then it&#8217;s either a toolchain issue, or a shared resource issue. Troubleshooting becomes a lot more straightforward, and the project becomes a lot more stable.</p>
+<p>Splitting out the projects into individual repositories makes sure that this never happens again. Any change to shared resources is tightly versioned and controlled from the <code>docsource-master</code> project. Anything breakage on an individual project is isolated to that project itself. If the problem is found on all projects, then it’s either a toolchain issue, or a shared resource issue. Troubleshooting becomes a lot more straightforward, and the project becomes a lot more stable.</p>
 </div>
 </div>
 <div class="sect2">
@@ -270,7 +194,7 @@ We then know that we can make commits to <code>repo_1</code> without having to w
 <p>Splitting the repositories makes the project histories more readable.</p>
 </div>
 <div class="paragraph">
-<p>Instead of having to track a specific change to a minute component on a sprawling monolithic repository, we can search each project&#8217;s history easily because it exists in its own repository.</p>
+<p>Instead of having to track a specific change to a minute component on a sprawling monolithic repository, we can search each project’s history easily because it exists in its own repository.</p>
 </div>
 <div class="paragraph">
 <p>By splitting the repos the way we have, we know that all commits to shared resources and build notes can be found in <code>docsource-master</code>, and notes on individual issues can be found in the project submodules themselves. Specific commit notes become easier to find and read, instead of having to wade through notes from other projects.</p>
@@ -279,10 +203,10 @@ We then know that we can make commits to <code>repo_1</code> without having to w
 <div class="sect2">
 <h3 id="_sane_codebase_mental_models">Sane codebase mental models</h3>
 <div class="paragraph">
-<p>They say that if you can&#8217;t keep a mental model of your codebase in your head, then it&#8217;s too complicated.</p>
+<p>They say that if you can’t keep a mental model of your codebase in your head, then it’s too complicated.</p>
 </div>
 <div class="paragraph">
-<p>Splitting the <code>docsource-master</code> project into submodules makes managing Flare&#8217;s complex directory strutures more manageable, and easier to cache in meat-RAM.</p>
+<p>Splitting the <code>docsource-master</code> project into submodules makes managing Flare’s complex directory strutures more manageable, and easier to cache in meat-RAM.</p>
 </div>
 </div>
 </div>
@@ -297,13 +221,13 @@ We then know that we can make commits to <code>repo_1</code> without having to w
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"># include a submodule status summary when you run 'git status'.
+<pre class="highlight"><code class="language-bash" data-lang="bash"># include a submodule status summary when you run &#39;git status&#39;.
 git config --global status.submoduleSummary true
 
-# improve 'git diff' for submodules.
+# improve &#39;git diff&#39; for submodules.
 git config --global diff.submodule log
 
-# makes sure that 'git fetch' will always grab submodule refs.
+# makes sure that &#39;git fetch&#39; will always grab submodule refs.
 git config --global fetch.recurseSubmodules on-demand</code></pre>
 </div>
 </div>
@@ -327,7 +251,7 @@ git config --global fetch.recurseSubmodules on-demand</code></pre>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">git pull &amp;&amp; git submodule for each "git checkout master &amp;&amp; git pull"</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">git pull &amp;&amp; git submodule for each &#34;git checkout master &amp;&amp; git pull&#34;</code></pre>
 </div>
 </div>
 </div>
@@ -338,7 +262,7 @@ git config --global fetch.recurseSubmodules on-demand</code></pre>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-linenums" data-lang="linenums">[submodule "cr-core"]
+<pre class="highlight"><code class="language-linenums" data-lang="linenums">[submodule &#34;cr-core&#34;]
   path = cr-core
   url = ssh://repo-man.internal.groundlabs.com:7999/doc/cr-core.git
   branch = master</code></pre>
@@ -356,16 +280,16 @@ git config --global fetch.recurseSubmodules on-demand</code></pre>
   logallrefupdates = true
   symlinks = false
   ignorecase = true
-[remote "origin"]
+[remote &#34;origin&#34;]
   url = ssh://git@repo-man.internal.groundlabs.com:7999/doc/docsource-master.git
   fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "master"]
+[branch &#34;master&#34;]
   remote = origin
   merge = refs/heads/master
-[branch "develop"]
+[branch &#34;develop&#34;]
   remote = origin
   merge = refs/heads/develop
-[submodule "cr-core"]
+[submodule &#34;cr-core&#34;]
   url = ssh://repo-man.internal.groundlabs.com:7999/doc/cr-core.git</code></pre>
 </div>
 </div>
@@ -385,7 +309,7 @@ git config --global fetch.recurseSubmodules on-demand</code></pre>
 <h2 id="_further_reading">Further Reading</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Most of this readme is derived from this fantastic article: Christophe Porteneuve, "Mastering Git submodules," published 9 Jan 2015. Available: <a href="https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407" class="bare">https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407</a></p>
+<p>Most of this readme is derived from this fantastic article: Christophe Porteneuve, &#34;Mastering Git submodules,&#34; published 9 Jan 2015. Available: <a href="https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407" class="bare">https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407</a></p>
 </div>
 <div class="ulist">
 <ul>
@@ -400,28 +324,37 @@ git config --global fetch.recurseSubmodules on-demand</code></pre>
 </div>
 </div>
 
-  </article>
-</section>
+			</div>
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/what-i-learned-from-being-a-first-time-dungeon-master/">What I Learned From Being a First-time Dungeon Master</a></li>
+				
+				<li><a href="/posts/westworld-s2e10/">Unpacking Westworld S2E10</a></li>
+				
+				<li><a href="/posts/we-march-backwards-into-the-future/">We March Backwards Into the Future</a></li>
+				
+				<li><a href="/posts/2018-01-01-changelog/">2018-01-01 Changelog</a></li>
+				
+				<li><a href="/posts/san-junipero/">San Junipero</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
 
 
-      </div>
-      
-    </main>
+	<footer>
+	<p>&copy; 2021 <a href="https://www.zeddee.com/"><b>zed tan</b></a>.
+	</p>
+</footer>
 
-    
-
-  <script src="https://www.zeddee.com/js/app.js"></script>
-  
-  
-  
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129052246-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', "UA-129052246-2" );
-  </script>
-  
-  </body>
+</body>
 </html>
