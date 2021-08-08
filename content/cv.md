@@ -52,16 +52,52 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 
 ## Skills
 
-- Teaching/Lecturing/Presentations ★★★★☆
-- Writing/Editing ★★★★☆
-- HTML/CSS ★★★★☆
-- Javascript/Node.js ★★☆☆☆
-- Go/Golang ★★☆☆☆
-- Python ★★☆☆☆
-- Static-site-generators ★★★★☆
-- Building web publishing toolchains ★★★★☆
-- Research writing ★★★★☆
-- Blockchain ★★☆☆☆
+- **Teaching/Lecturing/Presentations**
+  - Taught design theory in vocational institutes for 3 years
+  - Taught various introductory courses at Nanyang Technological University for 2 years
+- **Writing/Editing**
+  - Technical writer since 2015.
+- **HTML/CSS/JS**
+  - Can read/write
+  - Enough Javascript:
+    - [flare-tocgen](https://github.com/zeddee/flare-tocgen)
+      (archived), still in use at
+      [docs.groundlabs.com](https://www.groundlabs.com/documentation/er/Content/Release-Notes.html)
+      in 2021.
+    - [vuepress-and-xlsx](https://github.com/zeddee/vuepress-and-xlsx)
+      (archived) where I use a NodeJS stack
+      to generate a Vuepress site from excel spreadsheets.
+- **Go/Golang**
+  - Can read/write (but it's been a while)
+  - Wrote Go guides for MessageBird (see **Published Work**)
+  - Minor contributions to MessageBird go-rest-api:
+    - [implemented onFinish attribute for CallFlowRecordStep #54](https://github.com/messagebird/go-rest-api/pull/54)
+    - [Export links field #56](https://github.com/messagebird/go-rest-api/pull/56)
+  - Wrote small tools:
+    - [clear-archiver](https://github.com/zeddee/clear-archiver)
+- **Python**
+  - Read/write
+  - Basic Pandas [nl-covid19-eda](https://github.com/zeddee/nl-covid19-eda)
+  - [bad-json-to-rst-tables](https://github.com/zeddee/bad-json-to-rst-tables)
+  - Minor contribution to [sphinx-contrib/confluencebuilder](https://github.com/sphinx-contrib/confluencebuilder/pull/414)
+  - Working on using `ast` from STDLIB to generate documentation directly from Python files
+- **Ruby**
+  - Very minimal.
+    Wrote a tool to generate Jekyll pages
+    from image metadata
+    ([sgpm-generator](https://github.com/sgpm-generator/sgpm-generator))
+- **Linux**
+  - Basic Linux admin
+  - Basic shell scripting
+    - Various [techdoc_utility_scripts](https://github.com/zeddee/techdocs_utility_scripts)
+    - Minor contribution to [things.sh](https://github.com/AlexanderWillner/things.sh/pull/1)
+- **Docker**
+  - Read/write docker-compose.yml and Dockerfile
+  - Lifesaver when you need to spin up
+    services to help with documenting application features
+- **Static-site-generators**
+- **Building web publishing toolchains**
+- **Blockchain** (see **Published Work**)
 
 ## Published Work
 
