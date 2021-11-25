@@ -81,6 +81,8 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
   - [bad-json-to-rst-tables](https://github.com/zeddee/bad-json-to-rst-tables)
   - Minor contribution to [sphinx-contrib/confluencebuilder](https://github.com/sphinx-contrib/confluencebuilder/pull/414)
   - Working on using `ast` from STDLIB to generate documentation directly from Python files
+    - [python-ast-docgen](https://github.com/zeddee/python-ast-docgen)
+    - [parsedocinfo](https://github.com/zeddee/parsedocinfo)
 - **Ruby**
   - Very minimal.
     Wrote a tool to generate Jekyll pages
