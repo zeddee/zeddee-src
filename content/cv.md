@@ -105,7 +105,7 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 
 - ["Ripping off the band-aid: Chrome’s shift to 'Unified plan'"](https://temasys.io/ripping-off-the-band-aid-chromes-shift-to-unified-plan/)
 
-**Blockchain with Go guides for Consensys/Kauri** ([github repo](https://github.com/kauri-io/Content)):
+**Blockchain with Go guides for Consensys/Kauri** ([github repo](https://github.com/kauri-io/Content/tree/master/Go/write-basic-quiz-dapp-in-go/quiz-dapp)):
 
 - [Creating a DApp in Go with Geth](https://kauri.io/#collections/A%20Hackathon%20Survival%20Guide/creating-a-dapp-in-go-with-geth/)
 
