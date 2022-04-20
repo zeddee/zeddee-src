@@ -131,36 +131,36 @@ you should be <strong>hashing</strong> passwords. For reference, see how WordPre
 </blockquote>
 <p>Notice that it&rsquo;s <em>not</em> an actual password, but an alphanumeric string representing a SHA256 (salted) hash of the original password.</p>
 <p>Here&rsquo;s a small sample Go program that shows how password hashing checking works (You can run it on the <a href="https://play.golang.org/p/t4BXZOqQBTn">Go playground</a>):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#75715e">// NOTE: This comes without important features like adding salt to further harden the hashed password
-</span><span style="color:#75715e"></span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
-
-<span style="color:#f92672">import</span> (
-    <span style="color:#e6db74">&#34;crypto/sha256&#34;</span>
-    <span style="color:#e6db74">&#34;encoding/hex&#34;</span>
-	<span style="color:#e6db74">&#34;fmt&#34;</span>
-)
-
-<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
-	<span style="color:#a6e22e">hasher</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sha256</span>.<span style="color:#a6e22e">New</span>()
-	<span style="color:#a6e22e">encryptMe</span> <span style="color:#f92672">:=</span> []byte(<span style="color:#e6db74">&#34;supersecretpassword&#34;</span>)
-	<span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Write</span>(<span style="color:#a6e22e">encryptMe</span>)
-	<span style="color:#a6e22e">endHash</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Sum</span>(<span style="color:#66d9ef">nil</span>)
-
-	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;The SHA256 hash of \&#34;supersecretpassword\&#34; is:&#34;</span>, <span style="color:#a6e22e">hex</span>.<span style="color:#a6e22e">EncodeToString</span>(<span style="color:#a6e22e">endHash</span>[:]))
-	
-	
-	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;This password is correct:&#34;</span>, <span style="color:#a6e22e">checkPassword</span>(<span style="color:#e6db74">&#34;supersecretpassword&#34;</span>, <span style="color:#a6e22e">endHash</span>)
-	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;This password is wrong:&#34;</span>, <span style="color:#a6e22e">checkPassword</span>(<span style="color:#e6db74">&#34;wrongpassword&#34;</span>, <span style="color:#a6e22e">endHash</span>))
-}
-
-<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">checkPassword</span>(<span style="color:#a6e22e">enteredPassword</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">correctPassword</span> []<span style="color:#66d9ef">byte</span>) <span style="color:#66d9ef">bool</span> {
-	<span style="color:#a6e22e">hasher</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sha256</span>.<span style="color:#a6e22e">New</span>()
-	<span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Write</span>([]byte(<span style="color:#a6e22e">enteredPassword</span>))
-	<span style="color:#a6e22e">checkThis</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Sum</span>(<span style="color:#66d9ef">nil</span>)
-	<span style="color:#66d9ef">return</span> (<span style="color:#a6e22e">hex</span>.<span style="color:#a6e22e">EncodeToString</span>(<span style="color:#a6e22e">correctPassword</span>[:]) <span style="color:#f92672">==</span> <span style="color:#a6e22e">hex</span>.<span style="color:#a6e22e">EncodeToString</span>(<span style="color:#a6e22e">checkThis</span>[:]))
-}
-</code></pre></div><p>That&rsquo;s how a <em>rudimentary</em> password hashing mechanism looks like.
-There are other things that you have to do as a developer to keep your users' passwords secure,
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#75715e">// NOTE: This comes without important features like adding salt to further harden the hashed password
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;crypto/sha256&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;encoding/hex&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">hasher</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sha256</span>.<span style="color:#a6e22e">New</span>()
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">encryptMe</span> <span style="color:#f92672">:=</span> []byte(<span style="color:#e6db74">&#34;supersecretpassword&#34;</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Write</span>(<span style="color:#a6e22e">encryptMe</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">endHash</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Sum</span>(<span style="color:#66d9ef">nil</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;The SHA256 hash of \&#34;supersecretpassword\&#34; is:&#34;</span>, <span style="color:#a6e22e">hex</span>.<span style="color:#a6e22e">EncodeToString</span>(<span style="color:#a6e22e">endHash</span>[:]))
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;This password is correct:&#34;</span>, <span style="color:#a6e22e">checkPassword</span>(<span style="color:#e6db74">&#34;supersecretpassword&#34;</span>, <span style="color:#a6e22e">endHash</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;This password is wrong:&#34;</span>, <span style="color:#a6e22e">checkPassword</span>(<span style="color:#e6db74">&#34;wrongpassword&#34;</span>, <span style="color:#a6e22e">endHash</span>))
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">checkPassword</span>(<span style="color:#a6e22e">enteredPassword</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">correctPassword</span> []<span style="color:#66d9ef">byte</span>) <span style="color:#66d9ef">bool</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">hasher</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sha256</span>.<span style="color:#a6e22e">New</span>()
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Write</span>([]byte(<span style="color:#a6e22e">enteredPassword</span>))
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">checkThis</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">hasher</span>.<span style="color:#a6e22e">Sum</span>(<span style="color:#66d9ef">nil</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> (<span style="color:#a6e22e">hex</span>.<span style="color:#a6e22e">EncodeToString</span>(<span style="color:#a6e22e">correctPassword</span>[:]) <span style="color:#f92672">==</span> <span style="color:#a6e22e">hex</span>.<span style="color:#a6e22e">EncodeToString</span>(<span style="color:#a6e22e">checkThis</span>[:]))
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>That&rsquo;s how a <em>rudimentary</em> password hashing mechanism looks like.
+There are other things that you have to do as a developer to keep your users&rsquo; passwords secure,
 like salting them to prevent rainbow table attacks, and <a href="#email-is-insecure-by-default">not sending them in plain text via email</a>.</p>
 <h2 id="conclusion">Conclusion</h2>
 <ul>
@@ -179,7 +179,7 @@ like salting them to prevent rainbow table attacks, and <a href="#email-is-insec
 	</main>
 
 	<footer>
-	<p>&copy; 2021 <a href="https://www.zeddee.com/"><b>zed tan</b></a>.
+	<p>&copy; 2022 <a href="https://www.zeddee.com/"><b>zed tan</b></a>.
 	</p>
 </footer>
 
