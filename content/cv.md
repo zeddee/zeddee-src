@@ -112,10 +112,9 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 - [Creating a DApp in Go with Geth](https://kauri.io/#collections/A%20Hackathon%20Survival%20Guide/creating-a-dapp-in-go-with-geth/)
 
 
-[**Ground Labs Documentation**](https://docs.groundlabs.com/) (samples):
+[**Ground Labs Documentation**](https://docs.groundlabs.com/)
 
-- [Ground Labs Documentation: ER2 — Exchange Domain Scanning](https://docs.groundlabs.com/er2.0.26/Content/Targets/Add_Targets/Cloud_Targets/Exchange_Domain.htm)
-- [Ground Labs Documentation: ER2 — Database Scanning](https://docs.groundlabs.com/er2.0.26/Content/Targets/Add_Targets/Server_Targets/Databases.htm)
+- See [work](#work).
 
 
 **MessageBird Developer Guides** (samples):
@@ -124,6 +123,13 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 - [SMS Marketing Subscriptions (Go/Golang)](https://github.com/messagebirdguides/subscriptions-guide-go)
 
 ## Work
+
+### **Technical Writer (Tech lead)** at [EclecticIQ](https://docs.eclecticiq.com)
+
+* (In-progress) API documentation at https://developers.eclecticiq.com.
+* Embedded in the integrations team, documenting extensions for the EclecticIQ Intelligence Center (EIQ IC).
+* Works closely with backend and frontend teams to document administration and usage of the EIQ IC.
+* Technical lead for technical writing team: I build and maintain documentation publishing pipelines and tools.
 
 ### **Technical Writer** at [AI Singapore](https://www.aisingapore.org)
 
@@ -153,27 +159,19 @@ to a URL on the intranet.
 
 Documentation sets:
 
-- Enterprise Recon Documentation[(site)](https://docs.groundlabs.com/er/Default.htm)[(pdf)](/pdfs/ER-2.0.26-documentation.pdf)
-- Card Recon Documentation[(site)](https://docs.groundlabs.com/cr/Default.htm)[(pdf)](/pdfs/CR-2.0.25-documentation.pdf)
-- Data Recon Documentation[(site)](https://docs.groundlabs.com/dr/Default.htm)[(pdf)](/pdfs/DR-2.0.25-documentation.pdf)
+- Enterprise Recon Documentation[(pdf)](/pdfs/ER-2.0.26-documentation.pdf)
+- Card Recon Documentation[(pdf)](/pdfs/CR-2.0.25-documentation.pdf)
+- Data Recon Documentation[(pdf)](/pdfs/DR-2.0.25-documentation.pdf)
 
-### EU GDPR-related Research Project
+EU GDPR-related Research Project
 
 * Project management.
 * Managed 20 freelancers gathering research from 28 EU countries.
 * Cataloged and documented research for developer use.
 
-### Course co-ordinator
-
-Web Design and Technologies (Jan 2015 – Dec 2015)
-
-* Wrote syllabus and conducted classes.
-* Pedagogy and test design.
-* Co-ordinated instructors.
-
 ## Experience
 
-**Technical Writer** at [EclecticIQ](https://ecelcticiq.com) (Feb 2020 – present)
+**Technical Writer (Tech lead)** at [EclecticIQ](https://ecelcticiq.com) (Feb 2020 – present)
 
 **Technical Writer** at [AI Singapore](https://aisingapore.org) (October 2019 – Feb 2020)
 
