@@ -57,49 +57,35 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
   - Taught various introductory courses at Nanyang Technological University for 2 years
 - **Writing/Editing**
   - Technical writer since 2015.
+  - Build and maintain SSG-based toolchains.
 - **HTML/CSS/JS**
-  - Can read/write
-  - Enough Javascript:
-    - [flare-tocgen](https://github.com/zeddee/flare-tocgen)
-      (archived), still in use at
-      [docs.groundlabs.com](https://www.groundlabs.com/documentation/er/Content/Release-Notes.html)
-      in 2021.
-    - [vuepress-and-xlsx](https://github.com/zeddee/vuepress-and-xlsx)
-      (archived) where I use a NodeJS stack
-      to generate a Vuepress site from excel spreadsheets.
+  - [flare-tocgen](https://github.com/zeddee/flare-tocgen)
+    (archived), still in use at
+    [docs.groundlabs.com](https://www.groundlabs.com/documentation/er/Content/Release-Notes.html)
+    in 2021.
+  - [vuepress-and-xlsx](https://github.com/zeddee/vuepress-and-xlsx)
+    (archived) where I use a NodeJS stack
+    to generate a Vuepress site from excel spreadsheets.
 - **Go/Golang**
-  - Can read/write (but it's been a while)
   - Wrote Go guides for MessageBird (see **Published Work**)
   - Minor contributions to MessageBird go-rest-api:
     - [implemented onFinish attribute for CallFlowRecordStep #54](https://github.com/messagebird/go-rest-api/pull/54)
     - [Export links field #56](https://github.com/messagebird/go-rest-api/pull/56)
-  - Wrote small tools:
+  - Small tools:
     - [clear-archiver](https://github.com/zeddee/clear-archiver)
 - **Python**
-  - Read/write
-  - Basic Pandas [nl-covid19-eda](https://github.com/zeddee/nl-covid19-eda)
   - [bad-json-to-rst-tables](https://github.com/zeddee/bad-json-to-rst-tables)
   - Minor contribution to [sphinx-contrib/confluencebuilder](https://github.com/sphinx-contrib/confluencebuilder/pull/414)
-  - Working on using `ast` from STDLIB to generate documentation directly from Python files
-    - [python-ast-docgen](https://github.com/zeddee/python-ast-docgen)
-    - [parsedocinfo](https://github.com/zeddee/parsedocinfo)
-- **Ruby**
-  - Very minimal.
-    Wrote a tool to generate Jekyll pages
-    from image metadata
-    ([sgpm-generator](https://github.com/sgpm-generator/sgpm-generator))
-- **Linux**
-  - Basic Linux admin
-  - Basic shell scripting
-    - Various [techdoc_utility_scripts](https://github.com/zeddee/techdocs_utility_scripts)
-    - Minor contribution to [things.sh](https://github.com/AlexanderWillner/things.sh/pull/1)
-- **Docker**
-  - Read/write docker-compose.yml and Dockerfile
-  - Lifesaver when you need to spin up
-    services to help with documenting application features
-- **Static-site-generators**
-- **Building web publishing toolchains**
-- **Blockchain** (see **Published Work**)
+  - [python-ast-docgen](https://github.com/zeddee/python-ast-docgen)
+  - [parsedocinfo](https://github.com/zeddee/parsedocinfo)
+- **\*NIX**
+  - Various [techdoc_utility_scripts](https://github.com/zeddee/techdocs_utility_scripts)
+  - Minor contribution to [things.sh](https://github.com/AlexanderWillner/things.sh/pull/1)
+- **CI**
+  - Build and maintain GitLab pipelines that produce https://docs.eclecticiq.com
+  - Ansible scripts
+
+
 
 ## Published Work
 
@@ -124,12 +110,14 @@ You can reach him at [zed@shootbird.work](mailto:zed@shootbird.work)
 
 ## Work
 
-### **Technical Writer (Tech lead)** at [EclecticIQ](https://docs.eclecticiq.com)
+### **Senior Technical Writer** at [EclecticIQ](https://docs.eclecticiq.com)
 
-* (In-progress) API documentation at https://developers.eclecticiq.com.
-* Embedded in the integrations team, documenting extensions for the EclecticIQ Intelligence Center (EIQ IC).
-* Works closely with backend and frontend teams to document administration and usage of the EIQ IC.
-* Technical lead for technical writing team: I build and maintain documentation publishing pipelines and tools.
+* Documentation site: https://docs.eclecticiq.com
+* Embedded in integrations team.
+* Work closely with frontend and backend teams.
+* Site migration from
+  [Confluence](https://www.atlassian.com/software/confluence)
+  to [Sphinx](https://www.sphinx-doc.org)-based site.
 
 ### **Technical Writer** at [AI Singapore](https://www.aisingapore.org)
 
@@ -150,11 +138,7 @@ to a URL on the intranet.
 
 * Lead technical writer. Responsible for keeping documentation site up to date and identifying informational gaps.
 * Established beach-head for documentation.
-* Designed, developed, and maintain full documentation stack.
-* Work as an embedded member of the development team to produce and maintain product documentation.
-* Co-ordinate with other business units (e.g. Customer Support, Marketing) to keep abreast of users' informational needs.
-* Built documentation team; established workflow and processes.
-* General product management for docs.
+* Embedded in engineering team.
 * Site migration from [Atlassian Confluence](https://www.atlassian.com/software/confluence) to [MadCap Flare](https://www.madcapsoftware.com/products/flare/).
 
 Documentation sets:
