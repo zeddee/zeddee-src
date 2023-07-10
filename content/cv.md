@@ -139,7 +139,7 @@ to a URL on the intranet.
 * Lead technical writer. Responsible for keeping documentation site up to date and identifying informational gaps.
 * Established beach-head for documentation.
 * Embedded in engineering team.
-* Site migration from [Atlassian Confluence](https://www.atlassian.com/software/confluence) to [MadCap Flare](https://www.madcapsoftware.com/products/flare/).
+* Site migration from [Confluence](https://www.atlassian.com/software/confluence) to [MadCap Flare](https://www.madcapsoftware.com/products/flare/).
 
 Documentation sets:
 
