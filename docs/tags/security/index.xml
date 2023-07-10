@@ -14,7 +14,7 @@
       
       <guid>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</guid>
       <description>Updated 24 Aug 2019: Got a response from the director of AI Industry Innovation(! thanks!). Makerspace does hash the passwords; the password was stored temporarily just for the server send it to the user in an email. They&amp;rsquo;ve agreed to remove the password confirmation via email.
-  Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site.</description>
+Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site.</description>
     </item>
     
   </channel>

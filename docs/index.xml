@@ -14,7 +14,7 @@
       
       <guid>https://www.zeddee.com/tech-posts/dont-email-your-passwords-and-other-adventures/</guid>
       <description>Updated 24 Aug 2019: Got a response from the director of AI Industry Innovation(! thanks!). Makerspace does hash the passwords; the password was stored temporarily just for the server send it to the user in an email. They&amp;rsquo;ve agreed to remove the password confirmation via email.
-  Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site.</description>
+Suggestion: Set this up! https://securitytxt.org is a proposed IETF standard (draft-foudil-securitytxt-07 for setting up a channel for reporting security issues for your site.</description>
     </item>
     
     <item>
@@ -24,8 +24,8 @@
       
       <guid>https://www.zeddee.com/posts/what-i-learned-from-being-a-first-time-dungeon-master/</guid>
       <description>Over the new year, a few close friends and I huddled over alcohol (much needed), cakies (cake-ish cookies; thanks✨), an iPad, paper, and dice to play our first Dungeons and Dragons game.
- I was volunteered as the first dungeon master (DM, for virtue-signalling). So naturally, I took the basic rules and mangled them to produce a Pokémon-flavoured Dungeons and Dragons game.
- You can see some of the results here: https://axiomatic-coal.</description>
+I was volunteered as the first dungeon master (DM, for virtue-signalling). So naturally, I took the basic rules and mangled them to produce a Pokémon-flavoured Dungeons and Dragons game.
+You can see some of the results here: https://axiomatic-coal.</description>
     </item>
     
     <item>
@@ -34,7 +34,8 @@
       <pubDate>Mon, 12 Nov 2018 03:39:20 +0800</pubDate>
       
       <guid>https://www.zeddee.com/posts/westworld-s2e10/</guid>
-      <description>I&amp;rsquo;m skipping the rest of Westworld S2 because it&amp;rsquo;s turned out to be a fairly straightforward season, and instead am going to focus on what its finale did. S2E10 very neatly ties off the narrative threads that it starts off, even explaining Bernard&amp;rsquo;s fragmented experience of time as a safety mechanism that he&amp;rsquo;s written into his own code to prevent anyone (even himself) from deciphering his memories.</description>
+      <description>I&amp;rsquo;m skipping the rest of Westworld S2 because it&amp;rsquo;s turned out to be a fairly straightforward season, and instead am going to focus on what its finale did. S2E10 very neatly ties off the narrative threads that it starts off, even explaining Bernard&amp;rsquo;s fragmented experience of time as a safety mechanism that he&amp;rsquo;s written into his own code to prevent anyone (even himself) from deciphering his memories.
+I think S2E10 not only serves as a fitting ending for the season, but also brings up several important points.</description>
     </item>
     
     <item>
@@ -44,11 +45,11 @@
       
       <guid>https://www.zeddee.com/tech-posts/gitsubmodules/</guid>
       <description>Here be dragons
-   In Chuck Palahniuk’s words, &amp;#34;You must jump into disaster with both feet.&amp;#34; Git submodules are generally avoided because:
-  They tend to be poorly understood, and
-  It’s hard to keep track one repository, let alone several that have to sync into one master project.
-   But here we are.
- This is a quick overview on what Git submodules are, and how they’re useful for keeping your code manageable.</description>
+In Chuck Palahniuk’s words, &amp;#34;You must jump into disaster with both feet.&amp;#34; Git submodules are generally avoided because:
+They tend to be poorly understood, and
+It’s hard to keep track one repository, let alone several that have to sync into one master project.
+But here we are.
+This is a quick overview on what Git submodules are, and how they’re useful for keeping your code manageable.</description>
     </item>
     
     <item>
@@ -68,7 +69,7 @@ I had a long conversation about death with a good friend today over economy rice
       
       <guid>https://www.zeddee.com/posts/2018-01-01-changelog/</guid>
       <description>From 2017 and up
- Gained rudimentary proficiency in python, bash scripting, powershell scripting, SASS. Started learning a statically typed programming language. Had my first open-source pull request accepted Finished Agamben&amp;rsquo;s The Open Started on too many books. Built a content-driven website and was paid for it. Learned an authoring tool. Gained rudimentary proficiency in managing Docker containers. Learned many things about editorship and management. Bought a powerhouse PC.</description>
+Gained rudimentary proficiency in python, bash scripting, powershell scripting, SASS. Started learning a statically typed programming language. Had my first open-source pull request accepted Finished Agamben&amp;rsquo;s The Open Started on too many books. Built a content-driven website and was paid for it. Learned an authoring tool. Gained rudimentary proficiency in managing Docker containers. Learned many things about editorship and management. Bought a powerhouse PC. Played video games.</description>
     </item>
     
     <item>
@@ -88,7 +89,7 @@ I had a long conversation about death with a good friend today over economy rice
       <guid>https://www.zeddee.com/posts/1984-internet-archive/</guid>
       <description>(via Smashing Magazine)
 The Internet Archive has put up the Austrian edition of 1984, both in pdf and in audio book form. The copyright for this edition of the book has apparently expired in, well, Austria. NB: obligatory copyright warning &amp;ndash; download and share at your own discretion. Here are the links to the files on the Internet Archive:
- PDF Audio book  George Orwell&amp;rsquo;s woke novel is an everyman&amp;rsquo;s introduction to one of the potential outcomes &amp;ndash; reductio ad absurdum &amp;ndash; of a &amp;ldquo;bad emperor&amp;rdquo; having come to power in a highly connected world.</description>
+PDF Audio book George Orwell&amp;rsquo;s woke novel is an everyman&amp;rsquo;s introduction to one of the potential outcomes &amp;ndash; reductio ad absurdum &amp;ndash; of a &amp;ldquo;bad emperor&amp;rdquo; having come to power in a highly connected world.</description>
     </item>
     
     <item>
@@ -98,9 +99,9 @@ The Internet Archive has put up the Austrian edition of 1984, both in pdf and in
       
       <guid>https://www.zeddee.com/posts/westworld-2016/</guid>
       <description>Over time, repetition becomes variation.
- Westworld (2016) managed to hold my attention for more than 6 episodes &amp;ndash; 6 (now 9) hours that I feel must result in a product, or at least a short introspective into what held my attention in the series where I drift off drastically in others.
+Westworld (2016) managed to hold my attention for more than 6 episodes &amp;ndash; 6 (now 9) hours that I feel must result in a product, or at least a short introspective into what held my attention in the series where I drift off drastically in others.
 Here are a few thoughts:
-Total surveillance is mundane.  There are no moments where surveillance becomes a source of horror.</description>
+Total surveillance is mundane. There are no moments where surveillance becomes a source of horror.</description>
     </item>
     
     <item>
@@ -129,7 +130,7 @@ Total surveillance is mundane.  There are no moments where surveillance becomes 
       <guid>https://www.zeddee.com/posts/dont-climb-the-triund-in-july/</guid>
       <description>Five of us spent 2 weeks in India missing the sun.
 I began giving Hendric the look whenever he’d say we have to bring out the tripod to catch the sunrise/set, because: (1) the tripod was really stable, which meant that it was also heavy; (2) the sun was avoiding us.
-   That is not to say, of course, that we didn’t see the sun at all.</description>
+That is not to say, of course, that we didn’t see the sun at all. The sun is all-present in the wide open skies of this part of South Asia where the clay-coloured buildings kept people (and their things) in a vaguely organised grid.</description>
     </item>
     
     <item>
@@ -140,7 +141,7 @@ I began giving Hendric the look whenever he’d say we have to bring out the tri
       <guid>https://www.zeddee.com/scratchpad/levinas-suffering-and-death/</guid>
       <description>“Suffering and Death”1 — Levinas Emmanuel Levinas, “Suffering and Death,” Time &amp;amp; the Other, trans. Richard A. Cohen (Pittsburg, Pennsylvania: Duquesne UP, 1987), p. 68–71.
 (Text below is excerpted from &amp;ldquo;Suffering and Death&amp;rdquo;)
-In pain, sorrow, and suffering, we once again find, in a state of purity, the finality that constitutes the tragedy of {page break; 68} solitude. The ecstasies of enjoyment does not succeed in surmounting this finality.</description>
+In pain, sorrow, and suffering, we once again find, in a state of purity, the finality that constitutes the tragedy of {page break; 68} solitude. The ecstasies of enjoyment does not succeed in surmounting this finality. Two points must be emphasized: I am going to pursue the analysis of solitude in the pain of need and work, not in the anxiety of nothingness; and I am going to lay stress on the pain lightly called physical, for in it engagement in existence without any equivocation.</description>
     </item>
     
     <item>
@@ -149,7 +150,7 @@ In pain, sorrow, and suffering, we once again find, in a state of purity, the fi
       <pubDate>Fri, 29 Jan 2016 03:18:00 +0800</pubDate>
       
       <guid>https://www.zeddee.com/posts/why-i-play-the-binding-of-isaac/</guid>
-      <description>To date, I&amp;rsquo;ve clocked 439 hours on Edmund McMillen&amp;rsquo;s The Binding of Isaac: Afterbirth.This is the second of the Isaac games, which means that these 439 hours are on top of the 300ish hours I&amp;rsquo;ve spent on the first Binding of Issac. That&amp;rsquo;s an entire month of my life that I&amp;rsquo;ve spent on this game, and I&amp;rsquo;m not proud of it. But this number stands for something (I hope) more than the hours I&amp;rsquo;ve spent perfecting maneuvering pixels with my keyboard, and I think it&amp;rsquo;s got to do with a sort of navigation.</description>
+      <description>To date, I&amp;rsquo;ve clocked 439 hours on Edmund McMillen&amp;rsquo;s The Binding of Isaac: Afterbirth. This is the second of the Isaac games, which means that these 439 hours are on top of the 300ish hours I&amp;rsquo;ve spent on the first Binding of Issac. That&amp;rsquo;s an entire month of my life that I&amp;rsquo;ve spent on this game, and I&amp;rsquo;m not proud of it. But this number stands for something (I hope) more than the hours I&amp;rsquo;ve spent perfecting maneuvering pixels with my keyboard, and I think it&amp;rsquo;s got to do with a sort of navigation.</description>
     </item>
     
     <item>
@@ -189,7 +190,6 @@ How the the growth of consumer culture can be traced through the history of tras
       
       <guid>https://www.zeddee.com/essays/echoes-en-abyme-in-jarmans-blue-1993-excerpt/</guid>
       <description>[Update 16 Jan 2016 to include the full essay]
-  
 Excerpt: We are caught in this enclosed room of &amp;ldquo;echoing voices&amp;rdquo;, like Derrida&amp;rsquo;s Samson (40), &amp;ldquo;&amp;rsquo;en abyme&amp;rsquo; behind the walls of the eye&amp;rdquo; by the simultaneous visuality — the overwhelming &amp;ldquo;sensible&amp;rdquo; (55) blue-ness of the screen — and non-visuality of Jarman&amp;rsquo;s film. The diegesis of Jarman&amp;rsquo;s film consists of one frame and one visual mise-en-scene, but yet we experience something incommensurably beyond that frame; a film whose sound seems utterly dislocated from the image except for the association with the sensible colour blue.</description>
     </item>
     
@@ -199,9 +199,7 @@ Excerpt: We are caught in this enclosed room of &amp;ldquo;echoing voices&amp;rd
       <pubDate>Sun, 10 Jan 2016 19:43:00 +0800</pubDate>
       
       <guid>https://www.zeddee.com/scratchpad/on-bonfires/</guid>
-      <description>Bonfires   
-&amp;quot;Figures 047 The Lord Appears to Moses in a Burning Bush&amp;quot; by illustrators of the 1728 Figures de la Bible, Gerard Hoet (1648–1733) and others, published by P. de Hondt in The Hague in 1728 - http://www.mythfolklore.net/lahaye/047/LaHaye1728Figures047ExodIII2-10BurningBush.jpg. Licensed under Public Domain via Wikimedia Commons
-  
+      <description>Bonfires &amp;quot;Figures 047 The Lord Appears to Moses in a Burning Bush&amp;quot; by illustrators of the 1728 Figures de la Bible, Gerard Hoet (1648–1733) and others, published by P. de Hondt in The Hague in 1728 - http://www.mythfolklore.net/lahaye/047/LaHaye1728Figures047ExodIII2-10BurningBush.jpg. Licensed under Public Domain via Wikimedia Commons
 &amp;quot;Foster Bible Pictures 0060-1 Moses Sees a Fire Burning in a Bush&amp;quot; by Illustrators of the 1897 Bible Pictures and What They Teach Us by Charles Foster - http://associate.</description>
     </item>
     
@@ -211,11 +209,10 @@ Excerpt: We are caught in this enclosed room of &amp;ldquo;echoing voices&amp;rd
       <pubDate>Sun, 10 Jan 2016 19:29:00 +0800</pubDate>
       
       <guid>https://www.zeddee.com/scratchpad/notes-on-consumerism/</guid>
-      <description>Consumerism   
-The Consumption Reader Unless otherwise specified, all quotes are from the following text:
+      <description>Consumerism The Consumption Reader Unless otherwise specified, all quotes are from the following text:
 Clarke, David B., Doel, Marcus A., Housiaux, Kate M.L. (ed.) The Consumption Reader (London &amp;amp; NY: Routledge, 2003).
 “General Introduction” p.1
- Introducing ‘consumption’ is a daunting task, not simply because there has been an explosion of writing and research on the topic over recent decades, but also because most people already feel they understand the term well enough.</description>
+Introducing ‘consumption’ is a daunting task, not simply because there has been an explosion of writing and research on the topic over recent decades, but also because most people already feel they understand the term well enough.</description>
     </item>
     
     <item>
@@ -254,7 +251,7 @@ A family comedy-drama, Pangdemonium’s staging of Nina Raine’s play Tribes is
       
       <guid>https://www.zeddee.com/essays/killscreen-daily-what-time-got-wrong-about-the-last-of-us/</guid>
       <description>You’re not going to find deep-sea fish if you’re staring between your legs while knee deep in the neighbour’s wading pool. And you’re probably not going to get gripping photographs of dust-covered residents of a post-apocalyptic Boston if you’re sending your photographer into a videogame.
- That’s the sort of misunderstanding that typically comes out of traditional media outlets attempting to import their practices and modes of production into a medium that it does not particularly lend itself to.</description>
+That’s the sort of misunderstanding that typically comes out of traditional media outlets attempting to import their practices and modes of production into a medium that it does not particularly lend itself to.</description>
     </item>
     
     <item>
@@ -281,7 +278,8 @@ A family comedy-drama, Pangdemonium’s staging of Nina Raine’s play Tribes is
       <pubDate>Fri, 11 Jul 2014 09:38:19 +0000</pubDate>
       
       <guid>https://www.zeddee.com/essays/arakis-flowers/</guid>
-      <description>Fig. 1 Araki&amp;rsquo;s wedding photograph (left); Photograph of Yoko, Araki&amp;rsquo;s wife (right).(All pictures — unless stated otherwise — are photographs here are photographs of: Fuyumi, Namioka and Bernasconi, Francesca (eds.). Araki: Love and Death. Lugano: SilvanaEditoriale; Museo d&amp;rsquo;Arte: della Città di Lugano, 2004. I blame limited student resources and a then-pressing need to just get the assignment done)
+      <description>Fig. 1 Araki&amp;rsquo;s wedding photograph (left); Photograph of Yoko, Araki&amp;rsquo;s wife (right).
+(All pictures — unless stated otherwise — are photographs here are photographs of: Fuyumi, Namioka and Bernasconi, Francesca (eds.). Araki: Love and Death. Lugano: SilvanaEditoriale; Museo d&amp;rsquo;Arte: della Città di Lugano, 2004. I blame limited student resources and a then-pressing need to just get the assignment done)
 (This essay was written sometime in the third quarter of 2012.</description>
     </item>
     
@@ -292,10 +290,10 @@ A family comedy-drama, Pangdemonium’s staging of Nina Raine’s play Tribes is
       
       <guid>https://www.zeddee.com/posts/nlb-ban-these-booksfilms-too/</guid>
       <description>First done by Bertha Henson.
-  On the Iliad, by Joshua Chiang.
-  Ng Yi-Sheng on What You Can Do About it.
-  Article on the banning of books by NLB on Today Online.
- (Updated 23:50, 10 Jul 2014: Clarified several of the entries, improved formatting.)
+On the Iliad, by Joshua Chiang.
+Ng Yi-Sheng on What You Can Do About it.
+Article on the banning of books by NLB on Today Online.
+(Updated 23:50, 10 Jul 2014: Clarified several of the entries, improved formatting.)
 (Updated 00:00, 11 Jul 2014: Added link to Joshua Chiang&amp;rsquo;s open letter)
 (Updated 00:015, 11 Jul 2014: Added link Ng Yi-Sheng&amp;rsquo;s appeal to writers and readers)</description>
     </item>
@@ -306,7 +304,8 @@ A family comedy-drama, Pangdemonium’s staging of Nina Raine’s play Tribes is
       <pubDate>Fri, 27 Jun 2014 14:49:07 +0000</pubDate>
       
       <guid>https://www.zeddee.com/essays/black-and-white-are-only-two-colours-on-mark-laitas-created-equal/</guid>
-      <description>Fig.1: &amp;ldquo;Polygamists/Pimp&amp;rdquo; (Laita)1Mark Laita&amp;rsquo;s CREATED EQUAL2 is a curious piece. In each photographic frame, one or more subjects gaze back at the camera with eyes outlined by the glow of the single LED panel placed just slightly to the left of the camera. The “Pimp’s” sunglasses (Fig.1) catch its iridescent glow, and hides everything else behind it.
+      <description>Fig.1: &amp;ldquo;Polygamists/Pimp&amp;rdquo; (Laita)1
+Mark Laita&amp;rsquo;s CREATED EQUAL2 is a curious piece. In each photographic frame, one or more subjects gaze back at the camera with eyes outlined by the glow of the single LED panel placed just slightly to the left of the camera. The “Pimp’s” sunglasses (Fig.1) catch its iridescent glow, and hides everything else behind it.
 I have not read the book, so I don’t pretend to know what it’s entirely about.</description>
     </item>
     
@@ -316,7 +315,8 @@ I have not read the book, so I don’t pretend to know what it’s entirely abou
       <pubDate>Sun, 04 May 2014 09:28:33 +0000</pubDate>
       
       <guid>https://www.zeddee.com/posts/her-2013-human-you-human-me/</guid>
-      <description>(Previously on Speak Simply) A friend of mine (who had the misfortune of being one of my brighter former students) asked me a month or so back about how and why one would frame “non-humans” in a story very obviously about humans. I thought it was a fairly simple question until I thought about it some more.
+      <description>(Previously on Speak Simply)
+A friend of mine (who had the misfortune of being one of my brighter former students) asked me a month or so back about how and why one would frame “non-humans” in a story very obviously about humans. I thought it was a fairly simple question until I thought about it some more.
 “Well of course it’s a simple question.” A toy or a robot in a story is more likely than not to take on anthropomorphic qualities.</description>
     </item>
     
@@ -347,14 +347,13 @@ Tech Bitcoin — The Internet of Money | Startup Boy Great primer on what the Bi
       
       <guid>https://www.zeddee.com/posts/a-letter-from-my-future-self/</guid>
       <description>Today, I received a letter from my future self:
-   Dear Zed,
+Dear Zed,
 I&amp;rsquo;m still here.
 Warmest.
- Other Letters from Future Selves
-  Originally: ↬ Pohtecktoes
-  Lyndsey
-  Luo Er
-  </description>
+Other Letters from Future Selves
+Originally: ↬ Pohtecktoes
+Lyndsey
+Luo Er</description>
     </item>
     
     <item>
@@ -383,7 +382,7 @@ Warmest.
       <guid>https://www.zeddee.com/posts/speak-simply-her-by-spike-jonze/</guid>
       <description>_ _
 When I left the theatre, I heard the people next to me telling each other that they had &amp;ldquo;mixed feelings&amp;rdquo; about her. Granted, we&amp;rsquo;re probably not used to omniscient AI being portrayed in films as benevolent (and when they are, they&amp;rsquo;re given very human bodies 1), much less loving and capable of being loved.
-   But I won&amp;rsquo;t full-throttle into Wot-I-Think about her here.</description>
+But I won&amp;rsquo;t full-throttle into Wot-I-Think about her here. That will come perhaps at some other time.</description>
     </item>
     
     <item>
@@ -393,7 +392,7 @@ When I left the theatre, I heard the people next to me telling each other that t
       
       <guid>https://www.zeddee.com/posts/look-and-look-again-clangs-diptychs-and-butterflies/</guid>
       <description>When I say you are dreaming, so am I — Inneryennings
- Yenlin writes beautifully on John Clang&amp;rsquo;s photo-essay “Twilight Dreams of a Papilio Demoleus” and relates it to the motif of dream, specifically recalling the Chinese philosopher Zhuangzi&amp;rsquo;s dream about the butterfly. But perhaps that&amp;rsquo;s where it gets a bit fuzzy, like all dreams do when you begin to wake up.
+Yenlin writes beautifully on John Clang&amp;rsquo;s photo-essay “Twilight Dreams of a Papilio Demoleus” and relates it to the motif of dream, specifically recalling the Chinese philosopher Zhuangzi&amp;rsquo;s dream about the butterfly. But perhaps that&amp;rsquo;s where it gets a bit fuzzy, like all dreams do when you begin to wake up.
 Clang&amp;rsquo;s work is dreamy, in the sense that she describes, that one has to navigate the tension between &amp;ldquo;dream&amp;rdquo; and &amp;ldquo;reality&amp;rdquo; in most of his work.</description>
     </item>
     
@@ -413,7 +412,7 @@ Clang&amp;rsquo;s work is dreamy, in the sense that she describes, that one has 
       
       <guid>https://www.zeddee.com/posts/71/</guid>
       <description>We often try to touch something to find out if it is really there. Material presence of an object is determined by its material tangibility, or in other words, &amp;ldquo;I can touch it, therefore it is there.
- Film theorists often looked to the &amp;ldquo;plastic&amp;rdquo; materiality of film, photographic and cinematic alike, as proof of their &amp;ldquo;here-ness&amp;rdquo;. This became of exceptional importance when it came to discussing the &amp;ldquo;realism&amp;rdquo; of the filmic image: that the plastic materiality of the filmic image would anchor its validity as index to its referent.</description>
+Film theorists often looked to the &amp;ldquo;plastic&amp;rdquo; materiality of film, photographic and cinematic alike, as proof of their &amp;ldquo;here-ness&amp;rdquo;. This became of exceptional importance when it came to discussing the &amp;ldquo;realism&amp;rdquo; of the filmic image: that the plastic materiality of the filmic image would anchor its validity as index to its referent.</description>
     </item>
     
     <item>
@@ -445,7 +444,7 @@ If you have sentences (or, gasp, paragraphs!) that need writing, contact him at 
       <guid>https://www.zeddee.com/scratchpad/kaerlein-aporias-touchscreen/</guid>
       <description>Aporia of Touchscreen Kaerlein, Timo, “Aporias of the touchscreen: On the promises and perils of a ubiquitous technology,” NECSUS: European Journal of Media Studies, published on 22 Nov 2012, available: &amp;lt;[www.necsus-ejms.org/aporias-of-the-touchscreen-on-the-promises-and-perils-of-a-ubiquitous-technology]&amp;gt;
 On Aporia:
- &amp;ldquo;More refined as a term, it attempts to outline a state of emergency, a system pressure, an ‘urgence’ in the Foucaultian sense,[6] that can serve to explain the success of the touchscreen technology in being a reaction to an exigent problem.</description>
+&amp;ldquo;More refined as a term, it attempts to outline a state of emergency, a system pressure, an ‘urgence’ in the Foucaultian sense,[6] that can serve to explain the success of the touchscreen technology in being a reaction to an exigent problem.</description>
     </item>
     
     <item>
@@ -456,7 +455,7 @@ On Aporia:
       <guid>https://www.zeddee.com/cv/</guid>
       <description>He&amp;rsquo;s happiest when building content systems and the teams that manage them.
 You can reach him at zed@shootbird.work
-Skills  Teaching/Lecturing/Presentations  Taught design theory in vocational institutes for 3 years Taught various introductory courses at Nanyang Technological University for 2 years   Writing/Editing  Technical writer since 2015.   HTML/CSS/JS  Can read/write Enough Javascript:  flare-tocgen (archived), still in use at docs.groundlabs.com in 2021. vuepress-and-xlsx (archived) where I use a NodeJS stack to generate a Vuepress site from excel spreadsheets.</description>
+Skills Teaching/Lecturing/Presentations Taught design theory in vocational institutes for 3 years Taught various introductory courses at Nanyang Technological University for 2 years Writing/Editing Technical writer since 2015. Build and maintain SSG-based toolchains. HTML/CSS/JS flare-tocgen (archived), still in use at docs.groundlabs.com in 2021. vuepress-and-xlsx (archived) where I use a NodeJS stack to generate a Vuepress site from excel spreadsheets.</description>
     </item>
     
   </channel>
